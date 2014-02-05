@@ -1,0 +1,193 @@
+/* line 4, ../../custom_foundation_build/scss/utilities.scss */
+.pd-less {
+  padding: 0;
+}
+
+/* line 5, ../../custom_foundation_build/scss/utilities.scss */
+.pd-top-less {
+  padding-top: 0;
+}
+
+/* line 6, ../../custom_foundation_build/scss/utilities.scss */
+.pd-right-less {
+  padding-right: 0;
+}
+
+/* line 7, ../../custom_foundation_build/scss/utilities.scss */
+.pd-bottom-less {
+  padding-bottom: 0;
+}
+
+/* line 8, ../../custom_foundation_build/scss/utilities.scss */
+.pd-left-less {
+  padding-left: 0;
+}
+
+/* line 4, ../../custom_foundation_build/scss/utilities.scss */
+.bd-less {
+  border: 0;
+}
+
+/* line 5, ../../custom_foundation_build/scss/utilities.scss */
+.bd-top-less {
+  border-top: 0;
+}
+
+/* line 6, ../../custom_foundation_build/scss/utilities.scss */
+.bd-right-less {
+  border-right: 0;
+}
+
+/* line 7, ../../custom_foundation_build/scss/utilities.scss */
+.bd-bottom-less {
+  border-bottom: 0;
+}
+
+/* line 8, ../../custom_foundation_build/scss/utilities.scss */
+.bd-left-less {
+  border-left: 0;
+}
+
+/* line 4, ../../custom_foundation_build/scss/utilities.scss */
+.mg-less {
+  margin: 0;
+}
+
+/* line 5, ../../custom_foundation_build/scss/utilities.scss */
+.mg-top-less {
+  margin-top: 0;
+}
+
+/* line 6, ../../custom_foundation_build/scss/utilities.scss */
+.mg-right-less {
+  margin-right: 0;
+}
+
+/* line 7, ../../custom_foundation_build/scss/utilities.scss */
+.mg-bottom-less {
+  margin-bottom: 0;
+}
+
+/* line 8, ../../custom_foundation_build/scss/utilities.scss */
+.mg-left-less {
+  margin-left: 0;
+}
+
+/* line 15, ../../custom_foundation_build/scss/utilities.scss */
+.maxed-width {
+  max-width: 100%;
+}
+
+/* line 16, ../../custom_foundation_build/scss/utilities.scss */
+.perfect-width {
+  width: 100%;
+}
+
+/* line 17, ../../custom_foundation_build/scss/utilities.scss */
+.perect-height {
+  height: 100%;
+}
+
+/* line 18, ../../custom_foundation_build/scss/utilities.scss */
+.perfect-circle {
+  -webkit-border-radius: 20em;
+  -moz-border-radius: 20em;
+  -ms-border-radius: 20em;
+  -o-border-radius: 20em;
+  border-radius: 20em;
+}
+
+/* line 20, ../../custom_foundation_build/scss/utilities.scss */
+.relative {
+  position: relative;
+}
+
+/* line 21, ../../custom_foundation_build/scss/utilities.scss */
+.absolute {
+  position: absolute;
+}
+
+/* line 23, ../../custom_foundation_build/scss/utilities.scss */
+.zero-top {
+  top: 0;
+}
+
+/* line 24, ../../custom_foundation_build/scss/utilities.scss */
+.zero-right {
+  right: 0;
+}
+
+/* line 25, ../../custom_foundation_build/scss/utilities.scss */
+.zero-bottom {
+  bottom: 0;
+}
+
+/* line 26, ../../custom_foundation_build/scss/utilities.scss */
+.zero-left {
+  left: 0;
+}
+
+/* line 28, ../../custom_foundation_build/scss/utilities.scss */
+.x-mid {
+  left: 50%;
+}
+
+/* line 29, ../../custom_foundation_build/scss/utilities.scss */
+.y-mid {
+  top: 50%;
+}
+
+/* line 31, ../../custom_foundation_build/scss/utilities.scss */
+.uppercase {
+  text-transform: uppercase;
+}
+
+/* line 32, ../../custom_foundation_build/scss/utilities.scss */
+.lowercase {
+  text-transform: lowercase;
+}
+
+/* line 33, ../../custom_foundation_build/scss/utilities.scss */
+.capitalize {
+  text-transform: capitalize;
+}
+
+/* line 35, ../../custom_foundation_build/scss/utilities.scss */
+.ds-inline {
+  display: inline;
+}
+
+/* line 36, ../../custom_foundation_build/scss/utilities.scss */
+.ds-inline-block {
+  display: inline-block;
+}
+
+/* line 37, ../../custom_foundation_build/scss/utilities.scss */
+.ds-block {
+  display: block;
+}
+
+/* line 38, ../../custom_foundation_build/scss/utilities.scss */
+.ds-table {
+  display: table;
+}
+
+/* line 39, ../../custom_foundation_build/scss/utilities.scss */
+.ds-table-cell {
+  display: table-cell;
+}
+
+/* line 41, ../../custom_foundation_build/scss/utilities.scss */
+.bd {
+  border: 1px solid black;
+}
+
+/* line 43, ../../custom_foundation_build/scss/utilities.scss */
+.wg-bold {
+  font-weight: bold;
+}
+
+/* line 44, ../../custom_foundation_build/scss/utilities.scss */
+.wg-normal {
+  font-weight: normal;
+}

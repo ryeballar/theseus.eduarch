@@ -1,0 +1,199 @@
+@font-face {
+  font-family: Lanehumm;
+  src: url("../fonts/lane_humouresque/Lanehum.ttf");
+}
+
+/* line 7, ../../custom_foundation_build/scss/fonts.scss */
+.font-Lanehumm {
+  font-family: Lanehumm;
+}
+
+@font-face {
+  font-family: RockoFLF;
+  src: url("../fonts/rocko/RockoFLF.ttf");
+}
+
+/* line 7, ../../custom_foundation_build/scss/fonts.scss */
+.font-RockoFLF {
+  font-family: RockoFLF;
+}
+
+@font-face {
+  font-family: RockoFLF-Bold;
+  src: url("../fonts/rocko/RockoFLF-Bold.ttf");
+}
+
+/* line 7, ../../custom_foundation_build/scss/fonts.scss */
+.font-RockoFLF-Bold {
+  font-family: RockoFLF-Bold;
+}
+
+@font-face {
+  font-family: RockoUltraFLF;
+  src: url("../fonts/rocko/RockoUltraFLF.ttf");
+}
+
+/* line 7, ../../custom_foundation_build/scss/fonts.scss */
+.font-RockoUltraFLF {
+  font-family: RockoUltraFLF;
+}
+
+@font-face {
+  font-family: RockoUltraFLF-Bold;
+  src: url("../fonts/rocko/RockoUltraFLF-Bold.ttf");
+}
+
+/* line 7, ../../custom_foundation_build/scss/fonts.scss */
+.font-RockoUltraFLF-Bold {
+  font-family: RockoUltraFLF-Bold;
+}
+
+@font-face {
+  font-family: RomeoDN;
+  src: url("../fonts/romeo_de_nada/RomeoDN.ttf");
+}
+
+/* line 7, ../../custom_foundation_build/scss/fonts.scss */
+.font-RomeoDN {
+  font-family: RomeoDN;
+}
+
+@font-face {
+  font-family: TherFont;
+  src: url("../fonts/the_real_font/Therfont.ttf");
+}
+
+/* line 7, ../../custom_foundation_build/scss/fonts.scss */
+.font-TherFont {
+  font-family: TherFont;
+}
+
+@font-face {
+  font-family: xtrchr;
+  src: url("../fonts/xtreme_chrome/xtrchr.ttf");
+}
+
+/* line 7, ../../custom_foundation_build/scss/fonts.scss */
+.font-xtrchr {
+  font-family: xtrchr;
+}
+
+@font-face {
+  font-family: DAYROM;
+  src: url("../fonts/day_roman/DAYROM__.ttf");
+}
+
+/* line 7, ../../custom_foundation_build/scss/fonts.scss */
+.font-DAYROM {
+  font-family: DAYROM;
+}
+
+@font-face {
+  font-family: DAYROMX;
+  src: url("../fonts/day_roman/DAYROM_X.ttf");
+}
+
+/* line 7, ../../custom_foundation_build/scss/fonts.scss */
+.font-DAYROMX {
+  font-family: DAYROMX;
+}
+
+@font-face {
+  font-family: AveriaGruesaLibre-Regular;
+  src: url("../fonts/averia_gruesa_libre/AveriaGruesaLibre-Regular.ttf");
+}
+
+/* line 7, ../../custom_foundation_build/scss/fonts.scss */
+.font-AveriaGruesaLibre-Regular {
+  font-family: AveriaGruesaLibre-Regular;
+}
+
+@font-face {
+  font-family: CalamityJaneNF;
+  src: url("../fonts/calamity_jane/CalamityJaneNF.ttf");
+}
+
+/* line 7, ../../custom_foundation_build/scss/fonts.scss */
+.font-CalamityJaneNF {
+  font-family: CalamityJaneNF;
+}
+
+@font-face {
+  font-family: CantataOne-Regular;
+  src: url("../fonts/cantata_one/CantataOne-Regular.ttf");
+}
+
+/* line 7, ../../custom_foundation_build/scss/fonts.scss */
+.font-CantataOne-Regular {
+  font-family: CantataOne-Regular;
+}
+
+@font-face {
+  font-family: Hercules;
+  src: url("../fonts/hercules/Hercules.ttf");
+}
+
+/* line 7, ../../custom_foundation_build/scss/fonts.scss */
+.font-Hercules {
+  font-family: Hercules;
+}
+
+@font-face {
+  font-family: HobbyHorseNF;
+  src: url("../fonts/hobby_horse/HobbyHorseNF.ttf");
+}
+
+/* line 7, ../../custom_foundation_build/scss/fonts.scss */
+.font-HobbyHorseNF {
+  font-family: HobbyHorseNF;
+}
+
+@font-face {
+  font-family: MERKIN;
+  src: url("../fonts/merkin/MERKIN__.ttf");
+}
+
+/* line 7, ../../custom_foundation_build/scss/fonts.scss */
+.font-MERKIN {
+  font-family: MERKIN;
+}
+
+@font-face {
+  font-family: MERKINF;
+  src: url("../fonts/merkin/MERKINF_.ttf");
+}
+
+/* line 7, ../../custom_foundation_build/scss/fonts.scss */
+.font-MERKINF {
+  font-family: MERKINF;
+}
+
+@font-face {
+  font-family: MERKING;
+  src: url("../fonts/merkin/MERKING_.ttf");
+}
+
+/* line 7, ../../custom_foundation_build/scss/fonts.scss */
+.font-MERKING {
+  font-family: MERKING;
+}
+
+@font-face {
+  font-family: MERKINS;
+  src: url("../fonts/merkin/MERKINS_.ttf");
+}
+
+/* line 7, ../../custom_foundation_build/scss/fonts.scss */
+.font-MERKINS {
+  font-family: MERKINS;
+}
+
+@font-face {
+  font-family: PatuaOne-Regular;
+  src: url("../fonts/patua_one/PatuaOne-Regular.ttf");
+}
+
+/* line 7, ../../custom_foundation_build/scss/fonts.scss */
+.font-PatuaOne-Regular {
+  font-family: PatuaOne-Regular;
+}

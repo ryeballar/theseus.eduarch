@@ -1,0 +1,31 @@
+@media only screen and (min-width: 40.063em) {
+  /* line 4, ../../custom_foundation_build/scss/dash_side_menu.scss */
+  .dash-side-menu .profile {
+    text-align: center;
+  }
+}
+/* line 5, ../../custom_foundation_build/scss/dash_side_menu.scss */
+.dash-side-menu .side-nav li {
+  position: relative;
+}
+/* line 6, ../../custom_foundation_build/scss/dash_side_menu.scss */
+.dash-side-menu .side-nav li a {
+  padding-left: 1em;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+  width: 100%;
+}
+/* line 12, ../../custom_foundation_build/scss/dash_side_menu.scss */
+.dash-side-menu .side-nav li.active a {
+  color: #ee7c4a;
+  background-color: #dfdfdf;
+  font-weight: bold;
+}
+/* line 13, ../../custom_foundation_build/scss/dash_side_menu.scss */
+.dash-side-menu .side-nav li a:hover {
+  background: #dfdfdf;
+}
+/* line 14, ../../custom_foundation_build/scss/dash_side_menu.scss */
+.dash-side-menu .side-nav li label {
+  padding-top: 1em;
+}

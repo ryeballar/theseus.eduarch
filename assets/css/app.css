@@ -1,0 +1,57 @@
+/* line 3, ../../custom_foundation_build/scss/app.scss */
+.top-bar {
+  -webkit-box-shadow: 0 0.5em 1em 0.1em white;
+  -moz-box-shadow: 0 0.5em 1em 0.1em white;
+  box-shadow: 0 0.5em 1em 0.1em white;
+}
+
+@media only screen and (min-width: 40.063em) {
+  /* line 9, ../../custom_foundation_build/scss/app.scss */
+  .top-bar .has-dropdown .dropdown {
+    width: 200px;
+  }
+}
+/* line 12, ../../custom_foundation_build/scss/app.scss */
+.button {
+  font-size: 1.8em;
+  font-weight: bold;
+  text-align: center;
+  color: #efefef;
+  text-shadow: 1px 1px 1em #fff;
+  font-family: AveriaGruesaLibre-Regular;
+}
+
+/* line 21, ../../custom_foundation_build/scss/app.scss */
+body {
+  padding: 0 0 0 0;
+}
+
+/* line 25, ../../custom_foundation_build/scss/app.scss */
+hr {
+  -webkit-box-shadow: 1px 1px 1px 1px white;
+  -moz-box-shadow: 1px 1px 1px 1px white;
+  box-shadow: 1px 1px 1px 1px white;
+}
+
+/* line 29, ../../custom_foundation_build/scss/app.scss */
+.page-container {
+  min-height: 50em;
+  font-size: 0.75em;
+  padding: 0;
+  -webkit-border-radius: 0.1em;
+  -moz-border-radius: 0.1em;
+  -ms-border-radius: 0.1em;
+  -o-border-radius: 0.1em;
+  border-radius: 0.1em;
+}
+
+/* line 36, ../../custom_foundation_build/scss/app.scss */
+.page-content {
+  padding: 0.5em;
+  font-size: 0.75em;
+}
+
+/* line 41, ../../custom_foundation_build/scss/app.scss */
+.close, .close-reveal-modal {
+  font-weight: bold;
+}

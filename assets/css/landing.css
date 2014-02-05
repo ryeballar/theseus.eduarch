@@ -1,0 +1,63 @@
+/* line 5, ../../custom_foundation_build/scss/landing.scss */
+.landing-image {
+  display: table;
+  height: 40em;
+  width: 100%;
+}
+
+/* line 11, ../../custom_foundation_build/scss/landing.scss */
+.landing-image > div {
+  display: table-cell;
+  vertical-align: middle;
+  position: relative;
+}
+
+/* line 17, ../../custom_foundation_build/scss/landing.scss */
+.learn-more {
+  position: relative;
+  top: -2px;
+}
+
+/* line 22, ../../custom_foundation_build/scss/landing.scss */
+.learn-more:hover {
+  color: white;
+}
+
+/* line 26, ../../custom_foundation_build/scss/landing.scss */
+.intro-section > article {
+  margin-top: 2.0em;
+}
+
+/* line 30, ../../custom_foundation_build/scss/landing.scss */
+.intro-section > article > header {
+  font-family: Hercules;
+  font-size: 2.5em;
+  color: #3b444b;
+}
+
+/* line 36, ../../custom_foundation_build/scss/landing.scss */
+.intro-section > article > p {
+  text-indent: 1.5em;
+}
+
+/* line 40, ../../custom_foundation_build/scss/landing.scss */
+.intro-section > article > ul.inline-list {
+  margin-top: 0.5em;
+}
+/* line 43, ../../custom_foundation_build/scss/landing.scss */
+.intro-section > article > ul.inline-list li {
+  margin-top: 0.5em;
+}
+
+/* line 47, ../../custom_foundation_build/scss/landing.scss */
+.intro-section > article > ul.inline-list > li > span {
+  font-size: 0.9em;
+  margin-left: 0.5em;
+}
+
+/* line 52, ../../custom_foundation_build/scss/landing.scss */
+.featured-classes > header {
+  margin: 1em 0;
+  font-size: 2.2em;
+  color: #2a333a;
+}

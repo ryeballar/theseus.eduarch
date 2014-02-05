@@ -1,0 +1,9 @@
+/* line 1, ../../custom_foundation_build/scss/form_validation.scss */
+[data-action] [name] {
+  margin-bottom: 0;
+}
+
+/* line 5, ../../custom_foundation_build/scss/form_validation.scss */
+[data-action] .field {
+  padding-bottom: 1em;
+}
