@@ -62,3 +62,9 @@
   -o-border-radius: 10em;
   border-radius: 10em;
 }
+
+/* line 40, ../../custom_foundation_build/scss/loading.scss */
+.spin {
+  animation: spin 2s linear 0.5s infinite;
+  -webkit-animation: spin 2s linear 0.5s infinite;
+}

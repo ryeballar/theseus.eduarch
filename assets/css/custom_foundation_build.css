@@ -45,11 +45,11 @@ body {
 
 /* line 331, ../../custom_foundation_build/bower_components/foundation/scss/foundation/components/_global.scss */
 body {
-  background: #efefef;
+  background: white;
   color: #222222;
   padding: 0;
   margin: 0;
-  font-family: "Open Sans" "Helvetica", Helvetica, "Helvetica Neue", Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica", Helvetica, "Helvetica Neue", Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1;
@@ -1633,7 +1633,7 @@ select {
   color: #222222;
   padding: 1rem;
   display: block;
-  font-family: "Open Sans" "Helvetica", Helvetica, "Helvetica Neue", Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica", Helvetica, "Helvetica Neue", Arial, sans-serif;
   font-size: 1rem;
 }
 /* line 36, ../../custom_foundation_build/bower_components/foundation/scss/foundation/components/_accordion.scss */
@@ -2368,7 +2368,7 @@ button, .button {
   border-style: solid;
   border-width: 0px;
   cursor: pointer;
-  font-family: "Open Sans" "Helvetica", Helvetica, "Helvetica Neue", Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica", Helvetica, "Helvetica Neue", Arial, sans-serif;
   font-weight: normal;
   line-height: normal;
   margin: 0 0 1.25rem;
@@ -4024,7 +4024,7 @@ kbd {
 /* line 87, ../../custom_foundation_build/bower_components/foundation/scss/foundation/components/_labels.scss */
 .label {
   font-weight: normal;
-  font-family: "Open Sans" "Helvetica", Helvetica, "Helvetica Neue", Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica", Helvetica, "Helvetica Neue", Arial, sans-serif;
   text-align: center;
   text-decoration: none;
   line-height: 1;
@@ -4588,7 +4588,7 @@ ul.pagination li {
   color: #eeeeee;
   font-weight: normal;
   font-size: 1rem;
-  font-family: "Open Sans" "Helvetica", Helvetica, "Helvetica Neue", Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica", Helvetica, "Helvetica Neue", Arial, sans-serif;
 }
 /* line 139, ../../custom_foundation_build/bower_components/foundation/scss/foundation/components/_pricing-tables.scss */
 .pricing-table .price {
@@ -4598,7 +4598,7 @@ ul.pagination li {
   color: #333333;
   font-weight: normal;
   font-size: 2rem;
-  font-family: "Open Sans" "Helvetica", Helvetica, "Helvetica Neue", Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica", Helvetica, "Helvetica Neue", Arial, sans-serif;
 }
 /* line 140, ../../custom_foundation_build/bower_components/foundation/scss/foundation/components/_pricing-tables.scss */
 .pricing-table .description {
@@ -4782,7 +4782,7 @@ ul.pagination li {
   padding: 0.875rem 0;
   list-style-type: none;
   list-style-position: inside;
-  font-family: "Open Sans" "Helvetica", Helvetica, "Helvetica Neue", Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica", Helvetica, "Helvetica Neue", Arial, sans-serif;
 }
 /* line 54, ../../custom_foundation_build/bower_components/foundation/scss/foundation/components/_side-nav.scss */
 .side-nav li {
@@ -4798,7 +4798,7 @@ ul.pagination li {
 .side-nav li.active > a:first-child {
   color: #4d4d4d;
   font-weight: normal;
-  font-family: "Open Sans" "Helvetica", Helvetica, "Helvetica Neue", Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica", Helvetica, "Helvetica Neue", Arial, sans-serif;
 }
 /* line 69, ../../custom_foundation_build/bower_components/foundation/scss/foundation/components/_side-nav.scss */
 .side-nav li.divider {
@@ -4967,7 +4967,7 @@ ul.pagination li {
   display: inline;
   margin-left: 1rem;
   margin-bottom: 0.625rem;
-  font-family: "Open Sans" "Helvetica", Helvetica, "Helvetica Neue", Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica", Helvetica, "Helvetica Neue", Arial, sans-serif;
   font-weight: normal;
   font-size: 0.875rem;
   color: #999999;
@@ -5312,7 +5312,7 @@ table tfoot tr td {
   padding-right: 2rem;
   padding-bottom: 1.0625rem;
   padding-left: 2rem;
-  font-family: "Open Sans" "Helvetica", Helvetica, "Helvetica Neue", Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica", Helvetica, "Helvetica Neue", Arial, sans-serif;
   font-size: 1rem;
 }
 /* line 43, ../../custom_foundation_build/bower_components/foundation/scss/foundation/components/_tabs.scss */
@@ -5559,14 +5559,14 @@ meta.foundation-mq-topbar {
 /* line 112, ../../custom_foundation_build/bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .fixed.expanded:not(.top-bar) .top-bar-section {
   z-index: 98;
-  margin-top: 60px;
+  margin-top: 70px;
 }
 
 /* line 119, ../../custom_foundation_build/bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar {
   overflow: hidden;
-  height: 60px;
-  line-height: 60px;
+  height: 70px;
+  line-height: 70px;
   position: relative;
   background: #446ccf;
   margin-bottom: 0;
@@ -5606,13 +5606,13 @@ meta.foundation-mq-topbar {
 }
 /* line 156, ../../custom_foundation_build/bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar .name {
-  height: 60px;
+  height: 70px;
   margin: 0;
   font-size: 16px;
 }
 /* line 161, ../../custom_foundation_build/bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar .name h1 {
-  line-height: 60px;
+  line-height: 70px;
   font-size: 1.0625rem;
   margin: 0;
 }
@@ -5622,7 +5622,7 @@ meta.foundation-mq-topbar {
   color: white;
   width: 50%;
   display: block;
-  padding: 0 20px;
+  padding: 0 23.33333px;
 }
 /* line 176, ../../custom_foundation_build/bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar .toggle-topbar {
@@ -5638,13 +5638,13 @@ meta.foundation-mq-topbar {
   font-weight: bold;
   position: relative;
   display: block;
-  padding: 0 20px;
-  height: 60px;
-  line-height: 60px;
+  padding: 0 23.33333px;
+  height: 70px;
+  line-height: 70px;
 }
 /* line 194, ../../custom_foundation_build/bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar .toggle-topbar.menu-icon {
-  right: 20px;
+  right: 23.33333px;
   top: 50%;
   margin-top: -16px;
   padding-left: 40px;
@@ -5694,9 +5694,9 @@ meta.foundation-mq-topbar {
   left: 0;
   position: relative;
   width: auto;
-  -webkit-transition: left 1000ms ease-out;
-  -moz-transition: left 1000ms ease-out;
-  transition: left 1000ms ease-out;
+  -webkit-transition: left 250ms ease-out;
+  -moz-transition: left 250ms ease-out;
+  transition: left 250ms ease-out;
 }
 /* line 266, ../../custom_foundation_build/bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul {
@@ -5721,18 +5721,18 @@ meta.foundation-mq-topbar {
   width: 100%;
   color: white;
   padding: 12px 0 12px 0;
-  padding-left: 20px;
-  font-family: Lanehumm, "Open Sans" "Helvetica", Helvetica, "Helvetica Neue", Arial, sans-serif;
-  font-size: 0.8125rem;
+  padding-left: 23.33333px;
+  font-family: "Open Sans", "Helvetica", Helvetica, "Helvetica Neue", Arial, sans-serif;
+  font-size: 0.75rem;
   font-weight: bold;
   background: #446ccf;
 }
 /* line 295, ../../custom_foundation_build/bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a.button {
   background: #008cba;
-  font-size: 0.8125rem;
-  padding-right: 20px;
-  padding-left: 20px;
+  font-size: 0.75rem;
+  padding-right: 23.33333px;
+  padding-left: 23.33333px;
 }
 /* line 300, ../../custom_foundation_build/bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a.button:hover {
@@ -5778,7 +5778,7 @@ meta.foundation-mq-topbar {
 }
 /* line 343, ../../custom_foundation_build/bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section .has-form {
-  padding: 20px;
+  padding: 23.33333px;
 }
 /* line 346, ../../custom_foundation_build/bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section .has-dropdown {
@@ -5786,7 +5786,14 @@ meta.foundation-mq-topbar {
 }
 /* line 350, ../../custom_foundation_build/bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section .has-dropdown > a:after {
-  margin-right: 20px;
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  border: inset 5px;
+  border-color: transparent transparent transparent rgba(255, 255, 255, 0.4);
+  border-left-style: solid;
+  margin-right: 23.33333px;
   margin-top: -4.5px;
   position: absolute;
   top: 50%;
@@ -5816,7 +5823,7 @@ meta.foundation-mq-topbar {
 /* line 381, ../../custom_foundation_build/bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section .dropdown li a {
   font-weight: normal;
-  padding: 8px 20px;
+  padding: 8px 23.33333px;
 }
 /* line 384, ../../custom_foundation_build/bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section .dropdown li a.parent-link {
@@ -5829,12 +5836,12 @@ meta.foundation-mq-topbar {
 /* line 390, ../../custom_foundation_build/bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section .dropdown li.title h5 a {
   color: white;
-  line-height: 30px;
+  line-height: 35px;
   display: block;
 }
 /* line 396, ../../custom_foundation_build/bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section .dropdown li.has-form {
-  padding: 8px 20px;
+  padding: 8px 23.33333px;
 }
 /* line 397, ../../custom_foundation_build/bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section .dropdown li .button {
@@ -5842,7 +5849,7 @@ meta.foundation-mq-topbar {
 }
 /* line 400, ../../custom_foundation_build/bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section .dropdown label {
-  padding: 8px 20px 2px;
+  padding: 8px 23.33333px 2px;
   margin-bottom: 0;
   text-transform: uppercase;
   color: #777777;
@@ -5930,13 +5937,29 @@ meta.foundation-mq-topbar {
   }
   /* line 465, ../../custom_foundation_build/bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section li:not(.has-form) a:not(.button) {
-    padding: 0 20px;
-    line-height: 60px;
+    padding: 0 23.33333px;
+    line-height: 70px;
     background: #446ccf;
   }
   /* line 469, ../../custom_foundation_build/bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section li:not(.has-form) a:not(.button):hover {
     background: #335dc7;
+  }
+  /* line 478, ../../custom_foundation_build/bower_components/foundation/scss/foundation/components/_top-bar.scss */
+  .top-bar-section .has-dropdown > a {
+    padding-right: 43.33333px !important;
+  }
+  /* line 480, ../../custom_foundation_build/bower_components/foundation/scss/foundation/components/_top-bar.scss */
+  .top-bar-section .has-dropdown > a:after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border: inset 5px;
+    border-color: rgba(255, 255, 255, 0.4) transparent transparent transparent;
+    border-top-style: solid;
+    margin-top: -2.5px;
+    top: 35px;
   }
   /* line 489, ../../custom_foundation_build/bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section .has-dropdown.moved {
@@ -5971,7 +5994,7 @@ meta.foundation-mq-topbar {
     color: white;
     line-height: 1;
     white-space: nowrap;
-    padding: 12px 20px;
+    padding: 12px 23.33333px;
     background: #333333;
   }
   /* line 529, ../../custom_foundation_build/bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -5990,14 +6013,14 @@ meta.foundation-mq-topbar {
     border-top: none;
     border-right: solid 1px #4d73d1;
     clear: none;
-    height: 60px;
+    height: 70px;
     width: 0;
   }
   /* line 552, ../../custom_foundation_build/bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section .has-form {
     background: #446ccf;
-    padding: 0 20px;
-    height: 60px;
+    padding: 0 23.33333px;
+    height: 70px;
   }
   /* line 560, ../../custom_foundation_build/bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section .right li .dropdown {
@@ -6099,7 +6122,7 @@ p aside {
 /* Default header styles */
 /* line 181, ../../custom_foundation_build/bower_components/foundation/scss/foundation/components/_type.scss */
 h1, h2, h3, h4, h5, h6 {
-  font-family: xtrchr, "Open Sans", "Open Sans" "Helvetica", Helvetica, "Helvetica Neue", Arial, sans-serif;
+  font-family: xtrchr, "Open Sans", "Open Sans", "Helvetica", Helvetica, "Helvetica Neue", Arial, sans-serif;
   font-weight: 300;
   font-style: normal;
   color: #222222;

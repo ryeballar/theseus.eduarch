@@ -1,30 +1,33 @@
 /* line 5, ../../custom_foundation_build/scss/li-classes.scss */
 .classes .item {
   padding-right: 1.5em;
-  margin-bottom: 1em;
 }
-/* line 10, ../../custom_foundation_build/scss/li-classes.scss */
+/* line 9, ../../custom_foundation_build/scss/li-classes.scss */
 .classes .item .classes-content {
   background-color: white;
-  min-height: 20em;
   -webkit-box-shadow: 0 0 5px #9e9e9e;
   -moz-box-shadow: 0 0 5px #9e9e9e;
   box-shadow: 0 0 5px #9e9e9e;
 }
-/* line 16, ../../custom_foundation_build/scss/li-classes.scss */
+/* line 14, ../../custom_foundation_build/scss/li-classes.scss */
 .classes .item .classes-content, .classes .item .class-image img {
-  -moz-border-radius-topleft: 1em;
-  -webkit-border-top-left-radius: 1em;
-  border-top-left-radius: 1em;
-  -moz-border-radius-topright: 1em;
-  -webkit-border-top-right-radius: 1em;
-  border-top-right-radius: 1em;
+  -moz-border-radius-topleft: 0.2em;
+  -webkit-border-top-left-radius: 0.2em;
+  border-top-left-radius: 0.2em;
+  -moz-border-radius-topright: 0.2em;
+  -webkit-border-top-right-radius: 0.2em;
+  border-top-right-radius: 0.2em;
 }
-/* line 21, ../../custom_foundation_build/scss/li-classes.scss */
+/* line 19, ../../custom_foundation_build/scss/li-classes.scss */
+.classes .item .class-image img {
+  height: 14em;
+}
+/* line 23, ../../custom_foundation_build/scss/li-classes.scss */
 .classes .item header {
   padding: 1em 0;
 }
-/* line 25, ../../custom_foundation_build/scss/li-classes.scss */
+/* line 27, ../../custom_foundation_build/scss/li-classes.scss */
 .classes .item article {
   padding: 1.5em;
+  font-size: 0.75em;
 }

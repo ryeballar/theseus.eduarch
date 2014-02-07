@@ -31,7 +31,11 @@
 <?php echo $post_js ?>
 <script type="text/javascript">
 	if(typeof(reloader) != 'undefined'){reloader.set({'application': 'theseus.eduarch'});}
-		$(document).foundation();
+	$(document).foundation({
+		alert: {
+			animation_speed: 10
+		}
+	});
 </script>
 </body>
 </html>

@@ -1,6 +1,6 @@
 <?php if(!defined('BASEPATH')) exit('No direct script access allowed');
 
-$config['page_header']['title'] = '<a>EduArch</a>';
+$config['page_header']['title'] = '<a href="">EduArch</a>';
 
 $config['page_header']['guest'] = array(
 	'left' => array(
@@ -38,24 +38,14 @@ $config['dashboard']['side_menu']['regular'] = array(
 	'<li><a href="dashboard/sessions">Sessons</a></li>'
 );
 
-$config['dashboard']['side_menu']['facilitator'] = array(
-	'<li><label>Feeds</label></li>',
-	'<li><a href="dashboard/top_feeds">Top Feeds</a></li>',
-	'<li><label>My Classes</label></li>',
-	'<li><a href="dashboard/classes">Learning</a></li>',
-	'<li><a href="dashboard/classes">Teaching</a></li>',
-	'<li><a href="dashboard/sessions">Sessons</a></li>',
+$config['dashboard']['side_menu']['facilitator'] = array_merge(
+	$config['dashboard']['side_menu']['regular'], array(
 	'<li><label>Panel</label></li>',
 	'<li><a href="dashboard/facilitator">Facilitator</a></li>'
-);
+));
 
-$config['dashboard']['side_menu']['administrator'] = array(
-	'<li><label>Feeds</label></li>',
-	'<li><a href="dashboard/top_feeds">Top Feeds</a></li>',
-	'<li><label>My Classes</label></li>',
-	'<li><a href="dashboard/classes">Learning</a></li>',
-	'<li><a href="dashboard/classes">Teaching</a></li>',
-	'<li><a href="dashboard/sessions">Sessons</a></li>',
+$config['dashboard']['side_menu']['administrator'] = array_merge(
+	$config['dashboard']['side_menu']['regular'], array(
 	'<li><label>Panel</label></li>',
 	'<li><a href="dashboard/administrator">Administrator</a></li>'
-);
+));

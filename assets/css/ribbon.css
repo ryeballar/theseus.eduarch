@@ -4,7 +4,6 @@
   background-color: #446ccf;
   z-index: 0;
   position: relative;
-  margin-top: 1em;
 }
 
 /* line 14, ../../custom_foundation_build/scss/ribbon.scss */
@@ -37,7 +36,7 @@
   left: -1em;
   width: 0;
   height: 0;
-  border-bottom: 0.5em solid #efefef;
+  border-bottom: 0.5em solid white;
   border-right: 1em solid transparent;
 }
 /* line 45, ../../custom_foundation_build/scss/ribbon.scss */
@@ -45,7 +44,7 @@
   right: -1em;
   width: 0;
   height: 0;
-  border-bottom: 0.5em solid #efefef;
+  border-bottom: 0.5em solid white;
   border-left: 1em solid transparent;
 }
 
@@ -116,6 +115,6 @@
   height: 0;
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
-  border-left: 10px solid #efefef;
+  border-left: 10px solid white;
   left: 0;
 }

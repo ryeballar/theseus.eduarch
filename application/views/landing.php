@@ -1,4 +1,4 @@
-<div class="row">
+<div class="maxed-width row">
 	<div class="medium-7 column">
 		<div class="row"><div class="small-11 small-centered large-9 right column">
 			<section class="intro-section page-content">
@@ -62,7 +62,7 @@
 		Featured Classes
 	</header>
 
-	<div class="row">
+	<div class="maxed-width row">
 		<div class="small-10 small-centered column">
 			<?php view('li-classes') ?>
 		</div>

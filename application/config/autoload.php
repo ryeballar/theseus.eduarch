@@ -109,7 +109,7 @@ $autoload['language'] = array();
 |
 */
 
-$autoload['model'] = array('eduarch_model', 'table_user', 'table_classes', 'table_class_users');
+$autoload['model'] = array('eduarch_model', 'table_user', 'table_classes', 'table_class_users', 'table_courses');
 
 
 /* End of file autoload.php */

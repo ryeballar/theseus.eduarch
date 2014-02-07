@@ -6,12 +6,12 @@
 }
 
 @media only screen and (min-width: 40.063em) {
-  /* line 9, ../../custom_foundation_build/scss/app.scss */
+  /* line 8, ../../custom_foundation_build/scss/app.scss */
   .top-bar .has-dropdown .dropdown {
     width: 200px;
   }
 }
-/* line 12, ../../custom_foundation_build/scss/app.scss */
+/* line 11, ../../custom_foundation_build/scss/app.scss */
 .button {
   font-size: 1.8em;
   font-weight: bold;
@@ -21,19 +21,19 @@
   font-family: AveriaGruesaLibre-Regular;
 }
 
-/* line 21, ../../custom_foundation_build/scss/app.scss */
+/* line 20, ../../custom_foundation_build/scss/app.scss */
 body {
   padding: 0 0 0 0;
 }
 
-/* line 25, ../../custom_foundation_build/scss/app.scss */
+/* line 24, ../../custom_foundation_build/scss/app.scss */
 hr {
   -webkit-box-shadow: 1px 1px 1px 1px white;
   -moz-box-shadow: 1px 1px 1px 1px white;
   box-shadow: 1px 1px 1px 1px white;
 }
 
-/* line 29, ../../custom_foundation_build/scss/app.scss */
+/* line 28, ../../custom_foundation_build/scss/app.scss */
 .page-container {
   min-height: 50em;
   font-size: 0.75em;
@@ -45,13 +45,135 @@ hr {
   border-radius: 0.1em;
 }
 
-/* line 36, ../../custom_foundation_build/scss/app.scss */
+/* line 35, ../../custom_foundation_build/scss/app.scss */
 .page-content {
   padding: 0.5em;
   font-size: 0.75em;
 }
 
-/* line 41, ../../custom_foundation_build/scss/app.scss */
+/* line 40, ../../custom_foundation_build/scss/app.scss */
 .close, .close-reveal-modal {
   font-weight: bold;
+}
+
+/* line 44, ../../custom_foundation_build/scss/app.scss */
+.side-menu {
+  position: fixed;
+  width: 20em;
+  padding-top: 0.5em;
+  left: 0;
+}
+@media only screen and (max-width: 40em) {
+  /* line 44, ../../custom_foundation_build/scss/app.scss */
+  .side-menu {
+    padding-top: 0.5em;
+    margin-top: 1.5em;
+    background-color: white;
+    -webkit-box-shadow: -1em 0 1em 1px black;
+    -moz-box-shadow: -1em 0 1em 1px black;
+    box-shadow: -1em 0 1em 1px black;
+  }
+}
+@media screen and (max-height: 389px) {
+  /* line 44, ../../custom_foundation_build/scss/app.scss */
+  .side-menu {
+    height: 200px;
+    overflow-y: scroll;
+  }
+}
+/* line 62, ../../custom_foundation_build/scss/app.scss */
+.side-menu .side-nav li {
+  position: relative;
+}
+/* line 63, ../../custom_foundation_build/scss/app.scss */
+.side-menu .side-nav li a {
+  padding-left: 1em;
+  width: 100%;
+}
+/* line 67, ../../custom_foundation_build/scss/app.scss */
+.side-menu .side-nav li.active a {
+  color: #ee7c4a;
+  font-weight: bold;
+}
+/* line 68, ../../custom_foundation_build/scss/app.scss */
+.side-menu .side-nav li a:hover {
+  background: #f6f6f6;
+}
+
+@media only screen and (max-width: 40em) {
+  @keyframes show-side-menu {
+    /* line 74, ../../custom_foundation_build/scss/app.scss */
+    from {
+      filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+      opacity: 0;
+      width: 0;
+    }
+
+    /* line 75, ../../custom_foundation_build/scss/app.scss */
+    to {
+      filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+      opacity: 1;
+      width: 20em;
+    }
+}
+
+  @-webkit-keyframes show-side-menu {
+    /* line 79, ../../custom_foundation_build/scss/app.scss */
+    from {
+      filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+      opacity: 0;
+      width: 0;
+    }
+
+    /* line 80, ../../custom_foundation_build/scss/app.scss */
+    to {
+      filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+      opacity: 1;
+      width: 20em;
+    }
+}
+
+  /* line 85, ../../custom_foundation_build/scss/app.scss */
+  .opacity-01 {
+    animation: show-side-menu 1s linear;
+    -webkit-animation: show-side-menu 1s linear;
+  }
+
+  @keyframes hide-side-menu {
+    /* line 91, ../../custom_foundation_build/scss/app.scss */
+    from {
+      filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+      opacity: 1;
+      width: 20em;
+    }
+
+    /* line 92, ../../custom_foundation_build/scss/app.scss */
+    to {
+      filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+      opacity: 0;
+      width: 0;
+    }
+}
+
+  @-webkit-keyframes hide-side-menu {
+    /* line 96, ../../custom_foundation_build/scss/app.scss */
+    from {
+      filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+      opacity: 1;
+      width: 20em;
+    }
+
+    /* line 97, ../../custom_foundation_build/scss/app.scss */
+    to {
+      filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+      opacity: 0;
+      width: 0;
+    }
+}
+
+  /* line 100, ../../custom_foundation_build/scss/app.scss */
+  .opacity-10 {
+    animation: hide-side-menu 1s linear;
+    -webkit-animation: hide-side-menu 1s linear;
+  }
 }

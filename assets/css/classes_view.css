@@ -1,0 +1,11 @@
+@media only screen and (min-width: 40.063em) {
+  /* line 7, ../../custom_foundation_build/scss/classes_view.scss */
+  .classes-view img {
+    width: 10em;
+    height: 9.5em;
+  }
+}
+/* line 13, ../../custom_foundation_build/scss/classes_view.scss */
+.classes-view .class-name {
+  color: #ee7c4a;
+}

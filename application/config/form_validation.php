@@ -15,7 +15,9 @@ $config['login'] = array(
 );
 
 $config['signup'] = array(
-	rule('user[email]', 'E-mail Address', 'trim|required|xss_clean|valid_email|callback__signup_check_email'),
+	rule('user[first_name]', 'First Name', 'trim|required|xss_clean|max_length[50]'),
+	rule('user[last_name]', 'First Name', 'trim|required|xss_clean|max_length[50]'),
+	rule('user[email]', 'E-mail Address', 'trim|required|xss_clean|valid_email|max_length[40]|callback__signup_check_email'),
 	rule('user[password]', 'Password', 'required|md5'),
 	rule('retype-password', 'Retyped Password', 'required|md5|callback__signup_check_password')
 );

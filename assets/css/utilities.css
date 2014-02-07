@@ -89,12 +89,12 @@
 }
 
 /* line 18, ../../custom_foundation_build/scss/utilities.scss */
-.perfect-circle {
-  -webkit-border-radius: 20em;
-  -moz-border-radius: 20em;
-  -ms-border-radius: 20em;
-  -o-border-radius: 20em;
-  border-radius: 20em;
+.circle {
+  -webkit-border-radius: 100em;
+  -moz-border-radius: 100em;
+  -ms-border-radius: 100em;
+  -o-border-radius: 100em;
+  border-radius: 100em;
 }
 
 /* line 20, ../../custom_foundation_build/scss/utilities.scss */
@@ -138,56 +138,75 @@
 }
 
 /* line 31, ../../custom_foundation_build/scss/utilities.scss */
+.zero-opacity {
+  opacity: 0;
+}
+
+/* line 33, ../../custom_foundation_build/scss/utilities.scss */
 .uppercase {
   text-transform: uppercase;
 }
 
-/* line 32, ../../custom_foundation_build/scss/utilities.scss */
+/* line 34, ../../custom_foundation_build/scss/utilities.scss */
 .lowercase {
   text-transform: lowercase;
 }
 
-/* line 33, ../../custom_foundation_build/scss/utilities.scss */
+/* line 35, ../../custom_foundation_build/scss/utilities.scss */
 .capitalize {
   text-transform: capitalize;
 }
 
-/* line 35, ../../custom_foundation_build/scss/utilities.scss */
+/* line 37, ../../custom_foundation_build/scss/utilities.scss */
 .ds-inline {
   display: inline;
 }
 
-/* line 36, ../../custom_foundation_build/scss/utilities.scss */
+/* line 38, ../../custom_foundation_build/scss/utilities.scss */
 .ds-inline-block {
   display: inline-block;
 }
 
-/* line 37, ../../custom_foundation_build/scss/utilities.scss */
+/* line 39, ../../custom_foundation_build/scss/utilities.scss */
 .ds-block {
   display: block;
 }
 
-/* line 38, ../../custom_foundation_build/scss/utilities.scss */
+/* line 40, ../../custom_foundation_build/scss/utilities.scss */
 .ds-table {
   display: table;
 }
 
-/* line 39, ../../custom_foundation_build/scss/utilities.scss */
+/* line 41, ../../custom_foundation_build/scss/utilities.scss */
 .ds-table-cell {
   display: table-cell;
 }
 
-/* line 41, ../../custom_foundation_build/scss/utilities.scss */
+/* line 43, ../../custom_foundation_build/scss/utilities.scss */
 .bd {
   border: 1px solid black;
 }
 
-/* line 43, ../../custom_foundation_build/scss/utilities.scss */
+/* line 45, ../../custom_foundation_build/scss/utilities.scss */
 .wg-bold {
   font-weight: bold;
 }
 
-/* line 44, ../../custom_foundation_build/scss/utilities.scss */
+/* line 46, ../../custom_foundation_build/scss/utilities.scss */
 .wg-normal {
   font-weight: normal;
+}
+
+/* line 48, ../../custom_foundation_build/scss/utilities.scss */
+.v-middle {
+  display: table;
+}
+/* line 51, ../../custom_foundation_build/scss/utilities.scss */
+.v-middle.h-middle {
+  margin: 0 auto;
+}
+/* line 53, ../../custom_foundation_build/scss/utilities.scss */
+.v-middle > * {
+  display: table-cell;
+  vertical-align: middle;
 }

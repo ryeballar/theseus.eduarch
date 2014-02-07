@@ -36,6 +36,7 @@ class user extends CI_Controller {
 				$user['created_on'] = $user['updated_on'] = date('Y-m-d');
 				$user['user_type_id'] = REGULAR;
 				$user['status_id'] = ACTIVE;
+				$user['image'] = 'assets/img/unknown-person.png';
 				
 				$this->table_user->insert($user);
 				$user = $this->table_user->get_last_record();

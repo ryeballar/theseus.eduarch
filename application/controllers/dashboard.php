@@ -4,7 +4,7 @@ class dashboard extends Base_Controller {
 
 	function __construct() {
 		parent::__construct();
-		$this->info("Learning is more fun with friends. Invite a friend now!.");
+		// $this->info("Learning is more fun with friends. Invite a friend now!.");
 	}
 
 	function index() {
