@@ -80,7 +80,9 @@ $db['development']['swap_pre'] = '';
 $db['development']['autoinit'] = TRUE;
 $db['development']['stricton'] = FALSE;
 
-switch (ENVIRONMENT) {
+$active_group = 'production';
+
+/*switch (ENVIRONMENT) {
     case 'production':
         $active_group = 'production';
     break;
@@ -88,7 +90,7 @@ switch (ENVIRONMENT) {
     default:
         $active_group = 'development';
     break;
-}
+}*/
 
 
 /* End of file database.php */
