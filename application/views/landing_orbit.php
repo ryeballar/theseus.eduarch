@@ -9,7 +9,7 @@
     navigation_arrows:false;
     slide_number:false;
     bullets:false;
-    next_on_click: false;">
+    next_on_click: false;" class="no-bullet">
 
     <li data-orbit-slide="headline-1">
         <section class="row">
