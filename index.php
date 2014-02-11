@@ -18,6 +18,8 @@
  * NOTE: If you change these, also change the error_reporting() code below
  *
  */
+print_r($_SERVER);
+exit;
 
 if (isset($_SERVER['PLATFORM']))
 {
