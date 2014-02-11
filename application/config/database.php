@@ -48,8 +48,8 @@
 $active_record = TRUE;
 
 $db['production']['hostname'] = 'tunnel.pagodabox.com';
-$db['production']['username'] = 'elna';
-$db['production']['password'] = 'tigCAZBf';
+$db['production']['username'] = 'hettie';
+$db['production']['password'] = 'NLVRZGU3';
 $db['production']['database'] = 'eduarch';
 $db['production']['port']     = "3306";
 $db['production']['dbdriver'] = 'mysql';
