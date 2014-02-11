@@ -1,0 +1,12 @@
+.v-middle {
+	display: table;
+
+	&.h-middle {
+		margin: 0 auto;
+	}
+
+	& > * {
+		display: table-cell;
+		vertical-align: middle;
+	}
+}

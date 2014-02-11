@@ -1,0 +1,68 @@
+@import "foundation/components/global";
+@import "compass/css3";
+
+$top-bg: $primary-color;
+$top-min-height: 10em;
+
+$header-opacity: 0.90;
+$header-title-shadow: 0 0 1.5em #fff;
+
+$content-radius: 0.1em;
+$content-shadow: 0 0 1px 1px #efefef;
+$content-bg: white;
+$content-top: -5em;
+$content-min-height: 1050px;
+
+body {
+	& > section.top-bg {
+		@media #{$medium-up} {
+			min-height: $top-min-height;
+		}
+		@media #{$small-only} {
+			margin-top: $top-min-height / 2;
+		}
+		width: 100%;
+		z-index: 1 !important;
+		background-color: $top-bg;
+	}
+
+	& > header {
+		opacity: $header-opacity;
+		.top-bar {
+			.title-area .name a {
+				@include text-shadow($header-title-shadow);
+			}
+
+		}
+	}
+
+	& > section.row {
+		background-color: $content-bg;
+		@include border-radius($content-radius);
+		@include box-shadow($content-shadow);
+		top: $content-top;
+		min-height: $content-min-height;
+		position: relative;
+
+		& > * {
+			padding: 0;
+		}
+
+	}
+
+	& > footer {
+		text-align: center;
+		font-size: 12px;
+		color: white;
+		background-color: $primary-color;
+		padding-top: 5em;
+		padding-bottom: 2.5em;
+		position: relative;
+		top: -10em;
+		z-index: -1;
+		& > a {
+			color: white;
+		}
+	}
+}
+

@@ -1,0 +1,48 @@
+@mixin zero-dim() {
+	width: 0;
+	height: 0;
+}
+
+@mixin abs-content() {
+	content: "";
+	position: absolute;
+}
+
+@mixin iso-triangle($type, $color, $size, $patch-color, $patch-size) {
+	@include zero-dim();
+
+	@if $type == "up" {
+		border-left: $patch-size solid $patch-color;
+		border-right: $patch-size solid $patch-color;
+		border-bottom: $size solid $color;
+	} @else if $type == "right" {
+		border-top: $patch-size solid $patch-color;	
+		border-bottom: $patch-size solid $patch-color;	
+		border-left: $size solid $color;
+	} @else if $type == "down" {
+		border-left: $patch-size solid $patch-color;
+		border-right: $patch-size solid $patch-color;
+		border-top: $size solid $color;
+	} @else if $type == "left" {
+		border-top: $patch-size solid $patch-color;	
+		border-bottom: $patch-size solid $patch-color;	
+		border-right: $size solid $color;
+	}
+}
+
+@mixin right-triangle($type, $color, $size, $patch-color, $patch-size) {
+	@include zero-dim();
+	@if $type == "top-left" {
+		border-top: $size solid $color;
+		border-right: $patch-size solid $patch-color;
+	} @else if $type == "top-right" {
+		border-top: $size solid $color;
+		border-left: $patch-size solid $patch-color;
+	} @else if $type == "bottom-left" {
+		border-bottom: $size solid $color;
+		border-right: $patch-size solid $patch-color;
+	} @else if $type == "bottom-right" {
+		border-bottom: $size solid $color;
+		border-left: $patch-size solid $patch-color;
+	}
+}

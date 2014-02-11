@@ -1,10 +1,10 @@
-/* line 1, ../../../foundation/scss/utilities/helpers.scss */
+/* line 1, ../../scss/app/utilities/helpers.scss */
 .v-middle {
   display: table; }
-/* line 4, ../../../foundation/scss/utilities/helpers.scss */
+/* line 4, ../../scss/app/utilities/helpers.scss */
 .v-middle.h-middle {
   margin: 0 auto; }
-/* line 8, ../../../foundation/scss/utilities/helpers.scss */
+/* line 8, ../../scss/app/utilities/helpers.scss */
 .v-middle > * {
   display: table-cell;
   vertical-align: middle; }

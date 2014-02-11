@@ -1,0 +1,18 @@
+$font-location: "../../fonts/";
+
+@mixin create-font($family) {
+	@font-face {
+		font-family: $family;
+		src: url('#{$font-location}#{$family}.ttf');
+	}
+	.font-#{$family} {font-family: $family;}
+}
+
+
+@mixin create-all-fonts($font-collection) {
+	@each $font in $font-collection {
+		@include create-font($font);
+	}
+}
+
+@include create-all-fonts($font-collection: (AveriaGruesaLibre-Regular CantataOne-Regular DAYROM_X DAYROM__ Hercules HobbyHorseNF Lanehum MERKINF_ MERKING_ MERKINS_ MERKIN__ PatuaOne-Regular RockoFLF-Bold RockoFLF RockoUltraFLF-Bold RockoUltraFLF RomeoDN Therfont xtrchr));

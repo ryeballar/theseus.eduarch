@@ -1,0 +1,154 @@
+@import "compass/css3";
+@import "foundation/components/global";
+@import "mixins/shapes";
+
+// @import "settings";
+// @import "foundation";
+
+// Or selectively include components
+// @import
+//   "foundation/components/accordion",
+//   "foundation/components/alert-boxes",
+//   "foundation/components/block-grid",
+//   "foundation/components/breadcrumbs",
+//   "foundation/components/button-groups",
+//   "foundation/components/buttons",
+//   "foundation/components/clearing",
+//   "foundation/components/dropdown",
+//   "foundation/components/dropdown-buttons",
+//   "foundation/components/flex-video",
+//   "foundation/components/forms",
+//   "foundation/components/grid",
+//   "foundation/components/inline-lists",
+//   "foundation/components/joyride",
+//   "foundation/components/keystrokes",
+//   "foundation/components/labels",
+//   "foundation/components/magellan",
+//   "foundation/components/orbit",
+//   "foundation/components/pagination",
+//   "foundation/components/panels",
+//   "foundation/components/pricing-tables",
+//   "foundation/components/progress-bars",
+//   "foundation/components/reveal",
+//   "foundation/components/side-nav",
+//   "foundation/components/split-buttons",
+//   "foundation/components/sub-nav",
+//   "foundation/components/switch",
+//   "foundation/components/tables",
+//   "foundation/components/tabs",
+//   "foundation/components/thumbs",
+//   "foundation/components/tooltips",
+//   "foundation/components/top-bar",
+//   "foundation/components/type",
+//   "foundation/components/offcanvas",
+//   "foundation/components/visibility";
+
+.list-of-classes {
+	figure {
+		width: 250px;
+
+		@media only screen and (max-width: 335px) {
+			width: 220px;
+			& > img {
+				width: 220px;
+			}
+		}
+
+		& > img {
+			width: 250px;
+			height: 150px;
+			@include border-top-left-radius(0.2em);
+			@include border-top-right-radius(0.2em);
+		}
+
+		& > section {
+			position: relative;
+			border-left: 1px solid #eee;
+			border-right: 1px solid #eee;
+			border-bottom: 1px solid #eee;
+			@include border-bottom-left-radius(0.2em);
+			@include border-bottom-right-radius(0.2em);
+
+			img {
+				width: 40px;
+				height: 35px;
+			}
+
+			$header-color: #49ACF2;
+			& > header {
+				font-size: 13px;
+				color: white;
+				font-weight: bold;
+				text-align: center;
+				background-color: #49ACF2;
+				margin-bottom: 1em;
+				padding: 7px;
+				position: relative;
+
+				& > span {
+					&:before {
+						@include abs-content();
+						@include right-triangle(
+							"bottom-right", 
+								darken($header-color, 20%), 10px,
+								transparent, 10px
+						);
+						top: -10px;
+						left: -11px;
+					}
+
+					&:after {
+						@include abs-content();
+						@include right-triangle(
+							"bottom-left", 
+								darken($header-color, 20%), 10px,
+								transparent, 10px
+						);
+						top: -10px;
+						right: -11px;
+					}
+				}
+
+				&:before {
+					@include abs-content();
+					width: 11px;
+					top: 0;
+					left: -11px;
+					height: 100%;
+					background-color: $header-color;
+				}
+
+				&:after {
+					@include abs-content();
+					width: 11px;
+					top: 0;
+					right: -11px;
+					height: 100%;
+					background-color: $header-color;
+				}
+			}
+
+			& > article {
+				max-width: 100% !important;
+				& > p {
+					position: relative;
+					top: -0.22em;
+					font-size: 12px;
+					font-weight: bold;
+					padding: 0;
+
+					& > .name {
+						color: #000;
+					}
+
+					& > .title {
+						color: gray;
+						font-size: 11px;
+						font-weight: normal;
+					}
+				}
+			}
+
+		}
+	}
+}
