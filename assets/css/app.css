@@ -1,179 +1,225 @@
-/* line 3, ../../custom_foundation_build/scss/app.scss */
-.top-bar {
-  -webkit-box-shadow: 0 0.5em 1em 0.1em white;
-  -moz-box-shadow: 0 0.5em 1em 0.1em white;
-  box-shadow: 0 0.5em 1em 0.1em white;
-}
+/* line 260, ../../foundation/bower_components/foundation/scss/foundation/components/_global.scss */
+meta.foundation-version {
+  font-family: "/5.1.0/"; }
 
-@media only screen and (min-width: 40.063em) {
-  /* line 8, ../../custom_foundation_build/scss/app.scss */
-  .top-bar .has-dropdown .dropdown {
-    width: 200px;
-  }
-}
-/* line 11, ../../custom_foundation_build/scss/app.scss */
-.button {
-  font-size: 1.8em;
+/* line 265, ../../foundation/bower_components/foundation/scss/foundation/components/_global.scss */
+meta.foundation-mq-small {
+  font-family: "/only screen and (max-width: 40em)/";
+  width: 0em; }
+
+/* line 270, ../../foundation/bower_components/foundation/scss/foundation/components/_global.scss */
+meta.foundation-mq-medium {
+  font-family: "/only screen and (min-width:40.063em)/";
+  width: 40.063em; }
+
+/* line 275, ../../foundation/bower_components/foundation/scss/foundation/components/_global.scss */
+meta.foundation-mq-large {
+  font-family: "/only screen and (min-width:64.063em)/";
+  width: 64.063em; }
+
+/* line 280, ../../foundation/bower_components/foundation/scss/foundation/components/_global.scss */
+meta.foundation-mq-xlarge {
+  font-family: "/only screen and (min-width:90.063em)/";
+  width: 90.063em; }
+
+/* line 285, ../../foundation/bower_components/foundation/scss/foundation/components/_global.scss */
+meta.foundation-mq-xxlarge {
+  font-family: "/only screen and (min-width:120.063em)/";
+  width: 120.063em; }
+
+/* line 290, ../../foundation/bower_components/foundation/scss/foundation/components/_global.scss */
+meta.foundation-data-attribute-namespace {
+  font-family: false; }
+
+/* line 295, ../../foundation/bower_components/foundation/scss/foundation/components/_global.scss */
+html, body {
+  height: 100%; }
+
+/* line 302, ../../foundation/bower_components/foundation/scss/foundation/components/_global.scss */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 307, ../../foundation/bower_components/foundation/scss/foundation/components/_global.scss */
+html, body {
+  font-size: 100%; }
+
+/* line 310, ../../foundation/bower_components/foundation/scss/foundation/components/_global.scss */
+body {
+  background: white;
+  color: #222222;
+  padding: 0;
+  margin: 0;
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+  position: relative;
+  cursor: default; }
+
+/* line 323, ../../foundation/bower_components/foundation/scss/foundation/components/_global.scss */
+a:hover {
+  cursor: pointer; }
+
+/* line 328, ../../foundation/bower_components/foundation/scss/foundation/components/_global.scss */
+img, object, embed {
+  max-width: 100%;
+  height: auto; }
+
+/* line 331, ../../foundation/bower_components/foundation/scss/foundation/components/_global.scss */
+object, embed {
+  height: 100%; }
+
+/* line 332, ../../foundation/bower_components/foundation/scss/foundation/components/_global.scss */
+img {
+  -ms-interpolation-mode: bicubic; }
+
+/* line 338, ../../foundation/bower_components/foundation/scss/foundation/components/_global.scss */
+#map_canvas img, #map_canvas embed, #map_canvas object, .map_canvas img, .map_canvas embed, .map_canvas object {
+  max-width: none !important; }
+
+/* line 343, ../../foundation/bower_components/foundation/scss/foundation/components/_global.scss */
+.left {
+  float: left !important; }
+
+/* line 344, ../../foundation/bower_components/foundation/scss/foundation/components/_global.scss */
+.right {
+  float: right !important; }
+
+/* line 345, ../../foundation/bower_components/foundation/scss/foundation/components/_global.scss */
+.clearfix {
+  *zoom: 1; }
+/* line 130, ../../foundation/bower_components/foundation/scss/foundation/components/_global.scss */
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table; }
+/* line 131, ../../foundation/bower_components/foundation/scss/foundation/components/_global.scss */
+.clearfix:after {
+  clear: both; }
+
+/* line 346, ../../foundation/bower_components/foundation/scss/foundation/components/_global.scss */
+.hide {
+  display: none; }
+
+/* line 352, ../../foundation/bower_components/foundation/scss/foundation/components/_global.scss */
+.antialiased {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+/* line 355, ../../foundation/bower_components/foundation/scss/foundation/components/_global.scss */
+img {
+  display: inline-block;
+  vertical-align: middle; }
+
+/* line 365, ../../foundation/bower_components/foundation/scss/foundation/components/_global.scss */
+textarea {
+  height: auto;
+  min-height: 50px; }
+
+/* line 368, ../../foundation/bower_components/foundation/scss/foundation/components/_global.scss */
+select {
+  width: 100%; }
+
+/* line 47, ../../foundation/scss/app.scss */
+.list-of-classes figure {
+  width: 250px; }
+@media only screen and (max-width: 335px) {
+  /* line 47, ../../foundation/scss/app.scss */
+  .list-of-classes figure {
+    width: 220px; }
+  /* line 52, ../../foundation/scss/app.scss */
+  .list-of-classes figure > img {
+    width: 220px; } }
+/* line 57, ../../foundation/scss/app.scss */
+.list-of-classes figure > img {
+  width: 250px;
+  height: 150px;
+  -moz-border-radius-topleft: 0.2em;
+  -webkit-border-top-left-radius: 0.2em;
+  border-top-left-radius: 0.2em;
+  -moz-border-radius-topright: 0.2em;
+  -webkit-border-top-right-radius: 0.2em;
+  border-top-right-radius: 0.2em; }
+/* line 64, ../../foundation/scss/app.scss */
+.list-of-classes figure > section {
+  position: relative;
+  border-left: 1px solid #eee;
+  border-right: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  -moz-border-radius-bottomleft: 0.2em;
+  -webkit-border-bottom-left-radius: 0.2em;
+  border-bottom-left-radius: 0.2em;
+  -moz-border-radius-bottomright: 0.2em;
+  -webkit-border-bottom-right-radius: 0.2em;
+  border-bottom-right-radius: 0.2em; }
+/* line 72, ../../foundation/scss/app.scss */
+.list-of-classes figure > section img {
+  width: 40px;
+  height: 35px; }
+/* line 78, ../../foundation/scss/app.scss */
+.list-of-classes figure > section > header {
+  font-size: 13px;
+  color: white;
   font-weight: bold;
   text-align: center;
-  color: #efefef;
-  text-shadow: 1px 1px 1em #fff;
-  font-family: AveriaGruesaLibre-Regular;
-}
-
-/* line 20, ../../custom_foundation_build/scss/app.scss */
-body {
-  padding: 0 0 0 0;
-}
-
-/* line 24, ../../custom_foundation_build/scss/app.scss */
-hr {
-  -webkit-box-shadow: 1px 1px 1px 1px white;
-  -moz-box-shadow: 1px 1px 1px 1px white;
-  box-shadow: 1px 1px 1px 1px white;
-}
-
-/* line 28, ../../custom_foundation_build/scss/app.scss */
-.page-container {
-  min-height: 50em;
-  font-size: 0.75em;
-  padding: 0;
-  -webkit-border-radius: 0.1em;
-  -moz-border-radius: 0.1em;
-  -ms-border-radius: 0.1em;
-  -o-border-radius: 0.1em;
-  border-radius: 0.1em;
-}
-
-/* line 35, ../../custom_foundation_build/scss/app.scss */
-.page-content {
-  padding: 0.5em;
-  font-size: 0.75em;
-}
-
-/* line 40, ../../custom_foundation_build/scss/app.scss */
-.close, .close-reveal-modal {
-  font-weight: bold;
-}
-
-/* line 44, ../../custom_foundation_build/scss/app.scss */
-.side-menu {
-  position: fixed;
-  width: 20em;
-  padding-top: 0.5em;
-  left: 0;
-}
-@media only screen and (max-width: 40em) {
-  /* line 44, ../../custom_foundation_build/scss/app.scss */
-  .side-menu {
-    padding-top: 0.5em;
-    margin-top: 1.5em;
-    background-color: white;
-    -webkit-box-shadow: -1em 0 1em 1px black;
-    -moz-box-shadow: -1em 0 1em 1px black;
-    box-shadow: -1em 0 1em 1px black;
-  }
-}
-@media screen and (max-height: 389px) {
-  /* line 44, ../../custom_foundation_build/scss/app.scss */
-  .side-menu {
-    height: 200px;
-    overflow-y: scroll;
-  }
-}
-/* line 62, ../../custom_foundation_build/scss/app.scss */
-.side-menu .side-nav li {
+  background-color: #49ACF2;
+  margin-bottom: 1em;
+  padding: 7px;
+  position: relative; }
+/* line 89, ../../foundation/scss/app.scss */
+.list-of-classes figure > section > header > span:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-bottom: 10px solid #0e7ac7;
+  border-left: 10px solid transparent;
+  top: -10px;
+  left: -11px; }
+/* line 100, ../../foundation/scss/app.scss */
+.list-of-classes figure > section > header > span:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-bottom: 10px solid #0e7ac7;
+  border-right: 10px solid transparent;
+  top: -10px;
+  right: -11px; }
+/* line 112, ../../foundation/scss/app.scss */
+.list-of-classes figure > section > header:before {
+  content: "";
+  position: absolute;
+  width: 11px;
+  top: 0;
+  left: -11px;
+  height: 100%;
+  background-color: #49acf2; }
+/* line 121, ../../foundation/scss/app.scss */
+.list-of-classes figure > section > header:after {
+  content: "";
+  position: absolute;
+  width: 11px;
+  top: 0;
+  right: -11px;
+  height: 100%;
+  background-color: #49acf2; }
+/* line 131, ../../foundation/scss/app.scss */
+.list-of-classes figure > section > article {
+  max-width: 100% !important; }
+/* line 133, ../../foundation/scss/app.scss */
+.list-of-classes figure > section > article > p {
   position: relative;
-}
-/* line 63, ../../custom_foundation_build/scss/app.scss */
-.side-menu .side-nav li a {
-  padding-left: 1em;
-  width: 100%;
-}
-/* line 67, ../../custom_foundation_build/scss/app.scss */
-.side-menu .side-nav li.active a {
-  color: #ee7c4a;
+  top: -0.22em;
+  font-size: 12px;
   font-weight: bold;
-}
-/* line 68, ../../custom_foundation_build/scss/app.scss */
-.side-menu .side-nav li a:hover {
-  background: #f6f6f6;
-}
-
-@media only screen and (max-width: 40em) {
-  @keyframes show-side-menu {
-    /* line 74, ../../custom_foundation_build/scss/app.scss */
-    from {
-      filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
-      opacity: 0;
-      width: 0;
-    }
-
-    /* line 75, ../../custom_foundation_build/scss/app.scss */
-    to {
-      filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
-      opacity: 1;
-      width: 20em;
-    }
-}
-
-  @-webkit-keyframes show-side-menu {
-    /* line 79, ../../custom_foundation_build/scss/app.scss */
-    from {
-      filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
-      opacity: 0;
-      width: 0;
-    }
-
-    /* line 80, ../../custom_foundation_build/scss/app.scss */
-    to {
-      filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
-      opacity: 1;
-      width: 20em;
-    }
-}
-
-  /* line 85, ../../custom_foundation_build/scss/app.scss */
-  .opacity-01 {
-    animation: show-side-menu 1s linear;
-    -webkit-animation: show-side-menu 1s linear;
-  }
-
-  @keyframes hide-side-menu {
-    /* line 91, ../../custom_foundation_build/scss/app.scss */
-    from {
-      filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
-      opacity: 1;
-      width: 20em;
-    }
-
-    /* line 92, ../../custom_foundation_build/scss/app.scss */
-    to {
-      filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
-      opacity: 0;
-      width: 0;
-    }
-}
-
-  @-webkit-keyframes hide-side-menu {
-    /* line 96, ../../custom_foundation_build/scss/app.scss */
-    from {
-      filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
-      opacity: 1;
-      width: 20em;
-    }
-
-    /* line 97, ../../custom_foundation_build/scss/app.scss */
-    to {
-      filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
-      opacity: 0;
-      width: 0;
-    }
-}
-
-  /* line 100, ../../custom_foundation_build/scss/app.scss */
-  .opacity-10 {
-    animation: hide-side-menu 1s linear;
-    -webkit-animation: hide-side-menu 1s linear;
-  }
-}
+  padding: 0; }
+/* line 140, ../../foundation/scss/app.scss */
+.list-of-classes figure > section > article > p > .name {
+  color: #000; }
+/* line 144, ../../foundation/scss/app.scss */
+.list-of-classes figure > section > article > p > .title {
+  color: gray;
+  font-size: 11px;
+  font-weight: normal; }

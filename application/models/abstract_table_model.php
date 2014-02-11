@@ -4,15 +4,18 @@ abstract class abstract_table_model extends CI_Model {
 
 	private $table;
 	private $primary;
-	private $table_alias = null;
+	private $table_alias = '';
 
 	private $like_type = 'both';
 	private $join_type = 'inner';
+
+	private $tables_to_join__ = array();
 
 	function __construct($table, $primary) {
 		parent::__construct();
 		$this->table = $table;
 		$this->primary = $primary;
+		$this->tables_to_join__[] = array($table, '');
 	}
 
 	function from($table) {
@@ -21,10 +24,8 @@ abstract class abstract_table_model extends CI_Model {
 	}
 
 	function alias($alias) {
-		if($this->table_alias == null) {
-			$this->table_alias = $alias;
-			$this->table = $this->table." as ".$alias;
-		}
+		if($this->table_alias == '')
+			$this->tables_to_join__[0][1] = $alias;
 		return $this;
 	}
 
@@ -41,7 +42,32 @@ abstract class abstract_table_model extends CI_Model {
 	}
 
 	function get_multiple() {
-		$query = $this->db->get($this->table);
+		if(count($this->tables_to_join__) > 1) {
+			$select_fields = array();
+			$implode_temp = array(null, '.', null, ' as ', null, '_', null);
+			foreach($this->tables_to_join__ as $table) {
+				$table_name = $table[0];
+				$alias = $table[1];
+				$fields = $this->db->list_fields($table_name);
+				$length = count($fields);
+				for($i = 0; $i < $length; $i++) {
+					$implode_temp[0] = $implode_temp[4] = $alias;
+					$implode_temp[2] = $implode_temp[6] = $fields[$i];
+					$select_fields[] = implode('', $implode_temp);
+				}
+			}
+
+			$select = implode(',', $select_fields);
+			$this->db->select($select);
+
+			$save_table = $this->tables_to_join__[0];
+			$this->tables_to_join__ = array($save_table);
+			$table = implode(' ', $save_table);
+
+			$query = $this->db->get($table);
+		} else 
+			$query = $this->db->get($this->table);
+
 		if($query->num_rows() > 0)
 			return $query->result_array();
 		return array();
@@ -100,8 +126,17 @@ abstract class abstract_table_model extends CI_Model {
 		$count = func_num_args();
 		$args = func_get_args();
 
-		for($i = 0; $i < $count; $i += 2)
+		for($i = 0; $i < $count; $i += 2) {
+			$exploded = explode(' ', $args[$i]);
+
+			if(count($exploded > 0)) {
+				$this->tables_to_join__[] = array($exploded[0], $exploded[1]);
+			} else {
+				$this->tables_to_join__[] = array($args[0][0], '');
+			}
+
 			$this->db->join($args[$i], $args[$i+1]);
+		}
 
 		return $this;
 	}

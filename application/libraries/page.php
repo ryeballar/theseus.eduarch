@@ -154,4 +154,56 @@ function view_mode() {
 	$CI->page->set_view_mode(true);
 }
 
+function S($key = null, $value = null) {
+	$CI = & get_instance();
+	if($key == null)
+		$CI->session->sess_destroy();
+	elseif(is_array($key))
+		$CI->session->set_userdata($key);
+	elseif($value === null)
+		return $CI->session->userdata($key);
+	elseif($value === false)
+		$CI->session->unset_userdata($key);
+	else
+		$CI->session->set_userdata($key, $value);
+}
+
+function P($key) {
+	$CI = & get_instance();
+	return $CI->input->post($key);
+}
+
+function S_echo($key, $value) {
+	if(S($key))
+		echo $value;
+}
+
+function model_view() {
+	$CI = & get_instance();
+	foreach(func_get_args() as $model_view) {
+		if(!file_exists('application/models/mv_$model_view'))
+			$CI->load->model("mv_$model_view");
+		$CI->load->vars($CI->{"mv_$model_view"}->index());
+		view($model_view);
+	}
+}
+
+function set_active($key) {
+	S("active-$key", true);
+}
+
+function active($key, $value) {
+	if(S("active-$key")) {
+		echo $value;
+		S("active-$key", false);
+	}
+}
+
+function char_limiter($string, $limit) {
+	$length = strlen($string);
+	if($length < $limit)
+		return $string;
+	return substr($string, 0, $limit).'..';
+}
+
 }
