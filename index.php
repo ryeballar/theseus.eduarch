@@ -19,9 +19,6 @@
  *
  */
 
-print_r($_SERVER);
-exit;
-
 if (isset($_SERVER['PLATFORM']))
 {
     switch ($_SERVER['PLATFORM']) {

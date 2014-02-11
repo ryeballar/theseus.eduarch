@@ -47,10 +47,11 @@
 
 $active_record = TRUE;
 
-$db['production']['hostname'] = 'tunnel.pagodabox.com:3306';
+$db['production']['hostname'] = 'tunnel.pagodabox.com';
 $db['production']['username'] = 'elna';
 $db['production']['password'] = 'tigCAZBf';
 $db['production']['database'] = 'eduarch';
+$db['production']['port']     = "3306";
 $db['production']['dbdriver'] = 'mysql';
 $db['production']['dbprefix'] = '';
 $db['production']['pconnect'] = TRUE;
