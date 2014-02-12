@@ -11,8 +11,10 @@ class login extends Base_Controller {
 	function index() {
 		if($this->form_validation->run('login')) {
 			S($this->user);
-			refresh('dashboard');
-		}
+			$this->form_validation->success_with_ajax('dashboard');
+			return;
+		} elseif($this->form_validation->fail_with_ajax())
+			return;
 
 		set_active('Login');
 		$this->load('login', 'Login');
