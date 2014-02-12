@@ -57,7 +57,7 @@ $autoload['libraries'] = array(
 	'parser', 'session', 'database', 'form_validation',
 
 	// custom libs
-	'page');
+	'page', 'fb');
 
 
 /*
@@ -114,7 +114,9 @@ $autoload['language'] = array();
 |
 */
 
-$autoload['model'] = array('table_user', 'table_classes', 'table_class_users', 'table_courses');
+$autoload['model'] = array(
+	// tables
+	'table_user', 'table_classes', 'table_class_users', 'table_courses');
 
 
 /* End of file autoload.php */
