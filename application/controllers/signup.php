@@ -7,9 +7,8 @@ class signup extends Base_Controller {
 	}
 
 	function index() {
-		$data['fb_login'] = $this->fb->getLoginUrl();
 		set_active('SignUp');
-		$this->load('signup', 'Sign Up', $data);
+		$this->load('signup', 'Sign Up');
 	}
 	
 }
