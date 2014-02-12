@@ -50,3 +50,5 @@
 		<a class="expand button">Sign Up with Facebook</a>
 	</section>
 </section>
+
+<a href="<?php echo $fb_login ?>" class="button">Login</a>
