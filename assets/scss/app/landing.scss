@@ -77,6 +77,10 @@
 		left: 0;
 	}
 
+	.button {
+		background-color: #008CBA;
+	}
+
 	& > .content {
 		min-height: 25em;
 		@media #{$medium-up} {

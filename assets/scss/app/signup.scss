@@ -1,0 +1,66 @@
+@import "compass/css3";
+
+body {
+	& > section.row {
+		min-height: 450px;
+	}
+}
+
+.label, .button, button {
+	background-color: #008CBA;
+}
+
+.button, button {
+	&:hover {
+		background-color: darken(#008CBA, 10%);
+	}
+}
+
+.signup {
+	& > section {
+		padding: 1em 2em;
+
+		& > h3, & > p {
+			text-align: center;
+		}
+
+		& > p {
+			font-size: 12px;
+			color: #5f5f5f;
+		}
+	}
+
+	& > section.form-eduarch {
+		[name] {
+			font-size: 10px;
+		}
+
+		input[type] {
+			height: 30px;
+		}
+	}
+
+	& > .form-fb {
+		& > p {
+			margin-bottom: 2em;
+		}
+
+		span.fi-social-facebook {
+			font-size: 18.5em;
+			color: #2DAEBF;
+			@include text-shadow(
+				0px 1px 0px #0092b3, 
+				0px 2px 0px #0087a6, 
+				0px 3px 0px #008099, 
+				0px 4px 0px #00758c, 
+				0px 5px 0px #555, 
+				0px 6px 0px #006a80, 
+				0px 0px 0px #006073, 
+				0px 8px 7px #005566);
+		}
+
+		.button {
+			margin-top: 2em;
+		}
+	}
+}

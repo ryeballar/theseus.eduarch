@@ -1,5 +1,5 @@
-<section class="row">
-	<section class="medium-8 medium-centered column">
+<section class="row signup">
+	<section class="medium-6 column form-eduarch">
 		<h3>Complete your account details</h3>
 		<p>Just finish the missing information below
 			and you'll be on your way</p>
@@ -37,7 +37,16 @@
 				<input type="password" placeholder="Re-type Password" name="retype_password" maxlength="32" required />
 			</section>
 
-			<button type="submit">Sign Up</button>
+			<button class="expand" type="submit">Sign Up With Your Email</button>
 		</form>
+	</section>
+	<section class="medium-6 column form-fb">
+		<h3>Facebook Integration</h3>
+		<p>Connect your social media experience
+			with EduArch</p>
+		<section class="text-center">
+			<span class="fi-social-facebook"></span>
+		</section>
+		<a class="expand button">Sign Up with Facebook</a>
 	</section>
 </section>

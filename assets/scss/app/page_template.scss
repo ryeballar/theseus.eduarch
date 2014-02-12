@@ -10,8 +10,8 @@ $header-title-shadow: 0 0 1.5em #fff;
 $content-radius: 0.1em;
 $content-shadow: 0 0 1px 1px #efefef;
 $content-bg: white;
-$content-top: -5em;
-$content-min-height: 1050px;
+$content-top: -7.5em;
+$content-min-height: 500px;
 
 body {
 	& > section.top-bg {
@@ -58,7 +58,7 @@ body {
 		padding-top: 5em;
 		padding-bottom: 2.5em;
 		position: relative;
-		top: -10em;
+		top: -12.5em;
 		z-index: -1;
 		& > a {
 			color: white;
