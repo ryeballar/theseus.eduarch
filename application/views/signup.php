@@ -51,4 +51,3 @@
 	</section>
 </section>
 
-<a href="<?php echo $fb_login ?>" class="button">Login</a>
