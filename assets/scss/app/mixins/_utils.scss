@@ -1,0 +1,7 @@
+@mixin content-min-height($height) {
+	body {
+		& > section.row {
+			min-height: 450px;
+		}
+	}
+}

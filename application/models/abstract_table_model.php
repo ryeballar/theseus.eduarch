@@ -2,12 +2,16 @@
 
 abstract class abstract_table_model extends CI_Model {
 
+	const GETTER_SINGLE_PREFIX = "get_single_by_";
+	const GETTER_MULTIPLE_PREFIX = "get_multiple_by_";
+	const COUNT_PREFIX ="count_by_";
+
 	private $table;
 	private $primary;
 	private $table_alias = '';
 
 	private $like_type = 'both';
-	private $join_type = 'inner';
+	private $join_type = 'innzer';
 
 	private $tables_to_join__ = array();
 
@@ -16,6 +20,34 @@ abstract class abstract_table_model extends CI_Model {
 		$this->table = $table;
 		$this->primary = $primary;
 		$this->tables_to_join__[] = array($table, '');
+	}
+
+	function __call($method, $arguments) {
+		if($this->is_call_helper_valid($method, $arguments, self::GETTER_SINGLE_PREFIX))
+			return $this->get_single();
+		elseif($this->is_call_helper_valid($method, $arguments, self::GETTER_SINGLE_PREFIX))
+			return $this->get_multiple();
+		elseif($this->is_call_helper_valid($method, $arguments, self::COUNT_PREFIX))
+			return $this->count();
+		
+		show_404();
+	}
+
+	private function is_call_helper_valid($method, $args, $prefix) {
+		$len = strlen($prefix);
+		$method_len = strlen($method);
+		if($method_len >  $len &&
+			substr($method, 0, $len) == $prefix) {
+			$params = explode('_', substr($method, $len));
+			$count = count($args);
+			if($count == count($params)) {
+				for($i = 0; $i < $count; $i++) {
+					$this->where($params[$i], $args[$i]);
+				}
+				return true;
+			}
+		}
+		return false;
 	}
 
 	function from($table) {

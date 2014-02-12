@@ -43,6 +43,20 @@
 //   "foundation/components/offcanvas",
 //   "foundation/components/visibility";
 
+.label, .button, button {
+	background-color: #008CBA;
+}
+
+a {
+	color: #008CBA;
+}
+
+.button, button {
+	&:hover {
+		background-color: darken(#008CBA, 10%);
+	}
+}
+
 .list-of-classes {
 	figure {
 		width: 250px;
