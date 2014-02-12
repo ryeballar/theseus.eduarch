@@ -1,6 +1,6 @@
 <?php  if(!defined('BASEPATH')) exit('No direct script access allowed');
 
-require 'sdk/facebook-php/src/facebook.php';
+// require 'sdk/facebook-php/src/facebook.php';
     	
 class signup extends Base_Controller {
 
