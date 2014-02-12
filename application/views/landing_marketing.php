@@ -1,6 +1,5 @@
 <section class="marketing row">
-    <section class="medium-8 column">&nbsp;</section>
-    <section class="small-12 medium-4 column content">
+    <section class="small-12 medium-4 column content right">
         <h4 class="text-center" style="padding: 1em"><?php echo $title ?></h4>
 
         <ul class="no-bullet" style="padding: 0.2em">

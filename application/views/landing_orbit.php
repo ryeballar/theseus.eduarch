@@ -39,7 +39,7 @@
                 <a href="suggestionboard" class="button">Suggest!</a>
             </article>
             <section class="large-8 medium-7 column text-left">
-                <img src="assets/img/word-cloud-min.png" />
+                <img src="assets/img/word-cloud.png" style="width: 30em; height: 18em" />
             </section>
         </section>
     </li>
