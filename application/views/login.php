@@ -4,21 +4,21 @@
 		<p>Experience work-based and tutorial-based classes now</p>
 		<p>No Account Yet? <a href="signup">Sign Up</a> Now</p>
 		<form action="login" method="post" accept-charset="utf-8" style="padding-top: 2.6em">
-			<section>
+			<section class="field">
 				<label class="label">Email</label>
 				<input type="email" placeholder="i.e. rick@gmail.com" name="user[email]" maxlength="50" required autofocus 
 					value="<?php echo set_value('user[email]', '') ?>" />
-				<?php form_error('user[email]', '<small class="error">', '</small>') ?>
+				<?php echo form_error('user[email]', '<small class="error">', '</small>') ?>
 			</section>
 
-			<section>
+			<section class="field">
 				<label class="label">Password</label>
-				<input type="email" placeholder="Enter Password" name="user[password]" maxlength="32" required 
+				<input type="password" placeholder="Enter Password" name="user[password]" maxlength="32" required 
 					value="<?php echo set_value('user[password]', '') ?>" />
-				<?php form_error('user[email]', '<small class="error">', '</small>') ?>
+				<?php echo form_error('user[email]', '<small class="error">', '</small>') ?>
 			</section>
 
-			<section class="row">
+			<section class="row" style="padding: 1.1em 0">
 				<section class="medium-6 column">
 					<input type="checkbox" /><span class="remember"> Remember Password?</span>
 				</section>

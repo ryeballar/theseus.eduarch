@@ -12,28 +12,26 @@ body > section.row {
 .login > section p, .login > section a, .login > section button {
   font-size: 12px; }
 /* line 20, ../scss/app/login.scss */
-.login form [name], .login form span, .login form a {
-  font-size: 10px; }
-/* line 24, ../scss/app/login.scss */
-.login form input[type] {
-  height: 30px; }
-/* line 28, ../scss/app/login.scss */
 .login form .remember {
   position: relative;
-  top: -1.2em; }
-/* line 35, ../scss/app/login.scss */
+  top: -0.3em; }
+/* line 25, ../scss/app/login.scss */
+.login form .forgot {
+  position: relative;
+  top: -0.17em; }
+/* line 32, ../scss/app/login.scss */
 .login > .fb-login > p {
   margin-bottom: 2em; }
-/* line 39, ../scss/app/login.scss */
+/* line 36, ../scss/app/login.scss */
 .login > .fb-login span.fi-social-facebook {
   font-size: 14.3em;
   color: #2DAEBF;
   text-shadow: 0px 1px 0px #0092b3, 0px 2px 0px #0087a6, 0px 3px 0px #008099, 0px 4px 0px #00758c, 0px 5px 0px #555555, 0px 6px 0px #006a80, 0px 0px 0px #006073, 0px 8px 7px #005566; }
-/* line 53, ../scss/app/login.scss */
+/* line 50, ../scss/app/login.scss */
 .login > .fb-login .button {
   margin-top: 2em; }
 
-/* line 59, ../scss/app/login.scss */
+/* line 56, ../scss/app/login.scss */
 .forgot {
   position: relative;
   top: 0.5em; }

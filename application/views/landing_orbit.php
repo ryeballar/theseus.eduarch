@@ -12,7 +12,7 @@
     next_on_click: false;" class="no-bullet">
 
     <li data-orbit-slide="headline-1">
-        <section class="row">
+        <section class="row maxed-width">
             <article class="small-12 large-4 medium-5 column">
                 <strong><h2>Learn Real-World Skills</h2></strong>
                 <p><strong><a href="">EduArch</a></strong> is a platform that enables you to 
@@ -29,7 +29,7 @@
     </li>
 
     <li data-orbit-slide="headline-2">
-        <section class="row">
+        <section class="row maxed-width">
             <article class="small-12 large-4 medium-5 column">
                 <h2>Suggestions Make Things Better</h2>
                 <p><a href="classes">Classes</a> made by suggestions
@@ -46,7 +46,7 @@
     </li>
 
     <li data-orbit-slide="headline-3">
-        <section class="row">
+        <section class="row maxed-width">
             <article class="small-12 large-4 medium-5 column">
                 <h2>Teaching is a Profession But..</h2>
                 <p>

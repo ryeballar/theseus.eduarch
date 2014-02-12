@@ -43,6 +43,29 @@
 //   "foundation/components/offcanvas",
 //   "foundation/components/visibility";
 
+form {
+
+	* {
+		font-size: 11px !important;
+	}
+
+	.field {
+		padding-bottom: 1.32em;
+
+		[name] {
+			margin: 0;
+		}
+
+		[type] {
+			height: 30px;
+		}
+
+		small.error {
+			margin: 0;
+		}
+	}	
+}
+
 .label, .button, button {
 	background-color: #008CBA;
 }

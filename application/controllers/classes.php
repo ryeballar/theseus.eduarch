@@ -6,5 +6,8 @@ class Classes extends Base_Controller{
 		parent::__construct();
 	}
 
-	function index() {}
+	function index() {
+		set_active('Classes');
+		$this->load('classes', 'Classes');
+	}
 }

@@ -1,4 +1,4 @@
-<section class="row extra-cool">
+<section class="maxed-width row extra-cool">
 	<section class="large-3 medium-4 column">
 		<header>NEW IN <span class="font-xtrchr">EDUARCH</span>?</header>
 	</section>

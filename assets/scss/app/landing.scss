@@ -16,14 +16,7 @@
 			}
 
 			@media #{$small-only} {
-				position: absolute;
-				right: 2em;
-				bottom: 0.75em;
-				img {
-					float: right;
-					width: 7em;
-					height: 7em;
-				}
+				display: none;
 			}
 
 		}
@@ -176,7 +169,7 @@
 }
 
 .about {
-	padding: 1em;
+	padding: 1em !important;
 	& > header {
 		margin-top: 1em;
 		font-size: 1.5em;
@@ -214,6 +207,14 @@
 
 	& > p {
 		color: #6a6a6a;
+	}
+
+	.featured-for-small {
+		@media #{$small-only} {
+			.item {
+				width: 280px;
+			}
+		}
 	}
 }
 

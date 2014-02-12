@@ -8,3 +8,7 @@
 .v-middle > * {
   display: table-cell;
   vertical-align: middle; }
+
+/* line 14, ../../scss/app/utilities/helpers.scss */
+.maxed-width {
+  max-width: 1366px; }

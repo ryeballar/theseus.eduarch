@@ -121,29 +121,45 @@ textarea {
 select {
   width: 100%; }
 
-/* line 46, ../scss/app/app.scss */
+/* line 48, ../scss/app/app.scss */
+form * {
+  font-size: 11px !important; }
+/* line 52, ../scss/app/app.scss */
+form .field {
+  padding-bottom: 1.32em; }
+/* line 55, ../scss/app/app.scss */
+form .field [name] {
+  margin: 0; }
+/* line 59, ../scss/app/app.scss */
+form .field [type] {
+  height: 30px; }
+/* line 63, ../scss/app/app.scss */
+form .field small.error {
+  margin: 0; }
+
+/* line 69, ../scss/app/app.scss */
 .label, .button, button {
   background-color: #008CBA; }
 
-/* line 50, ../scss/app/app.scss */
+/* line 73, ../scss/app/app.scss */
 a {
   color: #008CBA; }
 
-/* line 55, ../scss/app/app.scss */
+/* line 78, ../scss/app/app.scss */
 .button:hover, button:hover {
   background-color: #006687; }
 
-/* line 61, ../scss/app/app.scss */
+/* line 84, ../scss/app/app.scss */
 .list-of-classes figure {
   width: 250px; }
 @media only screen and (max-width: 335px) {
-  /* line 61, ../scss/app/app.scss */
+  /* line 84, ../scss/app/app.scss */
   .list-of-classes figure {
     width: 220px; }
-  /* line 66, ../scss/app/app.scss */
+  /* line 89, ../scss/app/app.scss */
   .list-of-classes figure > img {
     width: 220px; } }
-/* line 71, ../scss/app/app.scss */
+/* line 94, ../scss/app/app.scss */
 .list-of-classes figure > img {
   width: 250px;
   height: 150px;
@@ -153,7 +169,7 @@ a {
   -moz-border-radius-topright: 0.2em;
   -webkit-border-top-right-radius: 0.2em;
   border-top-right-radius: 0.2em; }
-/* line 78, ../scss/app/app.scss */
+/* line 101, ../scss/app/app.scss */
 .list-of-classes figure > section {
   position: relative;
   border-left: 1px solid #eee;
@@ -165,11 +181,11 @@ a {
   -moz-border-radius-bottomright: 0.2em;
   -webkit-border-bottom-right-radius: 0.2em;
   border-bottom-right-radius: 0.2em; }
-/* line 86, ../scss/app/app.scss */
+/* line 109, ../scss/app/app.scss */
 .list-of-classes figure > section img {
   width: 40px;
   height: 35px; }
-/* line 92, ../scss/app/app.scss */
+/* line 115, ../scss/app/app.scss */
 .list-of-classes figure > section > header {
   font-size: 13px;
   color: white;
@@ -179,7 +195,7 @@ a {
   margin-bottom: 1em;
   padding: 7px;
   position: relative; }
-/* line 103, ../scss/app/app.scss */
+/* line 126, ../scss/app/app.scss */
 .list-of-classes figure > section > header > span:before {
   content: "";
   position: absolute;
@@ -189,7 +205,7 @@ a {
   border-left: 10px solid transparent;
   top: -10px;
   left: -11px; }
-/* line 114, ../scss/app/app.scss */
+/* line 137, ../scss/app/app.scss */
 .list-of-classes figure > section > header > span:after {
   content: "";
   position: absolute;
@@ -199,7 +215,7 @@ a {
   border-right: 10px solid transparent;
   top: -10px;
   right: -11px; }
-/* line 126, ../scss/app/app.scss */
+/* line 149, ../scss/app/app.scss */
 .list-of-classes figure > section > header:before {
   content: "";
   position: absolute;
@@ -208,7 +224,7 @@ a {
   left: -11px;
   height: 100%;
   background-color: #49acf2; }
-/* line 135, ../scss/app/app.scss */
+/* line 158, ../scss/app/app.scss */
 .list-of-classes figure > section > header:after {
   content: "";
   position: absolute;
@@ -217,20 +233,20 @@ a {
   right: -11px;
   height: 100%;
   background-color: #49acf2; }
-/* line 145, ../scss/app/app.scss */
+/* line 168, ../scss/app/app.scss */
 .list-of-classes figure > section > article {
   max-width: 100% !important; }
-/* line 147, ../scss/app/app.scss */
+/* line 170, ../scss/app/app.scss */
 .list-of-classes figure > section > article > p {
   position: relative;
   top: -0.22em;
   font-size: 12px;
   font-weight: bold;
   padding: 0; }
-/* line 154, ../scss/app/app.scss */
+/* line 177, ../scss/app/app.scss */
 .list-of-classes figure > section > article > p > .name {
   color: #000; }
-/* line 158, ../scss/app/app.scss */
+/* line 181, ../scss/app/app.scss */
 .list-of-classes figure > section > article > p > .title {
   color: gray;
   font-size: 11px;

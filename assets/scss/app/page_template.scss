@@ -18,9 +18,7 @@ body {
 		@media #{$medium-up} {
 			min-height: $top-min-height;
 		}
-		@media #{$small-only} {
-			margin-top: $top-min-height / 2;
-		}
+		
 		width: 100%;
 		z-index: 1 !important;
 		background-color: $top-bg;
@@ -36,13 +34,16 @@ body {
 		}
 	}
 
-	& > section.row {
+	& > section.container {
 		background-color: $content-bg;
 		@include border-radius($content-radius);
 		@include box-shadow($content-shadow);
-		top: $content-top;
+		@media #{$medium-up} {
+			top: $content-top;
+			position: relative;
+		}
 		min-height: $content-min-height;
-		position: relative;
+		
 
 		& > * {
 			padding: 0;

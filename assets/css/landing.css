@@ -134,25 +134,18 @@ select {
 @media only screen and (max-width: 40em) {
   /* line 13, ../scss/app/landing.scss */
   [data-orbit] [data-orbit-slide] section section {
-    position: absolute;
-    right: 2em;
-    bottom: 0.75em; }
-  /* line 22, ../scss/app/landing.scss */
-  [data-orbit] [data-orbit-slide] section section img {
-    float: right;
-    width: 7em;
-    height: 7em; } }
-/* line 31, ../scss/app/landing.scss */
+    display: none; } }
+/* line 24, ../scss/app/landing.scss */
 [data-orbit] [data-orbit-slide] a.button {
   background-color: #008CBA; }
-/* line 34, ../scss/app/landing.scss */
+/* line 27, ../scss/app/landing.scss */
 [data-orbit] [data-orbit-slide] a.button:hover {
   background-color: #0079a1; }
 
-/* line 43, ../scss/app/landing.scss */
+/* line 36, ../scss/app/landing.scss */
 .traverse-links {
   border-bottom: 1px solid #efefef; }
-/* line 45, ../scss/app/landing.scss */
+/* line 38, ../scss/app/landing.scss */
 .traverse-links a {
   display: inline-block;
   border-bottom: 5px solid transparent;
@@ -160,34 +153,34 @@ select {
   padding: 1em 0;
   color: black; }
 @media only screen and (min-width: 40.063em) {
-  /* line 45, ../scss/app/landing.scss */
+  /* line 38, ../scss/app/landing.scss */
   .traverse-links a {
     width: 7em; } }
 @media only screen and (max-width: 40em) {
-  /* line 45, ../scss/app/landing.scss */
+  /* line 38, ../scss/app/landing.scss */
   .traverse-links a {
     width: 30%; } }
-/* line 60, ../scss/app/landing.scss */
+/* line 53, ../scss/app/landing.scss */
 .traverse-links a.current {
   border-bottom: 5px solid #666699;
   color: #666699; }
 
-/* line 67, ../scss/app/landing.scss */
+/* line 60, ../scss/app/landing.scss */
 .marketing {
   position: absolute;
   right: 2em;
   top: -3em;
   z-index: 90; }
 @media only screen and (max-width: 40em) {
-  /* line 67, ../scss/app/landing.scss */
+  /* line 60, ../scss/app/landing.scss */
   .marketing {
     position: relative;
     top: 0;
     left: 0; } }
-/* line 80, ../scss/app/landing.scss */
+/* line 73, ../scss/app/landing.scss */
 .marketing .button {
   background-color: #008CBA; }
-/* line 84, ../scss/app/landing.scss */
+/* line 77, ../scss/app/landing.scss */
 .marketing > .content {
   min-height: 25em;
   background-color: white;
@@ -202,40 +195,40 @@ select {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
   opacity: 0.9; }
 @media only screen and (min-width: 40.063em) {
-  /* line 84, ../scss/app/landing.scss */
+  /* line 77, ../scss/app/landing.scss */
   .marketing > .content {
     width: 21em; } }
-/* line 95, ../scss/app/landing.scss */
+/* line 88, ../scss/app/landing.scss */
 .marketing > .content ul li {
   padding: 0 0.5em 0.5em 0.5em; }
-/* line 98, ../scss/app/landing.scss */
+/* line 91, ../scss/app/landing.scss */
 .marketing > .content ul li article {
   color: #5f5f5f; }
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
-  /* line 98, ../scss/app/landing.scss */
+  /* line 91, ../scss/app/landing.scss */
   .marketing > .content ul li article {
     font-weight: bold;
     color: #9a9a9a; } }
-/* line 107, ../scss/app/landing.scss */
+/* line 100, ../scss/app/landing.scss */
 .marketing > .content ul li span {
   font-size: 1.5em;
   color: #2DAEBF;
   position: relative;
   top: -0.3em;
   text-shadow: 0px 1px 0px #0092b3, 0px 2px 0px #0087a6, 0px 3px 0px #008099, 0px 4px 0px #00758c, 0px 5px 0px #555555, 0px 6px 0px #006a80, 0px 0px 0px #006073, 0px 8px 7px #005566; }
-/* line 125, ../scss/app/landing.scss */
+/* line 118, ../scss/app/landing.scss */
 .marketing > .content ul li:hover span {
   color: #42c2d3;
   text-shadow: 0px 1px 0px #00718a, 0px 2px 0px #00667d, 0px 3px 0px #005e70, 0px 4px 0px #005363, 0px 5px 0px #414141, 0px 6px 0px #004857, 0px 0px 0px #003e4a, 0px 8px 7px #00333d; }
 
-/* line 142, ../scss/app/landing.scss */
+/* line 135, ../scss/app/landing.scss */
 .extra-cool {
   padding-top: 1.5em; }
-/* line 144, ../scss/app/landing.scss */
+/* line 137, ../scss/app/landing.scss */
 .extra-cool > section {
   position: relative;
   z-index: 50; }
-/* line 147, ../scss/app/landing.scss */
+/* line 140, ../scss/app/landing.scss */
 .extra-cool > section > header {
   font-size: 1em;
   padding: 1em;
@@ -243,10 +236,10 @@ select {
   color: white;
   font-weight: bold;
   text-align: center; }
-/* line 155, ../scss/app/landing.scss */
+/* line 148, ../scss/app/landing.scss */
 .extra-cool > section > header > span {
   font-weight: normal; }
-/* line 159, ../scss/app/landing.scss */
+/* line 152, ../scss/app/landing.scss */
 .extra-cool > section > header:after {
   content: "";
   position: absolute;
@@ -257,7 +250,7 @@ select {
   border-top: 1.5em solid transparent;
   border-bottom: 1.5em solid transparent;
   border-left: 2em solid #666699; }
-/* line 168, ../scss/app/landing.scss */
+/* line 161, ../scss/app/landing.scss */
 .extra-cool article {
   z-index: 45;
   position: relative;
@@ -266,23 +259,23 @@ select {
   color: #5f5f5f;
   background-color: #efefef; }
 
-/* line 178, ../scss/app/landing.scss */
+/* line 171, ../scss/app/landing.scss */
 .about {
-  padding: 1em; }
-/* line 180, ../scss/app/landing.scss */
+  padding: 1em !important; }
+/* line 173, ../scss/app/landing.scss */
 .about > header {
   margin-top: 1em;
   font-size: 1.5em; }
-/* line 185, ../scss/app/landing.scss */
+/* line 178, ../scss/app/landing.scss */
 .about p {
   margin-top: 0.5em;
   text-indent: 1em;
   text-align: justify; }
 
-/* line 192, ../scss/app/landing.scss */
+/* line 185, ../scss/app/landing.scss */
 .count {
   background-color: #efefef; }
-/* line 194, ../scss/app/landing.scss */
+/* line 187, ../scss/app/landing.scss */
 .count p {
   -webkit-border-radius: 0.2em;
   -moz-border-radius: 0.2em;
@@ -293,30 +286,34 @@ select {
   background-color: #666699;
   font-weight: bold;
   color: white; }
-/* line 202, ../scss/app/landing.scss */
+/* line 195, ../scss/app/landing.scss */
 .count span {
   font-weight: normal;
   font-size: 2em;
   color: #efefef; }
 
-/* line 209, ../scss/app/landing.scss */
+/* line 202, ../scss/app/landing.scss */
 .featured-classes {
   margin-top: 3em; }
-/* line 211, ../scss/app/landing.scss */
+/* line 204, ../scss/app/landing.scss */
 .featured-classes > h2 {
   text-align: center; }
-/* line 215, ../scss/app/landing.scss */
+/* line 208, ../scss/app/landing.scss */
 .featured-classes > p {
   color: #6a6a6a; }
+@media only screen and (max-width: 40em) {
+  /* line 214, ../scss/app/landing.scss */
+  .featured-classes .featured-for-small .item {
+    width: 280px; } }
 
-/* line 220, ../scss/app/landing.scss */
+/* line 221, ../scss/app/landing.scss */
 .featured-button {
   background-color: #eee;
   padding: 1em 0; }
-/* line 224, ../scss/app/landing.scss */
+/* line 225, ../scss/app/landing.scss */
 .featured-button > a {
   margin: 0;
   background-color: #49ACF2; }
-/* line 228, ../scss/app/landing.scss */
+/* line 229, ../scss/app/landing.scss */
 .featured-button > a:hover {
   background-color: #1996ef; }

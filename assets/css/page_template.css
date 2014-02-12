@@ -130,18 +130,14 @@ body > section.top-bg {
   /* line 17, ../scss/app/page_template.scss */
   body > section.top-bg {
     min-height: 10em; } }
-@media only screen and (max-width: 40em) {
-  /* line 17, ../scss/app/page_template.scss */
-  body > section.top-bg {
-    margin-top: 5em; } }
-/* line 29, ../scss/app/page_template.scss */
+/* line 27, ../scss/app/page_template.scss */
 body > header {
   opacity: 0.9; }
-/* line 32, ../scss/app/page_template.scss */
+/* line 30, ../scss/app/page_template.scss */
 body > header .top-bar .title-area .name a {
   text-shadow: 0 0 1.5em white; }
-/* line 39, ../scss/app/page_template.scss */
-body > section.row {
+/* line 37, ../scss/app/page_template.scss */
+body > section.container {
   background-color: white;
   -webkit-border-radius: 0.1em;
   -moz-border-radius: 0.1em;
@@ -151,13 +147,16 @@ body > section.row {
   -webkit-box-shadow: 0 0 1px 1px #efefef;
   -moz-box-shadow: 0 0 1px 1px #efefef;
   box-shadow: 0 0 1px 1px #efefef;
-  top: -7.5em;
-  min-height: 500px;
-  position: relative; }
-/* line 47, ../scss/app/page_template.scss */
-body > section.row > * {
+  min-height: 500px; }
+@media only screen and (min-width: 40.063em) {
+  /* line 37, ../scss/app/page_template.scss */
+  body > section.container {
+    top: -7.5em;
+    position: relative; } }
+/* line 48, ../scss/app/page_template.scss */
+body > section.container > * {
   padding: 0; }
-/* line 53, ../scss/app/page_template.scss */
+/* line 54, ../scss/app/page_template.scss */
 body > footer {
   text-align: center;
   font-size: 12px;
@@ -168,6 +167,6 @@ body > footer {
   position: relative;
   top: -12.5em;
   z-index: -1; }
-/* line 63, ../scss/app/page_template.scss */
+/* line 64, ../scss/app/page_template.scss */
 body > footer > a {
   color: white; }

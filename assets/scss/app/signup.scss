@@ -1,11 +1,14 @@
 @import "compass/css3";
 @import "mixins/utils";
+@import "foundation/components/global";
 
 @include content-min-height(450px);
 
 .signup {
 	& > section {
-		padding: 2em 2em;
+		@media #{$medium-up} {
+			padding: 2em 2em;
+		}
 
 		& > h3, & > p {
 			text-align: center;
@@ -17,17 +20,11 @@
 		}
 	}
 
-	& > section.form-eduarch {
-		[name] {
-			font-size: 10px;
-		}
-
-		input[type] {
-			height: 30px;
-		}
-	}
-
 	& > .form-fb {
+		a {
+			font-size: 11px;
+		}
+		
 		& > p {
 			margin-bottom: 2em;
 		}
