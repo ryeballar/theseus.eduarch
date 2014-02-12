@@ -1,10 +1,8 @@
-<section class="maxed-width row extra-cool">
-	<section class="large-3 medium-4 column">
-		<header>NEW IN <span class="font-xtrchr">EDUARCH</span>?</header>
+<section class="maxed-width row new-eduarch">
+	<section class="large-2 medium-3 column">
+		NEW IN <span class="font-xtrchr">EDUARCH</span>?
 	</section>
-	<article class="large-9 medium-8 column">
-		Check out some of our stuff below!
-	</article>
+	<article class="large-10 medium-9 column">Check out some of our stuff below!</article>
 </section>
 
 <section class="about">

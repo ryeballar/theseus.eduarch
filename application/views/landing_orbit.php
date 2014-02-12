@@ -40,7 +40,6 @@
             </article>
             <section class="large-8 medium-7 column text-left">
                 <img src="assets/img/word-cloud-min.png" />
-                <img src="assets/img/word-cloud-2-min.png" />
             </section>
         </section>
     </li>

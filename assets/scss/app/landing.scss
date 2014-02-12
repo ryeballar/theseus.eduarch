@@ -132,39 +132,33 @@
 	}
 }
 
-.extra-cool {
-	padding-top: 1.5em;
+.new-eduarch {
+	position: relative;
+	margin-top: 3.5em;
+
+	& > * {
+		padding: 1em 0;
+	}
+
 	& > section {
-		position: relative;
-		z-index: 50;
-		& > header {
-			font-size: 1em;
-			padding: 1em;
-			background-color: $primary-color;
-			color: white;
-			font-weight: bold;
-			text-align: center;
+		font-size: 1em;
+		font-weight: bold;
+		background-color: $primary-color;
+		text-align: center;
+		color: white;
 
-			&> span {
-				font-weight: normal;
-			}
-
-			&:after {
-				@include abs-content();
-				right: -1em;
-				top: 0;
-				@include iso-triangle("right", $primary-color, 2em, transparent, 1.5em);
-			}
+		&:after {
+			@include abs-content();
+			right: -2em;
+			top: 0;
+			z-index:1000;
+			@include iso-triangle("right", $primary-color, 2em, transparent, 1.5em);
 		}
 	}
 
-	& article {
-		z-index: 45;
-		position: relative;
-		left: -1em;
-		padding: 1em 1em 1em 3em;
-		color: #5f5f5f;
-		background-color: #efefef;
+	& > article {
+		background-color: $secondary-color;
+		padding-left: 2.5em;
 	}
 }
 
