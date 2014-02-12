@@ -8,7 +8,7 @@ class signup extends Base_Controller {
 
 	function index() {
 		set_active('SignUp');
-		$this->load('signup', 'Sign Up', $data);
+		$this->load('signup', 'Sign Up');
 	}
 	
 }
