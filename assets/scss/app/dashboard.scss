@@ -1,0 +1,14 @@
+@import "foundation/components/global";
+@import "mixins/shapes";
+@import "mixins/utils";
+@import "compass/css3";
+
+@include content-min-height(900px !important);
+
+.dashboard {
+
+	& > * {
+		padding-top: 1em;
+	}
+
+}

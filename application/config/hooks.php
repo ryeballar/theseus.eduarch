@@ -10,6 +10,12 @@
 |
 */
 
+$hook['post_controller_constructor'] = array(
+	'class' => 'post_controller',
+	'function' => 'login',
+	'filename' => 'post_controller.php',
+	'filepath' => 'hooks'
+);
 
 
 /* End of file hooks.php */

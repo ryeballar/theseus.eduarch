@@ -1,7 +1,5 @@
 <?php  if(!defined('BASEPATH')) exit('No direct script access allowed');
 
-// require 'sdk/facebook-php/src/facebook.php';
-    	
 class signup extends Base_Controller {
 
 	private $user;
@@ -11,13 +9,6 @@ class signup extends Base_Controller {
 	}
 
 	function index() {
-		/*$config = array(
-			'appId' => '599535443458840',
-			'secret' => '61e6578c042ccce513f7016a3aea4362',
-			'fileUpload' => false,
-			'allowSignedRequest' => false
-		);*/
-		
 		if($this->form_validation->run('signup')) {
 			$user = P('user');
 			$user['created_on'] = date('Y-m-d');
@@ -26,8 +17,10 @@ class signup extends Base_Controller {
 			$user['status_id'] = ACTIVE;
 			$this->table_user->insert($user);
 			S($this->table_user->get_last_record());
-			refresh('dashboard');
-		}
+			$this->form_validation->success_with_ajax('dashboard');
+			return;
+		} elseif($this->form_validation->fail_with_ajax())
+			return;
 
 		set_active('SignUp');
 		$this->load('signup', 'Sign Up');

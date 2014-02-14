@@ -1,3 +1,4 @@
+@import "foundation/components/global";
 @import "compass/css3";
 @import "mixins/utils";
 
@@ -6,6 +7,9 @@
 .login {
 	& > section {
 		padding: 2em;
+		@media #{$small-only} {
+			padding-top: 1em;
+		}
 
 		h3, p {
 			text-align: center;
@@ -17,6 +21,10 @@
 	}
 
 	form {
+		@media #{$medium-up} {
+			padding-top: 2.6em;
+		}
+
 		.remember {
 			position: relative;
 			top: -0.3em;

@@ -9,15 +9,22 @@ class login extends Base_Controller {
 	}
 
 	function index() {
+		$fb_user_id = $this->fb->getUser();
 		if($this->form_validation->run('login')) {
 			S($this->user);
 			$this->form_validation->success_with_ajax('dashboard');
 			return;
-		} elseif($this->form_validation->fail_with_ajax())
+		} elseif($this->form_validation->fail_with_ajax()) {
 			return;
-
+		} elseif($fb_user_id) {
+			try {
+				$data['profile'] = $this->fb->api('/me', 'GET');
+			} catch(FacebookApiException $e) {}
+		} 
+		
+		$data['fb_login_url'] = $this->fb->getLoginUrl();
 		set_active('Login');
-		$this->load('login', 'Login');
+		$this->load('login', 'Login', $data);
 	}
 
 	function _login_check_email($email) {
@@ -31,6 +38,10 @@ class login extends Base_Controller {
 		}
 		
 		return true;
+	}
+
+	function fb() {
+		$this->load->view('fb-test');
 	}
 
 }

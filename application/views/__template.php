@@ -20,6 +20,7 @@
 <script type="text/javascript" src="assets/js/holder.js"></script>
 <script type="text/javascript" src="assets/js/masonry.js"></script>
 <script type="text/javascript" src="assets/js/form_validation.js"></script>
+<script type="text/javascript" src="assets/js/facebook.js"></script>
 <script src="http://localhost:8080/reloader.js"></script>
 <script type="text/javascript" src="assets/js/app.js"></script>
 <?php echo $post_js ?>

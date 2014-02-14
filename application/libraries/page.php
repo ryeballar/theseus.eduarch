@@ -173,6 +173,16 @@ function P($key) {
 	return $CI->input->post($key);
 }
 
+function G($key) {
+	$CI = & get_instance();
+	return $CI->input->get($key);
+}
+
+function C($key) {
+	$CI = & get_instance();
+	return $CI->input->cookie($key);
+}
+
 function S_echo($key, $value) {
 	if(S($key))
 		echo $value;

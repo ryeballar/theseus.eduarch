@@ -1,3 +1,4 @@
+<div id="fb-root"></div>
 <?php model_view('page_header') ?>
 <section class="top-bg"></section>
 

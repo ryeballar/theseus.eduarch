@@ -3,7 +3,7 @@
 		<h3>Start to Learn, Teach and Share</h3>
 		<p>Experience work-based and tutorial-based classes now</p>
 		<p>No Account Yet? <a href="signup">Sign Up</a> Now</p>
-		<form action="login" method="post" accept-charset="utf-8" style="padding-top: 2.6em" data-validate>
+		<form action="login" method="post" accept-charset="utf-8" data-validate>
 			<section class="field">
 				<label class="label">Email</label>
 				<input type="email" placeholder="i.e. rick@gmail.com" name="user[email]" maxlength="50" required autofocus 
@@ -27,16 +27,26 @@
 				</section>
 			</section>
 
-			<button type="submit" class="expand">Login with Email</button>
+			<section class="maxed-width row">
+				<section class="small-6 medium-12 column">
+					<button type="submit" class="expand">
+						<span class="show-for-medium-up">Login with Email</span>
+						<span class="show-for-small-only">Email Login</span>
+					</button>
+				</section>
+				<section class="small-6 column show-for-small-only">
+					<a class="expand button" href="<?php echo $fb_login_url ?>">Facebok Login</a>
+				</section>
+			</section>
 		</form>
 	</section>
-	<section class="medium-6 column fb-login">
+	<section class="medium-6 column fb-login hide-for-small">
 		<h3>Facebook Integration</h3>
 		<p>Connect your social media experience
 			with EduArch</p>
 		<section class="text-center">
 			<span class="fi-social-facebook"></span>
 		</section>
-		<a class="expand button">Login with Facebook</a>
+		<a class="expand button" href="<?php echo $fb_login_url ?>">Login with Facebook</a>
 	</section>
 </section>

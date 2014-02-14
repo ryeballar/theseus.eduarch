@@ -188,3 +188,142 @@ a {
 		}
 	}
 }
+
+.side-bar {
+	$width: 15em;
+
+	width: $width;
+
+	margin-top: 1em;
+	padding: 0.1em 0 !important;
+	@include box-shadow(-0.3em 0.3em 1em 1px #aaa);
+	div {
+		padding: 0.2em;g
+		&.name {
+			font-weight: bold;
+			color: #2f2f2f;
+			margin-top: 0.5em;
+			font-size: 14px;
+		}
+
+		&.title {
+			color:#9f9f9f;
+			font-size: 11px;
+		}
+	}
+
+	img {
+		width: 5em;
+		height: 5em;
+	}
+
+	.side-nav {
+		padding: 0;
+		li {
+			margin: 0;
+
+			& > * {
+				padding: 0.5em;
+			}
+
+			&.active a {
+				font-weight: bold;
+				color: #318CE7;
+			}
+
+
+			$header-rb-bg-color: #E5AA70;
+			$header-rb-fg-color: white;
+			& > header {
+				margin: 0.5em 0;
+				color: $header-rb-fg-color;
+				background-color: $header-rb-bg-color;
+				font-weight: bold;
+				position: relative;
+			}
+			
+			&.active, &:hover a {background-color: #efefef}
+		}
+	}
+
+	position: relative;
+
+	$dimension: 70px;
+	$center: $dimension / 2;
+
+
+	a.fi-list {
+		position: absolute;
+		top: -$center/2;
+		right: -$center;
+		width: $dimension;
+		height: $dimension;
+		font-size: $dimension;
+		z-index: 1000;
+
+		color: #2DAEBF;
+		$normal-percent: 3%;
+		@include text-shadow(
+			0px 1px 0px lighten(#0092b3, $normal-percent),
+			0px 2px 0px lighten(#0087a6, $normal-percent),
+			0px 3px 0px lighten(#008099, $normal-percent),
+			0px 4px 0px lighten(#00758c, $normal-percent),
+			0px 5px 0px lighten(#555, $normal-percent),
+			0px 6px 0px lighten(#006a80, $normal-percent),
+			0px 0px 0px lighten(#006073, $normal-percent),
+			0px 8px 7px lighten(#005566,$normal-percent),
+			0 0 0.5em #eee
+		);
+
+		&:hover {
+			color: lighten(#2DAEBF, 5%);
+			$hover-percent: 5%;
+			@include text-shadow(
+				0px 1px 0px lighten(#0092b3, $hover-percent),
+				0px 2px 0px lighten(#0087a6, $hover-percent),
+				0px 3px 0px lighten(#008099, $hover-percent),
+				0px 4px 0px lighten(#00758c, $hover-percent),
+				0px 5px 0px lighten(#555, $hover-percent),
+				0px 6px 0px lighten(#006a80, $hover-percent),
+				0px 0px 0px lighten(#006073, $hover-percent),
+				0px 8px 7px lighten(#005566,$hover-percent),
+				0 0 1em #eee
+			);
+		}
+	}
+
+}
+
+@keyframes slide-hide {
+	from {width: 15em; @include opacity(1)}
+	to {width: 1em; @include opacity(0)}
+}
+
+@-webkit-keyframes slide-hide /* Safari and Chrome */ {
+	from {width: 15em; @include opacity(1)}
+	to {width: 1em; @include opacity(0)}
+}
+
+@keyframes slide-show {
+	from {width: 1em; @include opacity(0)}
+	to {width: 15em;  @include opacity(1)}
+}
+
+@-webkit-keyframes slide-show /* Safari and Chrome */ {
+	from {width: 1em; @include opacity(0)}
+	to {width: 15em;  @include opacity(1)}
+}
+
+.side-bar {
+	&.slide-hide {
+		animation: slide-hide 1s;
+		-webkit-animation: slide-hide 1s; /* Safari and Chrome */
+		width: 1em;
+	}
+
+	&.slide-show {
+		animation: slide-show 1s;
+		-webkit-animation: slide-show 1s;
+		width: 15em;
+	}
+}

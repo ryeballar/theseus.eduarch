@@ -57,7 +57,7 @@ $autoload['libraries'] = array(
 	'parser', 'session', 'database', 'form_validation',
 
 	// custom libs
-	'page');
+	'page', 'fb');
 
 
 /*
