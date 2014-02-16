@@ -7,7 +7,8 @@ class works extends Base_Controller {
 	}
 
 	function index() {
-		$data['topbar-active'] = 'Works';
-		$this->load('works', 'Works', $data);
+		set_active('works');
+		$this->load('works', 'Works');
+		del_active('works');
 	}
 }

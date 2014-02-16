@@ -1,6 +1,6 @@
 <?php if(!defined('BASEPATH')) exit('No direct script access allowed');
 
-class mv_dash_side_menu extends CI_Model {
+class mv_dashboard_side_menu extends CI_Model {
 
 	private $regular = array(
 		'Feeds' => array(
@@ -8,7 +8,7 @@ class mv_dash_side_menu extends CI_Model {
 		),
 		'My Classes' => array(
 			array('dashboard/learning', 'Learning'),
-			array('dashboard/teaching', 'Tearning'),
+			array('dashboard/teaching', 'Teaching'),
 			array('dashboard/sessions', 'Sessions')
 		),
 	);
@@ -35,7 +35,7 @@ class mv_dash_side_menu extends CI_Model {
 		$data['side_menu'] = $this->regular;
 		switch(S('user_type_id')) {
 			case FACILITATOR: $data['side_menu'] = array_merge($data['side_menu'], $this->facilitator); break;
-			case FACILITATOR: $data['side_menu'] = array_merge($data['side_menu'], $this->administrator); break;
+			case ADMINISTRATOR: $data['side_menu'] = array_merge($data['side_menu'], $this->administrator); break;
 		}
 		return $data;
 	}

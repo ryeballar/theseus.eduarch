@@ -1,9 +1,16 @@
 (function() {
 
+var form = $('[data-validate]');
 var arr_error = ['<small class="error">', null, '</small>'];
 
-$('[data-validate]').submit(function(e) {
+var erase = function(e) {$(e.srcElement).parent().find('.error').remove();};
+
+form.change(erase);
+form.keydown(erase);
+
+form.submit(function(e) {
 	var form = $(this);
+
 	$.ajax({
 		dataType: 'json',
 		type: form.attr('method'),

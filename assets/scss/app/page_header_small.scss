@@ -1,0 +1,25 @@
+@import "foundation/components/global-settings";
+@import "foundation/components/offcanvas-settings";
+@import "compass/css3";
+@import "mixins/shapes";
+
+ul.off-canvas-list {
+	.th:hover {
+		@include box-shadow(#fff 0 0 1em 1px);
+	}
+
+	li {
+		&.has-dropdown {
+
+			& > a { background-color: darken($primary-color, 3%)};
+			&:hover {
+				
+			}
+
+			& > ul {
+				list-style-type: none;
+				margin: 0;
+			}
+		}
+	}
+}

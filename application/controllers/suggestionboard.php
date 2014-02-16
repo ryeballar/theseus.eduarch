@@ -7,6 +7,8 @@ class SuggestionBoard extends Base_Controller{
 	}
 
 	function index() {
+		set_active('suggestionboard');
 		$this->load('suggestionboard', 'Suggestion Board');
+		del_active('suggestionboard');
 	}
 }

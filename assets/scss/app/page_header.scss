@@ -1,0 +1,13 @@
+@import "foundation/components/global-settings";
+@import "compass/css3";
+
+.top-bar {
+
+	li.has-dropdown {
+		ul {
+			a {
+				width: 13.55em;
+			}
+		}
+	}
+}

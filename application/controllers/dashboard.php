@@ -10,6 +10,7 @@ class Dashboard extends Base_Controller {
 		set_active('dashboard');
 		set_active('dashboard-profile');
 		$this->load('dashboard', 'Dashboard');
+		del_active('dashboard', 'dashboard-profile');
 	}
 
 }

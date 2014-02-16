@@ -1,0 +1,33 @@
+//
+// @variables
+//
+$include-html-joyride-classes: $include-html-classes !default;
+
+// Controlling default Joyride styles
+$joyride-tip-bg: #333 !default;
+$joyride-tip-default-width: 300px !default;
+$joyride-tip-padding: rem-calc(18 20 24) !default;
+$joyride-tip-border: solid 1px #555 !default;
+$joyride-tip-radius: 4px !default;
+$joyride-tip-position-offset: 22px !default;
+
+// Here, we're setting the tip font styles
+$joyride-tip-font-color: #fff !default;
+$joyride-tip-font-size: rem-calc(14) !default;
+$joyride-tip-header-weight: bold !default;
+
+// This changes the nub size
+$joyride-tip-nub-size: 10px !default;
+
+// This adjusts the styles for the timer when its enabled
+$joyride-tip-timer-width: 50px !default;
+$joyride-tip-timer-height: 3px !default;
+$joyride-tip-timer-color: #666 !default;
+
+// This changes up the styles for the close button
+$joyride-tip-close-color: #777 !default;
+$joyride-tip-close-size: 24px !default;
+$joyride-tip-close-weight: normal !default;
+
+// When Joyride is filling the screen, we use this style for the bg
+$joyride-screenfill: rgba(0,0,0,0.5) !default;

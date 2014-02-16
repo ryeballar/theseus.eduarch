@@ -1,69 +1,38 @@
-@import "foundation/components/global";
+@import "foundation/components/global-settings";
+@import "foundation/components/top-bar-settings";
+@import "foundation/components/offcanvas-settings";
 @import "compass/css3";
 
-$top-bg: $primary-color;
-$top-min-height: 10em;
-
-$header-opacity: 0.90;
-$header-title-shadow: 0 0 1.5em #fff;
-
-$content-radius: 0.1em;
-$content-shadow: 0 0 1px 1px #efefef;
-$content-bg: white;
-$content-top: -7.5em;
-$content-min-height: 500px;
-
-body {
-	& > section.top-bg {
-		@media #{$medium-up} {
-			min-height: $top-min-height;
-		}
-		
-		width: 100%;
-		z-index: 1 !important;
-		background-color: $top-bg;
-	}
-
-	& > header {
-		opacity: $header-opacity;
-		.top-bar {
-			.title-area .name a {
-				@include text-shadow($header-title-shadow);
-			}
-
-		}
-	}
+.body {
+	overflow: hidden !important;
 
 	& > section.container {
-		background-color: $content-bg;
-		@include border-radius($content-radius);
-		@include box-shadow($content-shadow);
-		@media #{$medium-up} {
-			top: $content-top;
-			position: relative;
-		}
-		min-height: $content-min-height;
-		
-
-		& > * {
-			padding: 0;
-		}
-
+		min-height: 600px;
 	}
 
 	& > footer {
+		margin-top: 1em;
 		text-align: center;
 		font-size: 12px;
-		color: white;
-		background-color: $primary-color;
-		padding-top: 5em;
-		padding-bottom: 2.5em;
-		position: relative;
-		top: -12.5em;
-		z-index: -1;
-		& > a {
-			color: white;
-		}
+		padding: 3em 0;
+		border-top: 1px solid #efefef;
 	}
 }
 
+a.back-to-top {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	padding: 0.5em;
+	background-color: #66FF00;
+	color: white;
+	font-size: 12px;
+	z-index: 120;
+	margin-left: 10em;
+	@include border-top-left-radius(0.5em);
+	@include opacity(0);
+	@include box-shadow(#000 0 0 1em 1px);
+	&:hover {
+		color: white;
+	}
+}

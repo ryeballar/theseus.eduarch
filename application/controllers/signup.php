@@ -11,6 +11,7 @@ class signup extends Base_Controller {
 	function index() {
 		if($this->form_validation->run('signup')) {
 			$user = P('user');
+			$user['image'] = 'assets/img/unknown-person/png';
 			$user['created_on'] = date('Y-m-d');
 			$user['updated_on'] = $user['created_on'];
 			$user['user_type_id'] = REGULAR;
@@ -22,8 +23,9 @@ class signup extends Base_Controller {
 		} elseif($this->form_validation->fail_with_ajax())
 			return;
 
-		set_active('SignUp');
+		set_active('signup');
 		$this->load('signup', 'Sign Up');
+		del_active('signup');
 	}
 
 	function _signup_check_email($email) {

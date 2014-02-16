@@ -23,8 +23,9 @@ class login extends Base_Controller {
 		} 
 		
 		$data['fb_login_url'] = $this->fb->getLoginUrl();
-		set_active('Login');
+		set_active('login');
 		$this->load('login', 'Login', $data);
+		del_active('login');
 	}
 
 	function _login_check_email($email) {

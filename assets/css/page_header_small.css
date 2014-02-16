@@ -1,0 +1,12 @@
+/* line 7, ../scss/app/page_header_small.scss */
+ul.off-canvas-list .th:hover {
+  -webkit-box-shadow: white 0 0 1em 1px;
+  -moz-box-shadow: white 0 0 1em 1px;
+  box-shadow: white 0 0 1em 1px; }
+/* line 14, ../scss/app/page_header_small.scss */
+ul.off-canvas-list li.has-dropdown > a {
+  background-color: #3862cc; }
+/* line 19, ../scss/app/page_header_small.scss */
+ul.off-canvas-list li.has-dropdown > ul {
+  list-style-type: none;
+  margin: 0; }

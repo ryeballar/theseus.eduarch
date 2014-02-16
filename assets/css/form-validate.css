@@ -1,0 +1,15 @@
+/* line 3, ../scss/app/form-validate.scss */
+form[data-validate] * {
+  font-size: 11px !important; }
+/* line 7, ../scss/app/form-validate.scss */
+form[data-validate] .field {
+  padding-bottom: 1.32em; }
+/* line 10, ../scss/app/form-validate.scss */
+form[data-validate] .field [name] {
+  margin: 0; }
+/* line 14, ../scss/app/form-validate.scss */
+form[data-validate] .field [type] {
+  height: 30px; }
+/* line 18, ../scss/app/form-validate.scss */
+form[data-validate] .field small.error {
+  margin: 0; }

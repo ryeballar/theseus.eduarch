@@ -1,17 +1,20 @@
 <section class="traverse-links">
-    <a data-orbit-link="headline-1" class="current">Learn</a>
-    <a data-orbit-link="headline-2">Share</a>
-    <a data-orbit-link="headline-3">Teach</a>
+    <a data-orbit-link="1" class="current">Learn</a>
+    <a data-orbit-link="2">Share</a>
+    <a data-orbit-link="0">Teach</a>
 </section>
 
-<ul data-orbit data-options=
+<ul data-orbit class="no-bullet"
+    data-options=
     "resume_on_mouseout:true;
     navigation_arrows:false;
     slide_number:false;
     bullets:false;
-    next_on_click: false;" class="no-bullet">
+    next_on_click:true;
+    animation_speed:100
+    ">
 
-    <li data-orbit-slide="headline-1">
+    <li data-orbit-slide="1">
         <section class="row maxed-width">
             <article class="small-12 large-4 medium-5 column">
                 <strong><h2>Learn Real-World Skills</h2></strong>
@@ -28,7 +31,7 @@
         </section>
     </li>
 
-    <li data-orbit-slide="headline-2">
+    <li data-orbit-slide="2">
         <section class="row maxed-width">
             <article class="small-12 large-4 medium-5 column">
                 <h2>Suggestions Make Things Better</h2>
@@ -44,7 +47,7 @@
         </section>
     </li>
 
-    <li data-orbit-slide="headline-3">
+    <li data-orbit-slide="0">
         <section class="row maxed-width">
             <article class="small-12 large-4 medium-5 column">
                 <h2>Teaching is a Profession But..</h2>

@@ -7,7 +7,8 @@ class Classes extends Base_Controller{
 	}
 
 	function index() {
-		set_active('Classes');
+		set_active('classes');
 		$this->load('classes', 'Classes');
+		del_active('classes');
 	}
 }

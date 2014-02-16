@@ -1,5 +1,6 @@
-<header class="fixed">
-	<nav class="top-bar" data-topbar>
+<header class="show-for-medium-up fixed">
+	<nav class="top-bar" data-topbar
+		data-options="is_hover:false">
 		<ul class="title-area">
 			<li class="name<?php echo active('EduArch', ' active') ?>">
 				<h1><a class="font-xtrchr" href="">EduArch</a></h1>
@@ -11,12 +12,12 @@
 
 		<section class="top-bar-section">
 			<ul class="left">
-				<li<?php echo active('Classes', ' class="active"') ?>><a href="classes">Classes</a></li>
-				<li<?php echo active('SuggestionBoard', ' class="active"') ?>><a href="suggestionboard">Suggestion Board</a></li>
-				<li<?php echo active('Works', ' class="active"') ?>><a href="works">Works</a></li>
+				<?php echo $left_menu ?>
 			</ul>
 
-			<?php view($page_header_menu) ?>
+			<ul class="right">
+				<?php echo $right_menu ?>
+			</ul>
 		</section>
 	</nav>
 </header>

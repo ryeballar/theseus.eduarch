@@ -1,4 +1,4 @@
-@import "foundation/components/global";
+@import "foundation/components/global-settings";
 @import "compass/css3";
 @import "mixins/utils";
 
@@ -22,7 +22,7 @@
 
 	form {
 		@media #{$medium-up} {
-			padding-top: 2.6em;
+			padding-top: 2.5em;
 		}
 
 		.remember {

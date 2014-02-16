@@ -125,6 +125,10 @@ if(!defined('PAGE_LIBRARY')) {
 
 define('PAGE_LIBRARY', true);
 
+function view_exists($view) {
+	return file_exists('application/views/'.$view.'.php');
+}
+
 function view() {
 	$CI = & get_instance();
 	call_user_func_array(array($CI->page, 'add'), func_get_args());
@@ -191,10 +195,20 @@ function S_echo($key, $value) {
 function model_view() {
 	$CI = & get_instance();
 	foreach(func_get_args() as $model_view) {
-		if(!file_exists('application/models/mv_$model_view'))
+		if(!isset($CI->{"mv_$model_view"}) &&!file_exists('application/models/mv_$model_view'))
 			$CI->load->model("mv_$model_view");
 		$CI->load->vars($CI->{"mv_$model_view"}->index());
 		view($model_view);
+	}
+}
+
+function optional_model_view() {
+	$CI = & get_instance();
+	foreach(func_get_args() as $model_view) {
+		if(!isset($CI->{"mv_$model_view"}) &&!file_exists('application/models/mv_$model_view'))
+			$CI->load->model("mv_$model_view");
+		$CI->load->vars($CI->{"mv_$model_view"}->index());
+		optional_view($model_view);
 	}
 }
 
@@ -203,10 +217,17 @@ function set_active($key) {
 }
 
 function active($key, $value) {
-	if(S("active-$key")) {
+	if(S("active-$key"))
 		echo $value;
+}
+
+function del_active() {
+	foreach(func_get_args() as $key)
 		S("active-$key", false);
-	}
+}
+
+function is_active($key) {
+	return S("active-$key") != false;
 }
 
 function char_limiter($string, $limit) {

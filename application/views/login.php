@@ -1,18 +1,18 @@
 <section class="row login">
 	<section class="medium-6 column eduarch-login">
-		<h3>Start to Learn, Teach and Share</h3>
+		<h3>Learn, Teach and Share</h3>
 		<p>Experience work-based and tutorial-based classes now</p>
 		<p>No Account Yet? <a href="signup">Sign Up</a> Now</p>
 		<form action="login" method="post" accept-charset="utf-8" data-validate>
+			<label class="label">Email</label>
 			<section class="field">
-				<label class="label">Email</label>
 				<input type="email" placeholder="i.e. rick@gmail.com" name="user[email]" maxlength="50" required autofocus 
 					value="<?php echo set_value('user[email]', '') ?>" />
 				<?php echo form_error('user[email]', '<small class="error">', '</small>') ?>
 			</section>
 
+			<label class="label">Password</label>
 			<section class="field">
-				<label class="label">Password</label>
 				<input type="password" placeholder="Enter Password" name="user[password]" maxlength="32" required 
 					value="<?php echo set_value('user[password]', '') ?>" />
 				<?php echo form_error('user[password]', '<small class="error">', '</small>') ?>

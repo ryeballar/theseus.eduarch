@@ -1,126 +1,3 @@
-/* line 264, ../scss/core/scss/foundation/components/_global.scss */
-meta.foundation-version {
-  font-family: "/5.1.0/"; }
-
-/* line 269, ../scss/core/scss/foundation/components/_global.scss */
-meta.foundation-mq-small {
-  font-family: "/only screen and (max-width: 40em)/";
-  width: 0em; }
-
-/* line 274, ../scss/core/scss/foundation/components/_global.scss */
-meta.foundation-mq-medium {
-  font-family: "/only screen and (min-width:40.063em)/";
-  width: 40.063em; }
-
-/* line 279, ../scss/core/scss/foundation/components/_global.scss */
-meta.foundation-mq-large {
-  font-family: "/only screen and (min-width:64.063em)/";
-  width: 64.063em; }
-
-/* line 284, ../scss/core/scss/foundation/components/_global.scss */
-meta.foundation-mq-xlarge {
-  font-family: "/only screen and (min-width:90.063em)/";
-  width: 90.063em; }
-
-/* line 289, ../scss/core/scss/foundation/components/_global.scss */
-meta.foundation-mq-xxlarge {
-  font-family: "/only screen and (min-width:120.063em)/";
-  width: 120.063em; }
-
-/* line 294, ../scss/core/scss/foundation/components/_global.scss */
-meta.foundation-data-attribute-namespace {
-  font-family: false; }
-
-/* line 299, ../scss/core/scss/foundation/components/_global.scss */
-html, body {
-  height: 100%; }
-
-/* line 306, ../scss/core/scss/foundation/components/_global.scss */
-*, *:before, *:after {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box; }
-
-/* line 311, ../scss/core/scss/foundation/components/_global.scss */
-html, body {
-  font-size: 100%; }
-
-/* line 314, ../scss/core/scss/foundation/components/_global.scss */
-body {
-  background: white;
-  color: #222222;
-  padding: 0;
-  margin: 0;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  font-weight: normal;
-  font-style: normal;
-  line-height: 1;
-  position: relative;
-  cursor: default; }
-
-/* line 327, ../scss/core/scss/foundation/components/_global.scss */
-a:hover {
-  cursor: pointer; }
-
-/* line 332, ../scss/core/scss/foundation/components/_global.scss */
-img, object, embed {
-  max-width: 100%;
-  height: auto; }
-
-/* line 335, ../scss/core/scss/foundation/components/_global.scss */
-object, embed {
-  height: 100%; }
-
-/* line 336, ../scss/core/scss/foundation/components/_global.scss */
-img {
-  -ms-interpolation-mode: bicubic; }
-
-/* line 342, ../scss/core/scss/foundation/components/_global.scss */
-#map_canvas img, #map_canvas embed, #map_canvas object, .map_canvas img, .map_canvas embed, .map_canvas object {
-  max-width: none !important; }
-
-/* line 347, ../scss/core/scss/foundation/components/_global.scss */
-.left {
-  float: left !important; }
-
-/* line 348, ../scss/core/scss/foundation/components/_global.scss */
-.right {
-  float: right !important; }
-
-/* line 349, ../scss/core/scss/foundation/components/_global.scss */
-.clearfix {
-  *zoom: 1; }
-/* line 130, ../scss/core/scss/foundation/components/_global.scss */
-.clearfix:before, .clearfix:after {
-  content: " ";
-  display: table; }
-/* line 131, ../scss/core/scss/foundation/components/_global.scss */
-.clearfix:after {
-  clear: both; }
-
-/* line 350, ../scss/core/scss/foundation/components/_global.scss */
-.hide {
-  display: none; }
-
-/* line 356, ../scss/core/scss/foundation/components/_global.scss */
-.antialiased {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
-
-/* line 359, ../scss/core/scss/foundation/components/_global.scss */
-img {
-  display: inline-block;
-  vertical-align: middle; }
-
-/* line 369, ../scss/core/scss/foundation/components/_global.scss */
-textarea {
-  height: auto;
-  min-height: 50px; }
-
-/* line 372, ../scss/core/scss/foundation/components/_global.scss */
-select {
-  width: 100%; }
-
 /* line 6, ../scss/app/landing.scss */
 [data-orbit] [data-orbit-slide] {
   padding: 1em; }
@@ -162,28 +39,32 @@ select {
     width: 30%; } }
 /* line 53, ../scss/app/landing.scss */
 .traverse-links a.current {
-  border-bottom: 5px solid #666699;
-  color: #666699; }
+  border-bottom: 5px solid #446ccf;
+  color: #446ccf; }
 
 /* line 60, ../scss/app/landing.scss */
 .marketing {
   position: absolute;
-  right: 2em;
-  top: -2em; }
-@media only screen and (max-width: 40em) {
+  right: 1em;
+  top: 3.5em;
+  z-index: 80; }
+@media only screen and (max-width: 700px) {
   /* line 60, ../scss/app/landing.scss */
   .marketing {
     position: relative;
     top: 0;
-    left: 0; } }
-@media only screen and (min-width: 40.063em) {
-  /* line 60, ../scss/app/landing.scss */
-  .marketing {
+    left: 0; }
+  /* line 70, ../scss/app/landing.scss */
+  .marketing > section {
+    width: 100% !important; } }
+@media only screen and (min-width: 701px) {
+  /* line 76, ../scss/app/landing.scss */
+  .marketing > section {
     width: 21em; } }
-/* line 75, ../scss/app/landing.scss */
+/* line 81, ../scss/app/landing.scss */
 .marketing .button {
   background-color: #008CBA; }
-/* line 79, ../scss/app/landing.scss */
+/* line 85, ../scss/app/landing.scss */
 .marketing > .content {
   min-height: 25em;
   background-color: white;
@@ -197,81 +78,77 @@ select {
   border-radius: 0.2em;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
   opacity: 0.9; }
-@media only screen and (min-width: 40.063em) {
-  /* line 79, ../scss/app/landing.scss */
-  .marketing > .content {
-    width: 21em; } }
-/* line 90, ../scss/app/landing.scss */
+/* line 93, ../scss/app/landing.scss */
 .marketing > .content ul li {
   padding: 0 0.5em 0.5em 0.5em; }
-/* line 93, ../scss/app/landing.scss */
+/* line 96, ../scss/app/landing.scss */
 .marketing > .content ul li article {
   color: #5f5f5f; }
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
-  /* line 93, ../scss/app/landing.scss */
+  /* line 96, ../scss/app/landing.scss */
   .marketing > .content ul li article {
     font-weight: bold;
     color: #9a9a9a; } }
-/* line 102, ../scss/app/landing.scss */
+/* line 105, ../scss/app/landing.scss */
 .marketing > .content ul li span {
   font-size: 1.5em;
   color: #2DAEBF;
   position: relative;
   top: -0.3em;
   text-shadow: 0px 1px 0px #0092b3, 0px 2px 0px #0087a6, 0px 3px 0px #008099, 0px 4px 0px #00758c, 0px 5px 0px #555555, 0px 6px 0px #006a80, 0px 0px 0px #006073, 0px 8px 7px #005566; }
-/* line 120, ../scss/app/landing.scss */
+/* line 123, ../scss/app/landing.scss */
 .marketing > .content ul li:hover span {
   color: #42c2d3;
   text-shadow: 0px 1px 0px #00718a, 0px 2px 0px #00667d, 0px 3px 0px #005e70, 0px 4px 0px #005363, 0px 5px 0px #414141, 0px 6px 0px #004857, 0px 0px 0px #003e4a, 0px 8px 7px #00333d; }
 
-/* line 137, ../scss/app/landing.scss */
+/* line 140, ../scss/app/landing.scss */
 .new-eduarch {
   position: relative;
   margin-top: 3.5em; }
-/* line 141, ../scss/app/landing.scss */
+/* line 144, ../scss/app/landing.scss */
 .new-eduarch > * {
   padding: 1em 0; }
-/* line 145, ../scss/app/landing.scss */
+/* line 148, ../scss/app/landing.scss */
 .new-eduarch > section {
   font-size: 1em;
   font-weight: bold;
-  background-color: #666699;
+  background-color: #446ccf;
   text-align: center;
   color: white; }
-/* line 152, ../scss/app/landing.scss */
+/* line 155, ../scss/app/landing.scss */
 .new-eduarch > section:after {
   content: "";
   position: absolute;
   right: -2em;
   top: 0;
-  z-index: 1000;
+  z-index: 100;
   width: 0;
   height: 0;
   border-top: 1.5em solid transparent;
   border-bottom: 1.5em solid transparent;
-  border-left: 2em solid #666699; }
-/* line 161, ../scss/app/landing.scss */
+  border-left: 2em solid #446ccf; }
+/* line 164, ../scss/app/landing.scss */
 .new-eduarch > article {
   background-color: #e7e7e7;
   padding-left: 2.5em; }
 
-/* line 167, ../scss/app/landing.scss */
+/* line 170, ../scss/app/landing.scss */
 .about {
   padding: 1em !important; }
-/* line 169, ../scss/app/landing.scss */
+/* line 172, ../scss/app/landing.scss */
 .about > header {
   margin-top: 1em;
   font-size: 1.5em; }
-/* line 174, ../scss/app/landing.scss */
+/* line 177, ../scss/app/landing.scss */
 .about p {
   margin-top: 0.5em;
   text-indent: 1em;
   text-align: justify; }
 
-/* line 181, ../scss/app/landing.scss */
+/* line 184, ../scss/app/landing.scss */
 .count {
   background-color: #efefef; }
-/* line 183, ../scss/app/landing.scss */
+/* line 186, ../scss/app/landing.scss */
 .count p {
   -webkit-border-radius: 0.2em;
   -moz-border-radius: 0.2em;
@@ -279,37 +156,37 @@ select {
   -o-border-radius: 0.2em;
   border-radius: 0.2em;
   padding: 1em;
-  background-color: #666699;
+  background-color: #446ccf;
   font-weight: bold;
   color: white; }
-/* line 191, ../scss/app/landing.scss */
+/* line 194, ../scss/app/landing.scss */
 .count span {
   font-weight: normal;
   font-size: 2em;
   color: #efefef; }
 
-/* line 198, ../scss/app/landing.scss */
+/* line 201, ../scss/app/landing.scss */
 .featured-classes {
   margin-top: 3em; }
-/* line 200, ../scss/app/landing.scss */
+/* line 203, ../scss/app/landing.scss */
 .featured-classes > h2 {
   text-align: center; }
-/* line 204, ../scss/app/landing.scss */
+/* line 207, ../scss/app/landing.scss */
 .featured-classes > p {
   color: #6a6a6a; }
 @media only screen and (max-width: 40em) {
-  /* line 210, ../scss/app/landing.scss */
+  /* line 213, ../scss/app/landing.scss */
   .featured-classes .featured-for-small .item {
     width: 280px; } }
 
-/* line 217, ../scss/app/landing.scss */
+/* line 220, ../scss/app/landing.scss */
 .featured-button {
   background-color: #eee;
   padding: 1em 0; }
-/* line 221, ../scss/app/landing.scss */
+/* line 224, ../scss/app/landing.scss */
 .featured-button > a {
   margin: 0;
   background-color: #49ACF2; }
-/* line 225, ../scss/app/landing.scss */
+/* line 228, ../scss/app/landing.scss */
 .featured-button > a:hover {
   background-color: #1996ef; }

@@ -1,127 +1,4 @@
-/* line 264, ../../scss/core/scss/foundation/components/_global.scss */
-meta.foundation-version {
-  font-family: "/5.1.0/"; }
-
-/* line 269, ../../scss/core/scss/foundation/components/_global.scss */
-meta.foundation-mq-small {
-  font-family: "/only screen and (max-width: 40em)/";
-  width: 0em; }
-
-/* line 274, ../../scss/core/scss/foundation/components/_global.scss */
-meta.foundation-mq-medium {
-  font-family: "/only screen and (min-width:40.063em)/";
-  width: 40.063em; }
-
-/* line 279, ../../scss/core/scss/foundation/components/_global.scss */
-meta.foundation-mq-large {
-  font-family: "/only screen and (min-width:64.063em)/";
-  width: 64.063em; }
-
-/* line 284, ../../scss/core/scss/foundation/components/_global.scss */
-meta.foundation-mq-xlarge {
-  font-family: "/only screen and (min-width:90.063em)/";
-  width: 90.063em; }
-
-/* line 289, ../../scss/core/scss/foundation/components/_global.scss */
-meta.foundation-mq-xxlarge {
-  font-family: "/only screen and (min-width:120.063em)/";
-  width: 120.063em; }
-
-/* line 294, ../../scss/core/scss/foundation/components/_global.scss */
-meta.foundation-data-attribute-namespace {
-  font-family: false; }
-
-/* line 299, ../../scss/core/scss/foundation/components/_global.scss */
-html, body {
-  height: 100%; }
-
-/* line 306, ../../scss/core/scss/foundation/components/_global.scss */
-*, *:before, *:after {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box; }
-
-/* line 311, ../../scss/core/scss/foundation/components/_global.scss */
-html, body {
-  font-size: 100%; }
-
-/* line 314, ../../scss/core/scss/foundation/components/_global.scss */
-body {
-  background: white;
-  color: #222222;
-  padding: 0;
-  margin: 0;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  font-weight: normal;
-  font-style: normal;
-  line-height: 1;
-  position: relative;
-  cursor: default; }
-
-/* line 327, ../../scss/core/scss/foundation/components/_global.scss */
-a:hover {
-  cursor: pointer; }
-
-/* line 332, ../../scss/core/scss/foundation/components/_global.scss */
-img, object, embed {
-  max-width: 100%;
-  height: auto; }
-
-/* line 335, ../../scss/core/scss/foundation/components/_global.scss */
-object, embed {
-  height: 100%; }
-
-/* line 336, ../../scss/core/scss/foundation/components/_global.scss */
-img {
-  -ms-interpolation-mode: bicubic; }
-
-/* line 342, ../../scss/core/scss/foundation/components/_global.scss */
-#map_canvas img, #map_canvas embed, #map_canvas object, .map_canvas img, .map_canvas embed, .map_canvas object {
-  max-width: none !important; }
-
-/* line 347, ../../scss/core/scss/foundation/components/_global.scss */
-.left {
-  float: left !important; }
-
-/* line 348, ../../scss/core/scss/foundation/components/_global.scss */
-.right {
-  float: right !important; }
-
-/* line 349, ../../scss/core/scss/foundation/components/_global.scss */
-.clearfix {
-  *zoom: 1; }
-/* line 130, ../../scss/core/scss/foundation/components/_global.scss */
-.clearfix:before, .clearfix:after {
-  content: " ";
-  display: table; }
-/* line 131, ../../scss/core/scss/foundation/components/_global.scss */
-.clearfix:after {
-  clear: both; }
-
-/* line 350, ../../scss/core/scss/foundation/components/_global.scss */
-.hide {
-  display: none; }
-
-/* line 356, ../../scss/core/scss/foundation/components/_global.scss */
-.antialiased {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
-
-/* line 359, ../../scss/core/scss/foundation/components/_global.scss */
-img {
-  display: inline-block;
-  vertical-align: middle; }
-
-/* line 369, ../../scss/core/scss/foundation/components/_global.scss */
-textarea {
-  height: auto;
-  min-height: 50px; }
-
-/* line 372, ../../scss/core/scss/foundation/components/_global.scss */
-select {
-  width: 100%; }
-
-/* line 289, ../../scss/core/scss/foundation/components/_switch.scss */
+/* line 6, ../../scss/core/scss/foundation/components/_switch.scss */
 div.switch {
   position: relative;
   padding: 0;
@@ -133,7 +10,7 @@ div.switch {
   height: 2.25rem;
   background: white;
   border-color: #cccccc; }
-/* line 73, ../../scss/core/scss/foundation/components/_switch.scss */
+/* line 71, ../../scss/core/scss/foundation/components/_switch-settings.scss */
 div.switch label {
   position: relative;
   left: 0;
@@ -147,7 +24,7 @@ div.switch label {
   -webkit-transition: all 0.1s ease-out;
   -moz-transition: all 0.1s ease-out;
   transition: all 0.1s ease-out; }
-/* line 90, ../../scss/core/scss/foundation/components/_switch.scss */
+/* line 88, ../../scss/core/scss/foundation/components/_switch-settings.scss */
 div.switch input {
   position: absolute;
   z-index: 3;
@@ -155,10 +32,10 @@ div.switch input {
   width: 100%;
   height: 100%;
   -moz-appearance: none; }
-/* line 100, ../../scss/core/scss/foundation/components/_switch.scss */
+/* line 98, ../../scss/core/scss/foundation/components/_switch-settings.scss */
 div.switch input:hover, div.switch input:focus {
   cursor: pointer; }
-/* line 106, ../../scss/core/scss/foundation/components/_switch.scss */
+/* line 104, ../../scss/core/scss/foundation/components/_switch-settings.scss */
 div.switch span:last-child {
   position: absolute;
   top: -1px;
@@ -171,53 +48,53 @@ div.switch span:last-child {
   -webkit-transition: all 0.1s ease-out;
   -moz-transition: all 0.1s ease-out;
   transition: all 0.1s ease-out; }
-/* line 121, ../../scss/core/scss/foundation/components/_switch.scss */
+/* line 119, ../../scss/core/scss/foundation/components/_switch-settings.scss */
 div.switch input:not(:checked) + label {
   opacity: 0; }
-/* line 124, ../../scss/core/scss/foundation/components/_switch.scss */
+/* line 122, ../../scss/core/scss/foundation/components/_switch-settings.scss */
 div.switch input:checked {
   display: none !important; }
-/* line 125, ../../scss/core/scss/foundation/components/_switch.scss */
+/* line 123, ../../scss/core/scss/foundation/components/_switch-settings.scss */
 div.switch input {
   left: 0;
   display: block !important; }
-/* line 129, ../../scss/core/scss/foundation/components/_switch.scss */
+/* line 127, ../../scss/core/scss/foundation/components/_switch-settings.scss */
 div.switch input:first-of-type + label, div.switch input:first-of-type + span + label {
   left: -50%; }
-/* line 131, ../../scss/core/scss/foundation/components/_switch.scss */
+/* line 129, ../../scss/core/scss/foundation/components/_switch-settings.scss */
 div.switch input:first-of-type:checked + label, div.switch input:first-of-type:checked + span + label {
   left: 0%; }
-/* line 135, ../../scss/core/scss/foundation/components/_switch.scss */
+/* line 133, ../../scss/core/scss/foundation/components/_switch-settings.scss */
 div.switch input:last-of-type + label, div.switch input:last-of-type + span + label {
   right: -50%;
   left: auto;
   text-align: right; }
-/* line 137, ../../scss/core/scss/foundation/components/_switch.scss */
+/* line 135, ../../scss/core/scss/foundation/components/_switch-settings.scss */
 div.switch input:last-of-type:checked + label, div.switch input:last-of-type:checked + span + label {
   right: 0%;
   left: auto; }
-/* line 140, ../../scss/core/scss/foundation/components/_switch.scss */
+/* line 138, ../../scss/core/scss/foundation/components/_switch-settings.scss */
 div.switch span.custom {
   display: none !important; }
-/* line 152, ../../scss/core/scss/foundation/components/_switch.scss */
+/* line 150, ../../scss/core/scss/foundation/components/_switch-settings.scss */
 form.custom div.switch .hidden-field {
   margin-left: auto;
   position: absolute;
   visibility: visible; }
-/* line 171, ../../scss/core/scss/foundation/components/_switch.scss */
+/* line 169, ../../scss/core/scss/foundation/components/_switch-settings.scss */
 div.switch label {
   padding: 0;
   line-height: 2.3rem;
   font-size: 0.875rem; }
-/* line 179, ../../scss/core/scss/foundation/components/_switch.scss */
+/* line 177, ../../scss/core/scss/foundation/components/_switch-settings.scss */
 div.switch input:first-of-type:checked ~ span:last-child {
   left: 100%;
   margin-left: -2.1875rem; }
-/* line 185, ../../scss/core/scss/foundation/components/_switch.scss */
+/* line 183, ../../scss/core/scss/foundation/components/_switch-settings.scss */
 div.switch span:last-child {
   width: 2.25rem;
   height: 2.25rem; }
-/* line 210, ../../scss/core/scss/foundation/components/_switch.scss */
+/* line 208, ../../scss/core/scss/foundation/components/_switch-settings.scss */
 div.switch span:last-child {
   border-color: #b3b3b3;
   background: white;
@@ -226,88 +103,88 @@ div.switch span:last-child {
   background: linear-gradient(to bottom, #ffffff 0%, #f2f2f2 100%);
   -webkit-box-shadow: 2px 0 10px 0 rgba(0, 0, 0, 0.07), 1000px 0 0 1000px #f3faf6, -2px 0 10px 0 rgba(0, 0, 0, 0.07), -1000px 0 0 1000px whitesmoke;
   box-shadow: 2px 0 10px 0 rgba(0, 0, 0, 0.07), 1000px 0 0 980px #f3faf6, -2px 0 10px 0 rgba(0, 0, 0, 0.07), -1000px 0 0 1000px whitesmoke; }
-/* line 234, ../../scss/core/scss/foundation/components/_switch.scss */
+/* line 232, ../../scss/core/scss/foundation/components/_switch-settings.scss */
 div.switch:hover span:last-child, div.switch:focus span:last-child {
   background: white;
   background: -moz-linear-gradient(top, white 0%, #e6e6e6 100%);
   background: -webkit-linear-gradient(top, white 0%, #e6e6e6 100%);
   background: linear-gradient(to bottom, #ffffff 0%, #e6e6e6 100%); }
-/* line 244, ../../scss/core/scss/foundation/components/_switch.scss */
+/* line 242, ../../scss/core/scss/foundation/components/_switch-settings.scss */
 div.switch:active {
   background: transparent; }
-/* line 293, ../../scss/core/scss/foundation/components/_switch.scss */
+/* line 10, ../../scss/core/scss/foundation/components/_switch.scss */
 div.switch.large {
   height: 2.75rem; }
-/* line 171, ../../scss/core/scss/foundation/components/_switch.scss */
+/* line 169, ../../scss/core/scss/foundation/components/_switch-settings.scss */
 div.switch.large label {
   padding: 0;
   line-height: 2.3rem;
   font-size: 1.0625rem; }
-/* line 179, ../../scss/core/scss/foundation/components/_switch.scss */
+/* line 177, ../../scss/core/scss/foundation/components/_switch-settings.scss */
 div.switch.large input:first-of-type:checked ~ span:last-child {
   left: 100%;
   margin-left: -2.6875rem; }
-/* line 185, ../../scss/core/scss/foundation/components/_switch.scss */
+/* line 183, ../../scss/core/scss/foundation/components/_switch-settings.scss */
 div.switch.large span:last-child {
   width: 2.75rem;
   height: 2.75rem; }
-/* line 296, ../../scss/core/scss/foundation/components/_switch.scss */
+/* line 13, ../../scss/core/scss/foundation/components/_switch.scss */
 div.switch.small {
   height: 1.75rem; }
-/* line 171, ../../scss/core/scss/foundation/components/_switch.scss */
+/* line 169, ../../scss/core/scss/foundation/components/_switch-settings.scss */
 div.switch.small label {
   padding: 0;
   line-height: 2.1rem;
   font-size: 0.75rem; }
-/* line 179, ../../scss/core/scss/foundation/components/_switch.scss */
+/* line 177, ../../scss/core/scss/foundation/components/_switch-settings.scss */
 div.switch.small input:first-of-type:checked ~ span:last-child {
   left: 100%;
   margin-left: -1.6875rem; }
-/* line 185, ../../scss/core/scss/foundation/components/_switch.scss */
+/* line 183, ../../scss/core/scss/foundation/components/_switch-settings.scss */
 div.switch.small span:last-child {
   width: 1.75rem;
   height: 1.75rem; }
-/* line 299, ../../scss/core/scss/foundation/components/_switch.scss */
+/* line 16, ../../scss/core/scss/foundation/components/_switch.scss */
 div.switch.tiny {
   height: 1.375rem; }
-/* line 171, ../../scss/core/scss/foundation/components/_switch.scss */
+/* line 169, ../../scss/core/scss/foundation/components/_switch-settings.scss */
 div.switch.tiny label {
   padding: 0;
   line-height: 1.9rem;
   font-size: 0.6875rem; }
-/* line 179, ../../scss/core/scss/foundation/components/_switch.scss */
+/* line 177, ../../scss/core/scss/foundation/components/_switch-settings.scss */
 div.switch.tiny input:first-of-type:checked ~ span:last-child {
   left: 100%;
   margin-left: -1.3125rem; }
-/* line 185, ../../scss/core/scss/foundation/components/_switch.scss */
+/* line 183, ../../scss/core/scss/foundation/components/_switch-settings.scss */
 div.switch.tiny span:last-child {
   width: 1.375rem;
   height: 1.375rem; }
-/* line 302, ../../scss/core/scss/foundation/components/_switch.scss */
+/* line 19, ../../scss/core/scss/foundation/components/_switch.scss */
 div.switch.radius {
   -webkit-border-radius: 4px;
   border-radius: 4px; }
-/* line 303, ../../scss/core/scss/foundation/components/_switch.scss */
+/* line 20, ../../scss/core/scss/foundation/components/_switch.scss */
 div.switch.radius span:last-child {
   -webkit-border-radius: 3px;
   border-radius: 3px; }
-/* line 307, ../../scss/core/scss/foundation/components/_switch.scss */
+/* line 24, ../../scss/core/scss/foundation/components/_switch.scss */
 div.switch.round {
   -webkit-border-radius: 1000px;
   border-radius: 1000px; }
-/* line 308, ../../scss/core/scss/foundation/components/_switch.scss */
+/* line 25, ../../scss/core/scss/foundation/components/_switch.scss */
 div.switch.round span:last-child {
   -webkit-border-radius: 999px;
   border-radius: 999px; }
-/* line 309, ../../scss/core/scss/foundation/components/_switch.scss */
+/* line 26, ../../scss/core/scss/foundation/components/_switch.scss */
 div.switch.round label {
   padding: 0 0.5625rem; }
 
 @-webkit-keyframes webkitSiblingBugfix {
-  /* line 314, ../../scss/core/scss/foundation/components/_switch.scss */
+  /* line 31, ../../scss/core/scss/foundation/components/_switch.scss */
   from {
     position: relative; }
 
-  /* line 314, ../../scss/core/scss/foundation/components/_switch.scss */
+  /* line 31, ../../scss/core/scss/foundation/components/_switch.scss */
   to {
     position: relative; } }

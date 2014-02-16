@@ -8,20 +8,29 @@
 })(jQuery);
 
 (function() {
+	var win = $(window);
+	var link = $('.back-to-top');
+	var html_body = $('html,body');
+	var side = $('.side-bar .side-nav');
 
-$('.side-bar .fi-list').click(function() {
-	var sidebar = $('.side-bar');
-	var has_slide_show = sidebar.hasClass('slide-show');
-	var has_slide_hide = sidebar.hasClass('slide-hide');
+	link.click(function() {
+		html_body.animate({scrollTop: 0}, 50);
+	});
 
-	if(!has_slide_show && !has_slide_hide || has_slide_show) {
-		sidebar.removeClass('slide-show');
-		sidebar.addClass('slide-hide');
-	} else {
-		sidebar.removeClass('slide-hide');
-		sidebar.addClass('slide-show');
-	}
-});
+	var back_to_top = function(e) {
+		var top = win.scrollTop();
+		if(top == 0) {
+			link.animate({opacity: 0}, 200);
+		} else if(link.css('opacity') == 0) {
+			link.animate({opacity: 0.90}, 200);
+		} else {
+			e.preventDefault();
+			e.stopPropagation();
+			return false;
+		}
+	};
 
+	win.scroll(function(e) {
+		back_to_top(e);
+	});
 })();
-

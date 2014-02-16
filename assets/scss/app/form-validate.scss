@@ -1,0 +1,22 @@
+form[data-validate] {
+
+	* {
+		font-size: 11px !important;
+	}
+
+	.field {
+		padding-bottom: 1.32em;
+
+		[name] {
+			margin: 0;
+		}
+
+		[type] {
+			height: 30px;
+		}
+
+		small.error {
+			margin: 0;
+		}
+	}	
+}

@@ -1,41 +1,5 @@
-@import "global";
-
-// @variables
-//
-$include-html-orbit-classes: $include-html-classes !default;
-
-// We use these to control the caption styles
-$orbit-container-bg: none !default;
-$orbit-caption-bg: rgba(51,51,51, 0.8) !default;
-$orbit-caption-font-color: #fff !default;
-$orbit-caption-font-size: rem-calc(14) !default;
-$orbit-caption-position: "bottom" !default; // Supported values: "bottom", "under"
-$orbit-caption-padding: rem-calc(10 14) !default;
-$orbit-caption-height: auto !default;
-
-// We use these to control the left/right nav styles
-$orbit-nav-bg: none !default;
-$orbit-nav-bg-hover: rgba(0,0,0,0.3) !default;
-$orbit-nav-arrow-color: #fff !default;
-$orbit-nav-arrow-color-hover: #fff !default;
-
-// We use these to control the timer styles
-$orbit-timer-bg: rgba(255,255,255,0.3) !default;
-$orbit-timer-show-progress-bar: true !default;
-
-// We use these to control the bullet nav styles
-$orbit-bullet-nav-color: #ccc !default;
-$orbit-bullet-nav-color-active: #999 !default;
-$orbit-bullet-radius: rem-calc(9) !default;
-
-// We use these to controls the style of slide numbers
-$orbit-slide-number-bg: rgba(0,0,0,0) !default;
-$orbit-slide-number-font-color: #fff !default;
-$orbit-slide-number-padding: rem-calc(5) !default;
-
-// Graceful Loading Wrapper and preloader
-$wrapper-class: "slideshow-wrapper" !default;
-$preloader-class: "preloader" !default;
+@import "global-settings";
+@import "orbit-settings";
 
 @include exports("orbit") {
   @if $include-html-orbit-classes {

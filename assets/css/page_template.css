@@ -1,172 +1,36 @@
-/* line 264, ../scss/core/scss/foundation/components/_global.scss */
-meta.foundation-version {
-  font-family: "/5.1.0/"; }
-
-/* line 269, ../scss/core/scss/foundation/components/_global.scss */
-meta.foundation-mq-small {
-  font-family: "/only screen and (max-width: 40em)/";
-  width: 0em; }
-
-/* line 274, ../scss/core/scss/foundation/components/_global.scss */
-meta.foundation-mq-medium {
-  font-family: "/only screen and (min-width:40.063em)/";
-  width: 40.063em; }
-
-/* line 279, ../scss/core/scss/foundation/components/_global.scss */
-meta.foundation-mq-large {
-  font-family: "/only screen and (min-width:64.063em)/";
-  width: 64.063em; }
-
-/* line 284, ../scss/core/scss/foundation/components/_global.scss */
-meta.foundation-mq-xlarge {
-  font-family: "/only screen and (min-width:90.063em)/";
-  width: 90.063em; }
-
-/* line 289, ../scss/core/scss/foundation/components/_global.scss */
-meta.foundation-mq-xxlarge {
-  font-family: "/only screen and (min-width:120.063em)/";
-  width: 120.063em; }
-
-/* line 294, ../scss/core/scss/foundation/components/_global.scss */
-meta.foundation-data-attribute-namespace {
-  font-family: false; }
-
-/* line 299, ../scss/core/scss/foundation/components/_global.scss */
-html, body {
-  height: 100%; }
-
-/* line 306, ../scss/core/scss/foundation/components/_global.scss */
-*, *:before, *:after {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box; }
-
-/* line 311, ../scss/core/scss/foundation/components/_global.scss */
-html, body {
-  font-size: 100%; }
-
-/* line 314, ../scss/core/scss/foundation/components/_global.scss */
-body {
-  background: white;
-  color: #222222;
-  padding: 0;
-  margin: 0;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  font-weight: normal;
-  font-style: normal;
-  line-height: 1;
-  position: relative;
-  cursor: default; }
-
-/* line 327, ../scss/core/scss/foundation/components/_global.scss */
-a:hover {
-  cursor: pointer; }
-
-/* line 332, ../scss/core/scss/foundation/components/_global.scss */
-img, object, embed {
-  max-width: 100%;
-  height: auto; }
-
-/* line 335, ../scss/core/scss/foundation/components/_global.scss */
-object, embed {
-  height: 100%; }
-
-/* line 336, ../scss/core/scss/foundation/components/_global.scss */
-img {
-  -ms-interpolation-mode: bicubic; }
-
-/* line 342, ../scss/core/scss/foundation/components/_global.scss */
-#map_canvas img, #map_canvas embed, #map_canvas object, .map_canvas img, .map_canvas embed, .map_canvas object {
-  max-width: none !important; }
-
-/* line 347, ../scss/core/scss/foundation/components/_global.scss */
-.left {
-  float: left !important; }
-
-/* line 348, ../scss/core/scss/foundation/components/_global.scss */
-.right {
-  float: right !important; }
-
-/* line 349, ../scss/core/scss/foundation/components/_global.scss */
-.clearfix {
-  *zoom: 1; }
-/* line 130, ../scss/core/scss/foundation/components/_global.scss */
-.clearfix:before, .clearfix:after {
-  content: " ";
-  display: table; }
-/* line 131, ../scss/core/scss/foundation/components/_global.scss */
-.clearfix:after {
-  clear: both; }
-
-/* line 350, ../scss/core/scss/foundation/components/_global.scss */
-.hide {
-  display: none; }
-
-/* line 356, ../scss/core/scss/foundation/components/_global.scss */
-.antialiased {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
-
-/* line 359, ../scss/core/scss/foundation/components/_global.scss */
-img {
-  display: inline-block;
-  vertical-align: middle; }
-
-/* line 369, ../scss/core/scss/foundation/components/_global.scss */
-textarea {
-  height: auto;
-  min-height: 50px; }
-
-/* line 372, ../scss/core/scss/foundation/components/_global.scss */
-select {
-  width: 100%; }
-
-/* line 17, ../scss/app/page_template.scss */
-body > section.top-bg {
-  width: 100%;
-  z-index: 1 !important;
-  background-color: #666699; }
-@media only screen and (min-width: 40.063em) {
-  /* line 17, ../scss/app/page_template.scss */
-  body > section.top-bg {
-    min-height: 10em; } }
-/* line 27, ../scss/app/page_template.scss */
-body > header {
-  opacity: 0.9; }
-/* line 30, ../scss/app/page_template.scss */
-body > header .top-bar .title-area .name a {
-  text-shadow: 0 0 1.5em white; }
-/* line 37, ../scss/app/page_template.scss */
-body > section.container {
-  background-color: white;
-  -webkit-border-radius: 0.1em;
-  -moz-border-radius: 0.1em;
-  -ms-border-radius: 0.1em;
-  -o-border-radius: 0.1em;
-  border-radius: 0.1em;
-  -webkit-box-shadow: 0 0 1px 1px #efefef;
-  -moz-box-shadow: 0 0 1px 1px #efefef;
-  box-shadow: 0 0 1px 1px #efefef;
-  min-height: 500px; }
-@media only screen and (min-width: 40.063em) {
-  /* line 37, ../scss/app/page_template.scss */
-  body > section.container {
-    top: -7.5em;
-    position: relative; } }
-/* line 48, ../scss/app/page_template.scss */
-body > section.container > * {
-  padding: 0; }
-/* line 54, ../scss/app/page_template.scss */
-body > footer {
+/* line 6, ../scss/app/page_template.scss */
+.body {
+  overflow: hidden !important; }
+/* line 9, ../scss/app/page_template.scss */
+.body > section.container {
+  min-height: 600px; }
+/* line 13, ../scss/app/page_template.scss */
+.body > footer {
+  margin-top: 1em;
   text-align: center;
   font-size: 12px;
+  padding: 3em 0;
+  border-top: 1px solid #efefef; }
+
+/* line 22, ../scss/app/page_template.scss */
+a.back-to-top {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 0.5em;
+  background-color: #66FF00;
   color: white;
-  background-color: #666699;
-  padding-top: 5em;
-  padding-bottom: 2.5em;
-  position: relative;
-  top: -12.5em;
-  z-index: -1; }
-/* line 64, ../scss/app/page_template.scss */
-body > footer > a {
+  font-size: 12px;
+  z-index: 120;
+  margin-left: 10em;
+  -moz-border-radius-topleft: 0.5em;
+  -webkit-border-top-left-radius: 0.5em;
+  border-top-left-radius: 0.5em;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  -webkit-box-shadow: black 0 0 1em 1px;
+  -moz-box-shadow: black 0 0 1em 1px;
+  box-shadow: black 0 0 1em 1px; }
+/* line 35, ../scss/app/page_template.scss */
+a.back-to-top:hover {
   color: white; }

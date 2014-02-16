@@ -1,165 +1,25 @@
-/* line 264, ../scss/core/scss/foundation/components/_global.scss */
-meta.foundation-version {
-  font-family: "/5.1.0/"; }
+/* .label, .button, button {
+	background-color: #008CBA;
+}
 
-/* line 269, ../scss/core/scss/foundation/components/_global.scss */
-meta.foundation-mq-small {
-  font-family: "/only screen and (max-width: 40em)/";
-  width: 0em; }
-
-/* line 274, ../scss/core/scss/foundation/components/_global.scss */
-meta.foundation-mq-medium {
-  font-family: "/only screen and (min-width:40.063em)/";
-  width: 40.063em; }
-
-/* line 279, ../scss/core/scss/foundation/components/_global.scss */
-meta.foundation-mq-large {
-  font-family: "/only screen and (min-width:64.063em)/";
-  width: 64.063em; }
-
-/* line 284, ../scss/core/scss/foundation/components/_global.scss */
-meta.foundation-mq-xlarge {
-  font-family: "/only screen and (min-width:90.063em)/";
-  width: 90.063em; }
-
-/* line 289, ../scss/core/scss/foundation/components/_global.scss */
-meta.foundation-mq-xxlarge {
-  font-family: "/only screen and (min-width:120.063em)/";
-  width: 120.063em; }
-
-/* line 294, ../scss/core/scss/foundation/components/_global.scss */
-meta.foundation-data-attribute-namespace {
-  font-family: false; }
-
-/* line 299, ../scss/core/scss/foundation/components/_global.scss */
-html, body {
-  height: 100%; }
-
-/* line 306, ../scss/core/scss/foundation/components/_global.scss */
-*, *:before, *:after {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box; }
-
-/* line 311, ../scss/core/scss/foundation/components/_global.scss */
-html, body {
-  font-size: 100%; }
-
-/* line 314, ../scss/core/scss/foundation/components/_global.scss */
-body {
-  background: white;
-  color: #222222;
-  padding: 0;
-  margin: 0;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  font-weight: normal;
-  font-style: normal;
-  line-height: 1;
-  position: relative;
-  cursor: default; }
-
-/* line 327, ../scss/core/scss/foundation/components/_global.scss */
-a:hover {
-  cursor: pointer; }
-
-/* line 332, ../scss/core/scss/foundation/components/_global.scss */
-img, object, embed {
-  max-width: 100%;
-  height: auto; }
-
-/* line 335, ../scss/core/scss/foundation/components/_global.scss */
-object, embed {
-  height: 100%; }
-
-/* line 336, ../scss/core/scss/foundation/components/_global.scss */
-img {
-  -ms-interpolation-mode: bicubic; }
-
-/* line 342, ../scss/core/scss/foundation/components/_global.scss */
-#map_canvas img, #map_canvas embed, #map_canvas object, .map_canvas img, .map_canvas embed, .map_canvas object {
-  max-width: none !important; }
-
-/* line 347, ../scss/core/scss/foundation/components/_global.scss */
-.left {
-  float: left !important; }
-
-/* line 348, ../scss/core/scss/foundation/components/_global.scss */
-.right {
-  float: right !important; }
-
-/* line 349, ../scss/core/scss/foundation/components/_global.scss */
-.clearfix {
-  *zoom: 1; }
-/* line 130, ../scss/core/scss/foundation/components/_global.scss */
-.clearfix:before, .clearfix:after {
-  content: " ";
-  display: table; }
-/* line 131, ../scss/core/scss/foundation/components/_global.scss */
-.clearfix:after {
-  clear: both; }
-
-/* line 350, ../scss/core/scss/foundation/components/_global.scss */
-.hide {
-  display: none; }
-
-/* line 356, ../scss/core/scss/foundation/components/_global.scss */
-.antialiased {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
-
-/* line 359, ../scss/core/scss/foundation/components/_global.scss */
-img {
-  display: inline-block;
-  vertical-align: middle; }
-
-/* line 369, ../scss/core/scss/foundation/components/_global.scss */
-textarea {
-  height: auto;
-  min-height: 50px; }
-
-/* line 372, ../scss/core/scss/foundation/components/_global.scss */
-select {
-  width: 100%; }
-
-/* line 47, ../scss/app/app.scss */
-form * {
-  font-size: 11px !important; }
-/* line 51, ../scss/app/app.scss */
-form .field {
-  padding-bottom: 1.32em; }
-/* line 54, ../scss/app/app.scss */
-form .field [name] {
-  margin: 0; }
-/* line 58, ../scss/app/app.scss */
-form .field [type] {
-  height: 30px; }
-/* line 62, ../scss/app/app.scss */
-form .field small.error {
-  margin: 0; }
-
-/* line 68, ../scss/app/app.scss */
-.label, .button, button {
-  background-color: #008CBA; }
-
-/* line 72, ../scss/app/app.scss */
 a {
-  color: #008CBA; }
-
-/* line 77, ../scss/app/app.scss */
+	color: #008CBA;
+} */
+/* line 55, ../scss/app/app.scss */
 .button:hover, button:hover {
   background-color: #006687; }
 
-/* line 83, ../scss/app/app.scss */
+/* line 61, ../scss/app/app.scss */
 .list-of-classes figure {
   width: 250px; }
 @media only screen and (max-width: 335px) {
-  /* line 83, ../scss/app/app.scss */
+  /* line 61, ../scss/app/app.scss */
   .list-of-classes figure {
     width: 220px; }
-  /* line 88, ../scss/app/app.scss */
+  /* line 66, ../scss/app/app.scss */
   .list-of-classes figure > img {
     width: 220px; } }
-/* line 93, ../scss/app/app.scss */
+/* line 71, ../scss/app/app.scss */
 .list-of-classes figure > img {
   width: 250px;
   height: 150px;
@@ -169,7 +29,7 @@ a {
   -moz-border-radius-topright: 0.2em;
   -webkit-border-top-right-radius: 0.2em;
   border-top-right-radius: 0.2em; }
-/* line 100, ../scss/app/app.scss */
+/* line 78, ../scss/app/app.scss */
 .list-of-classes figure > section {
   position: relative;
   border-left: 1px solid #eee;
@@ -181,11 +41,11 @@ a {
   -moz-border-radius-bottomright: 0.2em;
   -webkit-border-bottom-right-radius: 0.2em;
   border-bottom-right-radius: 0.2em; }
-/* line 108, ../scss/app/app.scss */
+/* line 86, ../scss/app/app.scss */
 .list-of-classes figure > section img {
   width: 40px;
   height: 35px; }
-/* line 114, ../scss/app/app.scss */
+/* line 92, ../scss/app/app.scss */
 .list-of-classes figure > section > header {
   font-size: 13px;
   color: white;
@@ -195,7 +55,7 @@ a {
   margin-bottom: 1em;
   padding: 7px;
   position: relative; }
-/* line 125, ../scss/app/app.scss */
+/* line 103, ../scss/app/app.scss */
 .list-of-classes figure > section > header > span:before {
   content: "";
   position: absolute;
@@ -205,7 +65,7 @@ a {
   border-left: 10px solid transparent;
   top: -10px;
   left: -11px; }
-/* line 136, ../scss/app/app.scss */
+/* line 114, ../scss/app/app.scss */
 .list-of-classes figure > section > header > span:after {
   content: "";
   position: absolute;
@@ -215,7 +75,7 @@ a {
   border-right: 10px solid transparent;
   top: -10px;
   right: -11px; }
-/* line 148, ../scss/app/app.scss */
+/* line 126, ../scss/app/app.scss */
 .list-of-classes figure > section > header:before {
   content: "";
   position: absolute;
@@ -224,7 +84,7 @@ a {
   left: -11px;
   height: 100%;
   background-color: #49acf2; }
-/* line 157, ../scss/app/app.scss */
+/* line 135, ../scss/app/app.scss */
 .list-of-classes figure > section > header:after {
   content: "";
   position: absolute;
@@ -233,150 +93,85 @@ a {
   right: -11px;
   height: 100%;
   background-color: #49acf2; }
-/* line 167, ../scss/app/app.scss */
+/* line 145, ../scss/app/app.scss */
 .list-of-classes figure > section > article {
   max-width: 100% !important; }
-/* line 169, ../scss/app/app.scss */
+/* line 147, ../scss/app/app.scss */
 .list-of-classes figure > section > article > p {
   position: relative;
   top: -0.22em;
   font-size: 12px;
   font-weight: bold;
   padding: 0; }
-/* line 176, ../scss/app/app.scss */
+/* line 154, ../scss/app/app.scss */
 .list-of-classes figure > section > article > p > .name {
   color: #000; }
-/* line 180, ../scss/app/app.scss */
+/* line 158, ../scss/app/app.scss */
 .list-of-classes figure > section > article > p > .title {
   color: gray;
   font-size: 11px;
   font-weight: normal; }
 
-/* line 192, ../scss/app/app.scss */
+/* line 170, ../scss/app/app.scss */
 .side-bar {
   width: 15em;
-  margin-top: 1em;
-  padding: 0.1em 0 !important;
+  padding: 0 !important; }
+/* line 177, ../scss/app/app.scss */
+.side-bar .off-canvas-list li.img-profile {
+  text-align: center; }
+/* line 179, ../scss/app/app.scss */
+.side-bar .off-canvas-list li.img-profile img {
+  height: 10em; }
+/* line 183, ../scss/app/app.scss */
+.side-bar .off-canvas-list li.img-profile .name {
+  margin-top: 1em; }
+/* line 189, ../scss/app/app.scss */
+.side-bar .side-nav {
   -webkit-box-shadow: -0.3em 0.3em 1em 1px #aaaaaa;
   -moz-box-shadow: -0.3em 0.3em 1em 1px #aaaaaa;
   box-shadow: -0.3em 0.3em 1em 1px #aaaaaa;
-  position: relative; }
-/* line 200, ../scss/app/app.scss */
-.side-bar div {
+  padding: 0;
+  margin-top: 0.5em;
+  position: fixed;
+  width: 14em; }
+/* line 196, ../scss/app/app.scss */
+.side-bar .side-nav li {
+  margin: 0; }
+/* line 199, ../scss/app/app.scss */
+.side-bar .side-nav li.img-profile {
+  text-align: center; }
+/* line 201, ../scss/app/app.scss */
+.side-bar .side-nav li.img-profile img {
+  width: 5.5em;
+  height: 5em; }
+/* line 206, ../scss/app/app.scss */
+.side-bar .side-nav li.img-profile div {
   padding: 0.2em; }
-/* line 202, ../scss/app/app.scss */
-g .side-bar div.name {
+/* line 208, ../scss/app/app.scss */
+.side-bar .side-nav li.img-profile div.name {
   font-weight: bold;
   color: #2f2f2f;
   margin-top: 0.5em;
   font-size: 14px; }
-/* line 209, ../scss/app/app.scss */
-.side-bar div.title {
-  color: #9f9f9f;
-  font-size: 11px; }
-/* line 215, ../scss/app/app.scss */
-.side-bar img {
-  width: 5em;
-  height: 5em; }
-/* line 220, ../scss/app/app.scss */
-.side-bar .side-nav {
-  padding: 0; }
-/* line 222, ../scss/app/app.scss */
-.side-bar .side-nav li {
-  margin: 0; }
-/* line 225, ../scss/app/app.scss */
+/* line 217, ../scss/app/app.scss */
 .side-bar .side-nav li > * {
   padding: 0.5em; }
-/* line 229, ../scss/app/app.scss */
-.side-bar .side-nav li.active a {
+/* line 222, ../scss/app/app.scss */
+.side-bar .side-nav li.active a, .side-bar .side-nav li.active div {
   font-weight: bold;
-  color: #318CE7; }
-/* line 237, ../scss/app/app.scss */
-.side-bar .side-nav li > header {
-  margin: 0.5em 0;
+  color: #EE7C4A !important; }
+/* line 231, ../scss/app/app.scss */
+.side-bar .side-nav li > label {
   color: white;
-  background-color: #e5aa70;
+  background-color: #6d9bc3;
   font-weight: bold;
   position: relative; }
-/* line 245, ../scss/app/app.scss */
+/* line 238, ../scss/app/app.scss */
 .side-bar .side-nav li.active, .side-bar .side-nav li:hover a {
   background-color: #efefef; }
-/* line 255, ../scss/app/app.scss */
-.side-bar a.fi-list {
-  position: absolute;
-  top: -17.5px;
-  right: -35px;
-  width: 70px;
-  height: 70px;
-  font-size: 70px;
-  z-index: 1000;
-  color: #2DAEBF;
-  text-shadow: 0px 1px 0px #009ec2, 0px 2px 0px #0093b5, 0px 3px 0px #008da8, 0px 4px 0px #00829b, 0px 5px 0px #5d5d5d, 0px 6px 0px #00778f, 0px 0px 0px #006d82, 0px 8px 7px #006275, 0 0 0.5em #eeeeee; }
-/* line 278, ../scss/app/app.scss */
-.side-bar a.fi-list:hover {
-  color: #36bed0;
-  text-shadow: 0px 1px 0px #00a7cc, 0px 2px 0px #009cc0, 0px 3px 0px #0095b3, 0px 4px 0px #008aa6, 0px 5px 0px #626262, 0px 6px 0px #007f9a, 0px 0px 0px #00758d, 0px 8px 7px #006a80, 0 0 1em #eeeeee; }
 
-@keyframes slide-hide {
-  /* line 298, ../scss/app/app.scss */
-  from {
-    width: 15em;
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
-    opacity: 1; }
-
-  /* line 299, ../scss/app/app.scss */
-  to {
-    width: 1em;
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
-    opacity: 0; } }
-
-@-webkit-keyframes slide-hide {
-  /* line 303, ../scss/app/app.scss */
-  from {
-    width: 15em;
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
-    opacity: 1; }
-
-  /* line 304, ../scss/app/app.scss */
-  to {
-    width: 1em;
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
-    opacity: 0; } }
-
-@keyframes slide-show {
-  /* line 308, ../scss/app/app.scss */
-  from {
-    width: 1em;
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
-    opacity: 0; }
-
-  /* line 309, ../scss/app/app.scss */
-  to {
-    width: 15em;
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
-    opacity: 1; } }
-
-@-webkit-keyframes slide-show {
-  /* line 313, ../scss/app/app.scss */
-  from {
-    width: 1em;
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
-    opacity: 0; }
-
-  /* line 314, ../scss/app/app.scss */
-  to {
-    width: 15em;
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
-    opacity: 1; } }
-
-/* line 318, ../scss/app/app.scss */
-.side-bar.slide-hide {
-  animation: slide-hide 1s;
-  -webkit-animation: slide-hide 1s;
-  /* Safari and Chrome */
-  width: 1em; }
-/* line 324, ../scss/app/app.scss */
-.side-bar.slide-show {
-  animation: slide-show 1s;
-  -webkit-animation: slide-show 1s;
-  width: 15em; }
+/* line 246, ../scss/app/app.scss */
+.off-canvas-list li.active a {
+  background-color: #3c66cd !important;
+  font-weight: bold;
+  color: #EE7C4A; }

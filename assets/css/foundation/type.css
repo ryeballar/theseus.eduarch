@@ -1,323 +1,200 @@
-/* line 264, ../../scss/core/scss/foundation/components/_global.scss */
-meta.foundation-version {
-  font-family: "/5.1.0/"; }
-
-/* line 269, ../../scss/core/scss/foundation/components/_global.scss */
-meta.foundation-mq-small {
-  font-family: "/only screen and (max-width: 40em)/";
-  width: 0em; }
-
-/* line 274, ../../scss/core/scss/foundation/components/_global.scss */
-meta.foundation-mq-medium {
-  font-family: "/only screen and (min-width:40.063em)/";
-  width: 40.063em; }
-
-/* line 279, ../../scss/core/scss/foundation/components/_global.scss */
-meta.foundation-mq-large {
-  font-family: "/only screen and (min-width:64.063em)/";
-  width: 64.063em; }
-
-/* line 284, ../../scss/core/scss/foundation/components/_global.scss */
-meta.foundation-mq-xlarge {
-  font-family: "/only screen and (min-width:90.063em)/";
-  width: 90.063em; }
-
-/* line 289, ../../scss/core/scss/foundation/components/_global.scss */
-meta.foundation-mq-xxlarge {
-  font-family: "/only screen and (min-width:120.063em)/";
-  width: 120.063em; }
-
-/* line 294, ../../scss/core/scss/foundation/components/_global.scss */
-meta.foundation-data-attribute-namespace {
-  font-family: false; }
-
-/* line 299, ../../scss/core/scss/foundation/components/_global.scss */
-html, body {
-  height: 100%; }
-
-/* line 306, ../../scss/core/scss/foundation/components/_global.scss */
-*, *:before, *:after {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box; }
-
-/* line 311, ../../scss/core/scss/foundation/components/_global.scss */
-html, body {
-  font-size: 100%; }
-
-/* line 314, ../../scss/core/scss/foundation/components/_global.scss */
-body {
-  background: white;
-  color: #222222;
-  padding: 0;
-  margin: 0;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  font-weight: normal;
-  font-style: normal;
-  line-height: 1;
-  position: relative;
-  cursor: default; }
-
-/* line 327, ../../scss/core/scss/foundation/components/_global.scss */
-a:hover {
-  cursor: pointer; }
-
-/* line 332, ../../scss/core/scss/foundation/components/_global.scss */
-img, object, embed {
-  max-width: 100%;
-  height: auto; }
-
-/* line 335, ../../scss/core/scss/foundation/components/_global.scss */
-object, embed {
-  height: 100%; }
-
-/* line 336, ../../scss/core/scss/foundation/components/_global.scss */
-img {
-  -ms-interpolation-mode: bicubic; }
-
-/* line 342, ../../scss/core/scss/foundation/components/_global.scss */
-#map_canvas img, #map_canvas embed, #map_canvas object, .map_canvas img, .map_canvas embed, .map_canvas object {
-  max-width: none !important; }
-
-/* line 347, ../../scss/core/scss/foundation/components/_global.scss */
-.left {
-  float: left !important; }
-
-/* line 348, ../../scss/core/scss/foundation/components/_global.scss */
-.right {
-  float: right !important; }
-
-/* line 349, ../../scss/core/scss/foundation/components/_global.scss */
-.clearfix {
-  *zoom: 1; }
-/* line 130, ../../scss/core/scss/foundation/components/_global.scss */
-.clearfix:before, .clearfix:after {
-  content: " ";
-  display: table; }
-/* line 131, ../../scss/core/scss/foundation/components/_global.scss */
-.clearfix:after {
-  clear: both; }
-
-/* line 350, ../../scss/core/scss/foundation/components/_global.scss */
-.hide {
-  display: none; }
-
-/* line 356, ../../scss/core/scss/foundation/components/_global.scss */
-.antialiased {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
-
-/* line 359, ../../scss/core/scss/foundation/components/_global.scss */
-img {
-  display: inline-block;
-  vertical-align: middle; }
-
-/* line 369, ../../scss/core/scss/foundation/components/_global.scss */
-textarea {
-  height: auto;
-  min-height: 50px; }
-
-/* line 372, ../../scss/core/scss/foundation/components/_global.scss */
-select {
-  width: 100%; }
-
-/* line 110, ../../scss/core/scss/foundation/components/_type.scss */
+/* line 8, ../../scss/core/scss/foundation/components/_type.scss */
 .text-left {
   text-align: left !important; }
 
-/* line 111, ../../scss/core/scss/foundation/components/_type.scss */
+/* line 9, ../../scss/core/scss/foundation/components/_type.scss */
 .text-right {
   text-align: right !important; }
 
-/* line 112, ../../scss/core/scss/foundation/components/_type.scss */
+/* line 10, ../../scss/core/scss/foundation/components/_type.scss */
 .text-center {
   text-align: center !important; }
 
-/* line 113, ../../scss/core/scss/foundation/components/_type.scss */
+/* line 11, ../../scss/core/scss/foundation/components/_type.scss */
 .text-justify {
   text-align: justify !important; }
 
 @media only screen and (max-width: 40em) {
-  /* line 116, ../../scss/core/scss/foundation/components/_type.scss */
+  /* line 14, ../../scss/core/scss/foundation/components/_type.scss */
   .small-only-text-left {
     text-align: left !important; }
 
-  /* line 117, ../../scss/core/scss/foundation/components/_type.scss */
+  /* line 15, ../../scss/core/scss/foundation/components/_type.scss */
   .small-only-text-right {
     text-align: right !important; }
 
-  /* line 118, ../../scss/core/scss/foundation/components/_type.scss */
+  /* line 16, ../../scss/core/scss/foundation/components/_type.scss */
   .small-only-text-center {
     text-align: center !important; }
 
-  /* line 119, ../../scss/core/scss/foundation/components/_type.scss */
+  /* line 17, ../../scss/core/scss/foundation/components/_type.scss */
   .small-only-text-justify {
     text-align: justify !important; } }
 @media only screen {
-  /* line 123, ../../scss/core/scss/foundation/components/_type.scss */
+  /* line 21, ../../scss/core/scss/foundation/components/_type.scss */
   .small-text-left {
     text-align: left !important; }
 
-  /* line 124, ../../scss/core/scss/foundation/components/_type.scss */
+  /* line 22, ../../scss/core/scss/foundation/components/_type.scss */
   .small-text-right {
     text-align: right !important; }
 
-  /* line 125, ../../scss/core/scss/foundation/components/_type.scss */
+  /* line 23, ../../scss/core/scss/foundation/components/_type.scss */
   .small-text-center {
     text-align: center !important; }
 
-  /* line 126, ../../scss/core/scss/foundation/components/_type.scss */
+  /* line 24, ../../scss/core/scss/foundation/components/_type.scss */
   .small-text-justify {
     text-align: justify !important; } }
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
-  /* line 130, ../../scss/core/scss/foundation/components/_type.scss */
+  /* line 28, ../../scss/core/scss/foundation/components/_type.scss */
   .medium-only-text-left {
     text-align: left !important; }
 
-  /* line 131, ../../scss/core/scss/foundation/components/_type.scss */
+  /* line 29, ../../scss/core/scss/foundation/components/_type.scss */
   .medium-only-text-right {
     text-align: right !important; }
 
-  /* line 132, ../../scss/core/scss/foundation/components/_type.scss */
+  /* line 30, ../../scss/core/scss/foundation/components/_type.scss */
   .medium-only-text-center {
     text-align: center !important; }
 
-  /* line 133, ../../scss/core/scss/foundation/components/_type.scss */
+  /* line 31, ../../scss/core/scss/foundation/components/_type.scss */
   .medium-only-text-justify {
     text-align: justify !important; } }
 @media only screen and (min-width: 40.063em) {
-  /* line 137, ../../scss/core/scss/foundation/components/_type.scss */
+  /* line 35, ../../scss/core/scss/foundation/components/_type.scss */
   .medium-text-left {
     text-align: left !important; }
 
-  /* line 138, ../../scss/core/scss/foundation/components/_type.scss */
+  /* line 36, ../../scss/core/scss/foundation/components/_type.scss */
   .medium-text-right {
     text-align: right !important; }
 
-  /* line 139, ../../scss/core/scss/foundation/components/_type.scss */
+  /* line 37, ../../scss/core/scss/foundation/components/_type.scss */
   .medium-text-center {
     text-align: center !important; }
 
-  /* line 140, ../../scss/core/scss/foundation/components/_type.scss */
+  /* line 38, ../../scss/core/scss/foundation/components/_type.scss */
   .medium-text-justify {
     text-align: justify !important; } }
 @media only screen and (min-width: 64.063em) and (max-width: 90em) {
-  /* line 144, ../../scss/core/scss/foundation/components/_type.scss */
+  /* line 42, ../../scss/core/scss/foundation/components/_type.scss */
   .large-only-text-left {
     text-align: left !important; }
 
-  /* line 145, ../../scss/core/scss/foundation/components/_type.scss */
+  /* line 43, ../../scss/core/scss/foundation/components/_type.scss */
   .large-only-text-right {
     text-align: right !important; }
 
-  /* line 146, ../../scss/core/scss/foundation/components/_type.scss */
+  /* line 44, ../../scss/core/scss/foundation/components/_type.scss */
   .large-only-text-center {
     text-align: center !important; }
 
-  /* line 147, ../../scss/core/scss/foundation/components/_type.scss */
+  /* line 45, ../../scss/core/scss/foundation/components/_type.scss */
   .large-only-text-justify {
     text-align: justify !important; } }
 @media only screen and (min-width: 64.063em) {
-  /* line 151, ../../scss/core/scss/foundation/components/_type.scss */
+  /* line 49, ../../scss/core/scss/foundation/components/_type.scss */
   .large-text-left {
     text-align: left !important; }
 
-  /* line 152, ../../scss/core/scss/foundation/components/_type.scss */
+  /* line 50, ../../scss/core/scss/foundation/components/_type.scss */
   .large-text-right {
     text-align: right !important; }
 
-  /* line 153, ../../scss/core/scss/foundation/components/_type.scss */
+  /* line 51, ../../scss/core/scss/foundation/components/_type.scss */
   .large-text-center {
     text-align: center !important; }
 
-  /* line 154, ../../scss/core/scss/foundation/components/_type.scss */
+  /* line 52, ../../scss/core/scss/foundation/components/_type.scss */
   .large-text-justify {
     text-align: justify !important; } }
 @media only screen and (min-width: 90.063em) and (max-width: 120em) {
-  /* line 158, ../../scss/core/scss/foundation/components/_type.scss */
+  /* line 56, ../../scss/core/scss/foundation/components/_type.scss */
   .xlarge-only-text-left {
     text-align: left !important; }
 
-  /* line 159, ../../scss/core/scss/foundation/components/_type.scss */
+  /* line 57, ../../scss/core/scss/foundation/components/_type.scss */
   .xlarge-only-text-right {
     text-align: right !important; }
 
-  /* line 160, ../../scss/core/scss/foundation/components/_type.scss */
+  /* line 58, ../../scss/core/scss/foundation/components/_type.scss */
   .xlarge-only-text-center {
     text-align: center !important; }
 
-  /* line 161, ../../scss/core/scss/foundation/components/_type.scss */
+  /* line 59, ../../scss/core/scss/foundation/components/_type.scss */
   .xlarge-only-text-justify {
     text-align: justify !important; } }
 @media only screen and (min-width: 90.063em) {
-  /* line 165, ../../scss/core/scss/foundation/components/_type.scss */
+  /* line 63, ../../scss/core/scss/foundation/components/_type.scss */
   .xlarge-text-left {
     text-align: left !important; }
 
-  /* line 166, ../../scss/core/scss/foundation/components/_type.scss */
+  /* line 64, ../../scss/core/scss/foundation/components/_type.scss */
   .xlarge-text-right {
     text-align: right !important; }
 
-  /* line 167, ../../scss/core/scss/foundation/components/_type.scss */
+  /* line 65, ../../scss/core/scss/foundation/components/_type.scss */
   .xlarge-text-center {
     text-align: center !important; }
 
-  /* line 168, ../../scss/core/scss/foundation/components/_type.scss */
+  /* line 66, ../../scss/core/scss/foundation/components/_type.scss */
   .xlarge-text-justify {
     text-align: justify !important; } }
 @media only screen and (min-width: 120.063em) and (max-width: 99999999em) {
-  /* line 172, ../../scss/core/scss/foundation/components/_type.scss */
+  /* line 70, ../../scss/core/scss/foundation/components/_type.scss */
   .xxlarge-only-text-left {
     text-align: left !important; }
 
-  /* line 173, ../../scss/core/scss/foundation/components/_type.scss */
+  /* line 71, ../../scss/core/scss/foundation/components/_type.scss */
   .xxlarge-only-text-right {
     text-align: right !important; }
 
-  /* line 174, ../../scss/core/scss/foundation/components/_type.scss */
+  /* line 72, ../../scss/core/scss/foundation/components/_type.scss */
   .xxlarge-only-text-center {
     text-align: center !important; }
 
-  /* line 175, ../../scss/core/scss/foundation/components/_type.scss */
+  /* line 73, ../../scss/core/scss/foundation/components/_type.scss */
   .xxlarge-only-text-justify {
     text-align: justify !important; } }
 @media only screen and (min-width: 120.063em) {
-  /* line 179, ../../scss/core/scss/foundation/components/_type.scss */
+  /* line 77, ../../scss/core/scss/foundation/components/_type.scss */
   .xxlarge-text-left {
     text-align: left !important; }
 
-  /* line 180, ../../scss/core/scss/foundation/components/_type.scss */
+  /* line 78, ../../scss/core/scss/foundation/components/_type.scss */
   .xxlarge-text-right {
     text-align: right !important; }
 
-  /* line 181, ../../scss/core/scss/foundation/components/_type.scss */
+  /* line 79, ../../scss/core/scss/foundation/components/_type.scss */
   .xxlarge-text-center {
     text-align: center !important; }
 
-  /* line 182, ../../scss/core/scss/foundation/components/_type.scss */
+  /* line 80, ../../scss/core/scss/foundation/components/_type.scss */
   .xxlarge-text-justify {
     text-align: justify !important; } }
 /* Typography resets */
-/* line 224, ../../scss/core/scss/foundation/components/_type.scss */
+/* line 122, ../../scss/core/scss/foundation/components/_type.scss */
 div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, th, td {
   margin: 0;
   padding: 0; }
 
 /* Default Link Styles */
-/* line 230, ../../scss/core/scss/foundation/components/_type.scss */
+/* line 128, ../../scss/core/scss/foundation/components/_type.scss */
 a {
-  color: #666699;
+  color: #008cba;
   text-decoration: none;
   line-height: inherit; }
-/* line 236, ../../scss/core/scss/foundation/components/_type.scss */
+/* line 134, ../../scss/core/scss/foundation/components/_type.scss */
 a:hover, a:focus {
-  color: #585884; }
-/* line 238, ../../scss/core/scss/foundation/components/_type.scss */
+  color: #0078a0; }
+/* line 136, ../../scss/core/scss/foundation/components/_type.scss */
 a img {
   border: none; }
 
 /* Default paragraph styles */
-/* line 242, ../../scss/core/scss/foundation/components/_type.scss */
+/* line 140, ../../scss/core/scss/foundation/components/_type.scss */
 p {
   font-family: inherit;
   font-weight: normal;
@@ -325,18 +202,18 @@ p {
   line-height: 1.6;
   margin-bottom: 1.25rem;
   text-rendering: optimizeLegibility; }
-/* line 250, ../../scss/core/scss/foundation/components/_type.scss */
+/* line 148, ../../scss/core/scss/foundation/components/_type.scss */
 p.lead {
   font-size: 1.21875rem;
   line-height: 1.6; }
-/* line 252, ../../scss/core/scss/foundation/components/_type.scss */
+/* line 150, ../../scss/core/scss/foundation/components/_type.scss */
 p aside {
   font-size: 0.875rem;
   line-height: 1.35;
   font-style: italic; }
 
 /* Default header styles */
-/* line 260, ../../scss/core/scss/foundation/components/_type.scss */
+/* line 158, ../../scss/core/scss/foundation/components/_type.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: normal;
@@ -346,37 +223,37 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 0.2rem;
   margin-bottom: 0.5rem;
   line-height: 1.4; }
-/* line 270, ../../scss/core/scss/foundation/components/_type.scss */
+/* line 168, ../../scss/core/scss/foundation/components/_type.scss */
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
   font-size: 60%;
   color: #6f6f6f;
   line-height: 0; }
 
-/* line 277, ../../scss/core/scss/foundation/components/_type.scss */
+/* line 175, ../../scss/core/scss/foundation/components/_type.scss */
 h1 {
   font-size: 2.125rem; }
 
-/* line 278, ../../scss/core/scss/foundation/components/_type.scss */
+/* line 176, ../../scss/core/scss/foundation/components/_type.scss */
 h2 {
   font-size: 1.6875rem; }
 
-/* line 279, ../../scss/core/scss/foundation/components/_type.scss */
+/* line 177, ../../scss/core/scss/foundation/components/_type.scss */
 h3 {
   font-size: 1.375rem; }
 
-/* line 280, ../../scss/core/scss/foundation/components/_type.scss */
+/* line 178, ../../scss/core/scss/foundation/components/_type.scss */
 h4 {
   font-size: 1.125rem; }
 
-/* line 281, ../../scss/core/scss/foundation/components/_type.scss */
+/* line 179, ../../scss/core/scss/foundation/components/_type.scss */
 h5 {
   font-size: 1.125rem; }
 
-/* line 282, ../../scss/core/scss/foundation/components/_type.scss */
+/* line 180, ../../scss/core/scss/foundation/components/_type.scss */
 h6 {
   font-size: 1rem; }
 
-/* line 284, ../../scss/core/scss/foundation/components/_type.scss */
+/* line 182, ../../scss/core/scss/foundation/components/_type.scss */
 .subheader {
   line-height: 1.4;
   color: #6f6f6f;
@@ -384,7 +261,7 @@ h6 {
   margin-top: 0.2rem;
   margin-bottom: 0.5rem; }
 
-/* line 286, ../../scss/core/scss/foundation/components/_type.scss */
+/* line 184, ../../scss/core/scss/foundation/components/_type.scss */
 hr {
   border: solid #dddddd;
   border-width: 1px 0 0;
@@ -393,29 +270,29 @@ hr {
   height: 0; }
 
 /* Helpful Typography Defaults */
-/* line 296, ../../scss/core/scss/foundation/components/_type.scss */
+/* line 194, ../../scss/core/scss/foundation/components/_type.scss */
 em, i {
   font-style: italic;
   line-height: inherit; }
 
-/* line 302, ../../scss/core/scss/foundation/components/_type.scss */
+/* line 200, ../../scss/core/scss/foundation/components/_type.scss */
 strong, b {
   font-weight: bold;
   line-height: inherit; }
 
-/* line 307, ../../scss/core/scss/foundation/components/_type.scss */
+/* line 205, ../../scss/core/scss/foundation/components/_type.scss */
 small {
   font-size: 60%;
   line-height: inherit; }
 
-/* line 312, ../../scss/core/scss/foundation/components/_type.scss */
+/* line 210, ../../scss/core/scss/foundation/components/_type.scss */
 code {
   font-family: Consolas, "Liberation Mono", Courier, monospace;
   font-weight: bold;
   color: #bd260d; }
 
 /* Lists */
-/* line 321, ../../scss/core/scss/foundation/components/_type.scss */
+/* line 219, ../../scss/core/scss/foundation/components/_type.scss */
 ul, ol, dl {
   font-size: 1rem;
   line-height: 1.6;
@@ -423,62 +300,62 @@ ul, ol, dl {
   list-style-position: outside;
   font-family: inherit; }
 
-/* line 329, ../../scss/core/scss/foundation/components/_type.scss */
+/* line 227, ../../scss/core/scss/foundation/components/_type.scss */
 ul {
   margin-left: 1.1rem; }
-/* line 331, ../../scss/core/scss/foundation/components/_type.scss */
+/* line 229, ../../scss/core/scss/foundation/components/_type.scss */
 ul.no-bullet {
   margin-left: 0; }
-/* line 335, ../../scss/core/scss/foundation/components/_type.scss */
+/* line 233, ../../scss/core/scss/foundation/components/_type.scss */
 ul.no-bullet li ul, ul.no-bullet li ol {
   margin-left: 1.25rem;
   margin-bottom: 0;
   list-style: none; }
 
 /* Unordered Lists */
-/* line 348, ../../scss/core/scss/foundation/components/_type.scss */
+/* line 246, ../../scss/core/scss/foundation/components/_type.scss */
 ul li ul, ul li ol {
   margin-left: 1.25rem;
   margin-bottom: 0; }
-/* line 356, ../../scss/core/scss/foundation/components/_type.scss */
+/* line 254, ../../scss/core/scss/foundation/components/_type.scss */
 ul.square li ul, ul.circle li ul, ul.disc li ul {
   list-style: inherit; }
-/* line 359, ../../scss/core/scss/foundation/components/_type.scss */
+/* line 257, ../../scss/core/scss/foundation/components/_type.scss */
 ul.square {
   list-style-type: square;
   margin-left: 1.1rem; }
-/* line 360, ../../scss/core/scss/foundation/components/_type.scss */
+/* line 258, ../../scss/core/scss/foundation/components/_type.scss */
 ul.circle {
   list-style-type: circle;
   margin-left: 1.1rem; }
-/* line 361, ../../scss/core/scss/foundation/components/_type.scss */
+/* line 259, ../../scss/core/scss/foundation/components/_type.scss */
 ul.disc {
   list-style-type: disc;
   margin-left: 1.1rem; }
-/* line 362, ../../scss/core/scss/foundation/components/_type.scss */
+/* line 260, ../../scss/core/scss/foundation/components/_type.scss */
 ul.no-bullet {
   list-style: none; }
 
 /* Ordered Lists */
-/* line 366, ../../scss/core/scss/foundation/components/_type.scss */
+/* line 264, ../../scss/core/scss/foundation/components/_type.scss */
 ol {
   margin-left: 1.4rem; }
-/* line 370, ../../scss/core/scss/foundation/components/_type.scss */
+/* line 268, ../../scss/core/scss/foundation/components/_type.scss */
 ol li ul, ol li ol {
   margin-left: 1.25rem;
   margin-bottom: 0; }
 
 /* Definition Lists */
-/* line 379, ../../scss/core/scss/foundation/components/_type.scss */
+/* line 277, ../../scss/core/scss/foundation/components/_type.scss */
 dl dt {
   margin-bottom: 0.3rem;
   font-weight: bold; }
-/* line 383, ../../scss/core/scss/foundation/components/_type.scss */
+/* line 281, ../../scss/core/scss/foundation/components/_type.scss */
 dl dd {
   margin-bottom: 0.75rem; }
 
 /* Abbreviations */
-/* line 388, ../../scss/core/scss/foundation/components/_type.scss */
+/* line 286, ../../scss/core/scss/foundation/components/_type.scss */
 abbr, acronym {
   text-transform: uppercase;
   font-size: 90%;
@@ -486,53 +363,53 @@ abbr, acronym {
   border-bottom: 1px dotted #dddddd;
   cursor: help; }
 
-/* line 395, ../../scss/core/scss/foundation/components/_type.scss */
+/* line 293, ../../scss/core/scss/foundation/components/_type.scss */
 abbr {
   text-transform: none; }
 
 /* Blockquotes */
-/* line 400, ../../scss/core/scss/foundation/components/_type.scss */
+/* line 298, ../../scss/core/scss/foundation/components/_type.scss */
 blockquote {
   margin: 0 0 1.25rem;
   padding: 0.5625rem 1.25rem 0 1.1875rem;
   border-left: 1px solid #dddddd; }
-/* line 405, ../../scss/core/scss/foundation/components/_type.scss */
+/* line 303, ../../scss/core/scss/foundation/components/_type.scss */
 blockquote cite {
   display: block;
   font-size: 0.8125rem;
   color: #555555; }
-/* line 409, ../../scss/core/scss/foundation/components/_type.scss */
+/* line 307, ../../scss/core/scss/foundation/components/_type.scss */
 blockquote cite:before {
   content: "\2014 \0020"; }
-/* line 414, ../../scss/core/scss/foundation/components/_type.scss */
+/* line 312, ../../scss/core/scss/foundation/components/_type.scss */
 blockquote cite a, blockquote cite a:visited {
   color: #555555; }
 
-/* line 420, ../../scss/core/scss/foundation/components/_type.scss */
+/* line 318, ../../scss/core/scss/foundation/components/_type.scss */
 blockquote, blockquote p {
   line-height: 1.6;
   color: #6f6f6f; }
 
 /* Microformats */
-/* line 426, ../../scss/core/scss/foundation/components/_type.scss */
+/* line 324, ../../scss/core/scss/foundation/components/_type.scss */
 .vcard {
   display: inline-block;
   margin: 0 0 1.25rem 0;
   border: 1px solid #dddddd;
   padding: 0.625rem 0.75rem; }
-/* line 432, ../../scss/core/scss/foundation/components/_type.scss */
+/* line 330, ../../scss/core/scss/foundation/components/_type.scss */
 .vcard li {
   margin: 0;
   display: block; }
-/* line 436, ../../scss/core/scss/foundation/components/_type.scss */
+/* line 334, ../../scss/core/scss/foundation/components/_type.scss */
 .vcard .fn {
   font-weight: bold;
   font-size: 0.9375rem; }
 
-/* line 443, ../../scss/core/scss/foundation/components/_type.scss */
+/* line 341, ../../scss/core/scss/foundation/components/_type.scss */
 .vevent .summary {
   font-weight: bold; }
-/* line 445, ../../scss/core/scss/foundation/components/_type.scss */
+/* line 343, ../../scss/core/scss/foundation/components/_type.scss */
 .vevent abbr {
   cursor: default;
   text-decoration: none;
@@ -541,23 +418,23 @@ blockquote, blockquote p {
   padding: 0 0.0625rem; }
 
 @media only screen and (min-width: 40.063em) {
-  /* line 456, ../../scss/core/scss/foundation/components/_type.scss */
+  /* line 354, ../../scss/core/scss/foundation/components/_type.scss */
   h1, h2, h3, h4, h5, h6 {
     line-height: 1.4; }
 
-  /* line 457, ../../scss/core/scss/foundation/components/_type.scss */
+  /* line 355, ../../scss/core/scss/foundation/components/_type.scss */
   h1 {
     font-size: 2.75rem; }
 
-  /* line 458, ../../scss/core/scss/foundation/components/_type.scss */
+  /* line 356, ../../scss/core/scss/foundation/components/_type.scss */
   h2 {
     font-size: 2.3125rem; }
 
-  /* line 459, ../../scss/core/scss/foundation/components/_type.scss */
+  /* line 357, ../../scss/core/scss/foundation/components/_type.scss */
   h3 {
     font-size: 1.6875rem; }
 
-  /* line 460, ../../scss/core/scss/foundation/components/_type.scss */
+  /* line 358, ../../scss/core/scss/foundation/components/_type.scss */
   h4 {
     font-size: 1.4375rem; } }
 /*
@@ -566,12 +443,12 @@ blockquote, blockquote p {
  * Inlined to avoid required HTTP connection: www.phpied.com/delay-loading-your-print-css/
  * Credit to Paul Irish and HTML5 Boilerplate (html5boilerplate.com)
 */
-/* line 471, ../../scss/core/scss/foundation/components/_type.scss */
+/* line 369, ../../scss/core/scss/foundation/components/_type.scss */
 .print-only {
   display: none !important; }
 
 @media print {
-  /* line 473, ../../scss/core/scss/foundation/components/_type.scss */
+  /* line 371, ../../scss/core/scss/foundation/components/_type.scss */
   * {
     background: transparent !important;
     color: #000 !important;
@@ -579,64 +456,64 @@ blockquote, blockquote p {
     box-shadow: none !important;
     text-shadow: none !important; }
 
-  /* line 481, ../../scss/core/scss/foundation/components/_type.scss */
+  /* line 379, ../../scss/core/scss/foundation/components/_type.scss */
   a, a:visited {
     text-decoration: underline; }
 
-  /* line 482, ../../scss/core/scss/foundation/components/_type.scss */
+  /* line 380, ../../scss/core/scss/foundation/components/_type.scss */
   a[href]:after {
     content: " (" attr(href) ")"; }
 
-  /* line 484, ../../scss/core/scss/foundation/components/_type.scss */
+  /* line 382, ../../scss/core/scss/foundation/components/_type.scss */
   abbr[title]:after {
     content: " (" attr(title) ")"; }
 
-  /* line 489, ../../scss/core/scss/foundation/components/_type.scss */
+  /* line 387, ../../scss/core/scss/foundation/components/_type.scss */
   .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after {
     content: ""; }
 
-  /* line 492, ../../scss/core/scss/foundation/components/_type.scss */
+  /* line 390, ../../scss/core/scss/foundation/components/_type.scss */
   pre, blockquote {
     border: 1px solid #999;
     page-break-inside: avoid; }
 
-  /* line 497, ../../scss/core/scss/foundation/components/_type.scss */
+  /* line 395, ../../scss/core/scss/foundation/components/_type.scss */
   thead {
     display: table-header-group;
     /* h5bp.com/t */ }
 
-  /* line 500, ../../scss/core/scss/foundation/components/_type.scss */
+  /* line 398, ../../scss/core/scss/foundation/components/_type.scss */
   tr, img {
     page-break-inside: avoid; }
 
-  /* line 502, ../../scss/core/scss/foundation/components/_type.scss */
+  /* line 400, ../../scss/core/scss/foundation/components/_type.scss */
   img {
     max-width: 100% !important; }
 
   @page {
     margin: 0.5cm; }
 
-  /* line 508, ../../scss/core/scss/foundation/components/_type.scss */
+  /* line 406, ../../scss/core/scss/foundation/components/_type.scss */
   p, h2, h3 {
     orphans: 3;
     widows: 3; }
 
-  /* line 514, ../../scss/core/scss/foundation/components/_type.scss */
+  /* line 412, ../../scss/core/scss/foundation/components/_type.scss */
   h2, h3 {
     page-break-after: avoid; }
 
-  /* line 516, ../../scss/core/scss/foundation/components/_type.scss */
+  /* line 414, ../../scss/core/scss/foundation/components/_type.scss */
   .hide-on-print {
     display: none !important; }
 
-  /* line 517, ../../scss/core/scss/foundation/components/_type.scss */
+  /* line 415, ../../scss/core/scss/foundation/components/_type.scss */
   .print-only {
     display: block !important; }
 
-  /* line 518, ../../scss/core/scss/foundation/components/_type.scss */
+  /* line 416, ../../scss/core/scss/foundation/components/_type.scss */
   .hide-for-print {
     display: none !important; }
 
-  /* line 519, ../../scss/core/scss/foundation/components/_type.scss */
+  /* line 417, ../../scss/core/scss/foundation/components/_type.scss */
   .show-for-print {
     display: inherit !important; } }

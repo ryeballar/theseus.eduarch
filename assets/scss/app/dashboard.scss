@@ -1,9 +1,9 @@
-@import "foundation/components/global";
+@import "foundation/components/global-settings";
 @import "mixins/shapes";
 @import "mixins/utils";
 @import "compass/css3";
 
-@include content-min-height(900px !important);
+@include content-min-height(2000px !important);
 
 .dashboard {
 
