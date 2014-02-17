@@ -1,4 +1,4 @@
-<section class="off-canvas-wrap" style="position: absolute; top: 0">
+<section class="off-canvas-wrap" style="position: absolute; top: 0;">
 	<section class="inner-wrap">
 		<?php model_view('page_header_small') ?>
 

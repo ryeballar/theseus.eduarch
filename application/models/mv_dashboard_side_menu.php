@@ -4,7 +4,7 @@ class mv_dashboard_side_menu extends CI_Model {
 
 	private $regular = array(
 		'Feeds' => array(
-			array('dashboard/top_feeds', 'Top Feeds')
+			array('dashboard/topfeeds', 'Top Feeds')
 		),
 		'My Classes' => array(
 			array('dashboard/learning', 'Learning'),
@@ -21,8 +21,8 @@ class mv_dashboard_side_menu extends CI_Model {
 
 	private $administrator = array(
 		'Control Panel' => array(
-			array('dashboard/administrator', 'Management'),
-			array('dashboard/facilitator', 'Filtering')
+			array('dashboard/management', 'Management'),
+			array('dashboard/filtering', 'Filtering')
 		)
 	);
 

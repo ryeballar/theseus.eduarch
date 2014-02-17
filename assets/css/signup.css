@@ -2,7 +2,7 @@
 body > section.container {
   min-height: 450px; }
 
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 45.063em) {
   /* line 8, ../scss/app/signup.scss */
   .signup > section {
     padding: 2em 2em; } }

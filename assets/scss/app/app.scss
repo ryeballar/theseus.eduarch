@@ -43,17 +43,26 @@
 //   "foundation/components/type",
 //   "foundation/components/offcanvas",
 //   "foundation/components/visibility";
-/* .label, .button, button {
-	background-color: #008CBA;
+//   
+
+$link-bg-color: #008CBA;
+$label-bg-color: #008CBA;
+
+.label {
+	background-color: $label-bg-color;
+}
+
+.button, button {
+	background-color: $link-bg-color;
 }
 
 a {
-	color: #008CBA;
-} */
+	color: $link-bg-color;
+}
 
 .button, button {
 	&:hover {
-		background-color: darken(#008CBA, 10%);
+		background-color: darken($link-bg-color, 10%);
 	}
 }
 
@@ -168,9 +177,9 @@ a {
 }
 
 .side-bar {
-	$width: 15em;
+	$width: 13em;
 
-	width: $width;
+	&:not(aside) {width: $width;}
 	padding: 0 !important;
 
 	.off-canvas-list {
@@ -189,9 +198,10 @@ a {
 	.side-nav {
 		@include box-shadow(-0.3em 0.3em 1em 1px #aaa);
 		padding: 0;
-		margin-top: 0.5em;
+		// margin-top: 0.5em;
+		margin: 0.5em auto;
 		position: fixed;
-		width: 14em;
+		width: $width;
 
 		li {
 			margin: 0;
@@ -206,7 +216,6 @@ a {
 				div {
 					padding: 0.2em;
 					&.name {
-						font-weight: bold;
 						color: #2f2f2f;
 						margin-top: 0.5em;
 						font-size: 14px;
@@ -220,7 +229,7 @@ a {
 
 			&.active {
 				a, div {
-					font-weight: bold;
+					font-weight: bold !important;
 					color: #EE7C4A !important;
 				}
 			}

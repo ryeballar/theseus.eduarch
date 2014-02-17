@@ -103,7 +103,7 @@
 .clearing-feature li.clearing-featured-img {
   display: block; }
 
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 45.063em) {
   /* line 111, ../../scss/core/scss/foundation/components/_clearing.scss */
   .clearing-main-prev, .clearing-main-next {
     position: absolute;

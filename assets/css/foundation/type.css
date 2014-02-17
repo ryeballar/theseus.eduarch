@@ -14,7 +14,7 @@
 .text-justify {
   text-align: justify !important; }
 
-@media only screen and (max-width: 40em) {
+@media only screen and (max-width: 45em) {
   /* line 14, ../../scss/core/scss/foundation/components/_type.scss */
   .small-only-text-left {
     text-align: left !important; }
@@ -46,7 +46,7 @@
   /* line 24, ../../scss/core/scss/foundation/components/_type.scss */
   .small-text-justify {
     text-align: justify !important; } }
-@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+@media only screen and (min-width: 45.063em) and (max-width: 64em) {
   /* line 28, ../../scss/core/scss/foundation/components/_type.scss */
   .medium-only-text-left {
     text-align: left !important; }
@@ -62,7 +62,7 @@
   /* line 31, ../../scss/core/scss/foundation/components/_type.scss */
   .medium-only-text-justify {
     text-align: justify !important; } }
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 45.063em) {
   /* line 35, ../../scss/core/scss/foundation/components/_type.scss */
   .medium-text-left {
     text-align: left !important; }
@@ -417,7 +417,7 @@ blockquote, blockquote p {
   border: none;
   padding: 0 0.0625rem; }
 
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 45.063em) {
   /* line 354, ../../scss/core/scss/foundation/components/_type.scss */
   h1, h2, h3, h4, h5, h6 {
     line-height: 1.4; }

@@ -140,7 +140,7 @@
   left: 0; }
 
 /* Styles for screens that are at least 768px; */
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 45.063em) {
   /* line 157, ../../scss/core/scss/foundation/components/_joyride.scss */
   .joyride-tip-guide {
     width: 300px;

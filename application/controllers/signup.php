@@ -18,7 +18,7 @@ class signup extends Base_Controller {
 			$user['status_id'] = ACTIVE;
 			$this->table_user->insert($user);
 			S($this->table_user->get_last_record());
-			$this->form_validation->success_with_ajax('dashboard');
+			$this->form_validation->success_with_ajax(array('redirect' => 'dashboard'));
 			return;
 		} elseif($this->form_validation->fail_with_ajax())
 			return;

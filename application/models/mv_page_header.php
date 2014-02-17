@@ -37,8 +37,8 @@ class mv_page_header extends abstract_mv_invokable {
 
 	private $user_right_menu = array(
 		'User Menu' => array(
-			array('notifications', '<span class="fi-megaphone"></span>'),
-			array('dashboard', '<span class="fi-torso"></span>'),
+			array('notifications', '<span class="fi-megaphone" title="Notifications"></span>'),
+			array('dashboard', '<span class="fi-torso" title="Dashboard"></span>'),
 			'<span class="fi-widget"></span>' => array(
 				array('settings', 'Settings'),
 				array('logout', 'Logout')

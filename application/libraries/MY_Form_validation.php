@@ -10,11 +10,12 @@ class MY_Form_validation extends CI_Form_validation {
 		return $this->_error_array;
 	}
 
-	function success_with_ajax($redirect) {
+	function success_with_ajax($array = array()) {
 		$CI = & get_instance();
 		if($CI->input->is_ajax_request()) {
 			$data['success'] = true;
-			$data['redirect'] = $redirect;
+			if(!empty($array))
+				$data = array_merge($data, $array);
 			echo json_encode($data);
 		} else
 			refresh($redirect);

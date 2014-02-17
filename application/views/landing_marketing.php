@@ -1,5 +1,5 @@
 <section class="marketing">
-    <section class="content">
+    <section class="mkt-content">
         <h4 class="text-center" style="padding: 1em"><?php echo $title ?></h4>
 
         <ul class="no-bullet" style="padding: 0.2em">

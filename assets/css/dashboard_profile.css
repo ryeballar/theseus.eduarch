@@ -1,0 +1,83 @@
+@media only screen and (max-width: 45em) {
+  /* line 6, ../scss/app/dashboard_profile.scss */
+  .content > section:first-child {
+    margin-top: 0.5em; } }
+/* line 8, ../scss/app/dashboard_profile.scss */
+.content > section > section {
+  border-left: 1px solid #efefef;
+  border-right: 1px solid #efefef;
+  border-bottom: 1px solid #efefef;
+  padding: 0;
+  -webkit-border-radius: 0.25em;
+  -moz-border-radius: 0.25em;
+  -ms-border-radius: 0.25em;
+  -o-border-radius: 0.25em;
+  border-radius: 0.25em;
+  margin-bottom: 1em; }
+/* line 16, ../scss/app/dashboard_profile.scss */
+.content > section > section > header {
+  padding: 1em;
+  background-color: #eaeaea;
+  color: #3f3f3f;
+  -moz-border-radius-topleft: 0.25em;
+  -webkit-border-top-left-radius: 0.25em;
+  border-top-left-radius: 0.25em;
+  -moz-border-radius-topright: 0.25em;
+  -webkit-border-top-right-radius: 0.25em;
+  border-top-right-radius: 0.25em;
+  font-weight: bold; }
+/* line 24, ../scss/app/dashboard_profile.scss */
+.content > section > section > header a {
+  font-weight: normal; }
+/* line 27, ../scss/app/dashboard_profile.scss */
+.content > section > section > section {
+  padding: 0.5em; }
+/* line 29, ../scss/app/dashboard_profile.scss */
+.content > section > section > section > * {
+  display: inline;
+  font-size: 0.75em; }
+/* line 35, ../scss/app/dashboard_profile.scss */
+.content > section > section a {
+  font-size: 0.75em;
+  margin-left: 0.5em; }
+/* line 44, ../scss/app/dashboard_profile.scss */
+.content .img-profile ul.inline-list {
+  padding: 0.5em 0 0 0; }
+/* line 47, ../scss/app/dashboard_profile.scss */
+.content .img-profile ul.inline-list button {
+  width: 12em; }
+/* line 51, ../scss/app/dashboard_profile.scss */
+.content .img-profile ul.inline-list button.save {
+  margin-top: 0.5em;
+  margin-bottom: 0; }
+/* line 56, ../scss/app/dashboard_profile.scss */
+.content .img-profile ul.inline-list a.th {
+  margin-left: 1em; }
+/* line 58, ../scss/app/dashboard_profile.scss */
+.content .img-profile ul.inline-list a.th img {
+  width: 6.1em;
+  height: 5.6em; }
+/* line 69, ../scss/app/dashboard_profile.scss */
+.content .social .site a {
+  font-size: 1em; }
+/* line 73, ../scss/app/dashboard_profile.scss */
+.content .social .site a:hover span.fi-social-facebook {
+  color: #2DBEBF;
+  text-shadow: 0px 1px 0px #00a2b3, 0px 2px 0px #0097a6, 0px 3px 0px #009099, 0px 4px 0px #00858c, 0px 5px 0px #665555, 0px 6px 0px #007a80, 0px 0px 0px #007073, 0px 8px 7px #006566; }
+/* line 80, ../scss/app/dashboard_profile.scss */
+.content .social .site a span.fi-social-facebook {
+  font-size: 3em;
+  color: #2DAEBF;
+  text-shadow: 0px 1px 0px #0092b3, 0px 2px 0px #0087a6, 0px 3px 0px #008099, 0px 4px 0px #00758c, 0px 5px 0px #555555, 0px 6px 0px #006a80, 0px 0px 0px #006073, 0px 8px 7px #005566; }
+/* line 86, ../scss/app/dashboard_profile.scss */
+.content .social .site a span.continue {
+  position: relative;
+  top: -0.6em;
+  left: 3px; }
+/* line 97, ../scss/app/dashboard_profile.scss */
+.content .social .connection > span {
+  position: relative;
+  top: 1em; }
+/* line 102, ../scss/app/dashboard_profile.scss */
+.content .social .connection a {
+  font-size: 1em; }

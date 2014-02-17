@@ -86,7 +86,7 @@
 .tabs-content.vertical > .content {
   padding: 0 0.9375rem; }
 
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 45.063em) {
   /* line 66, ../../scss/core/scss/foundation/components/_tabs.scss */
   .tabs.vertical {
     width: 20%;

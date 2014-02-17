@@ -21,3 +21,14 @@ $config['signup'] = array(
 	rule('user[password]', 'Password', 'required|md5'),
 	rule('retyped_password', 'Retyped Password', 'required|md5|callback__signup_check_password')
 );
+
+$config['edit_info'] = array(
+	rule('user[first_name]', 'First Name', 'trim|xss_clean|max_length[50]'),
+	rule('user[last_name]', 'Last Name', 'trim|xss_clean|max_length[50]')
+);
+
+$config['edit_credentials'] = array(
+	rule('old_password', 'Old Password', 'required|max_length[32]|md5|callback__check_old_password'),
+	rule('user[password]', 'New Password', 'required|max_length[32]|md5'),
+	rule('retyped_password', 'Retype Password', 'required|max_length[32]|md5|callback__check_equal_password'),
+);

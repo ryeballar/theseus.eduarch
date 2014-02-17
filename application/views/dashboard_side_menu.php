@@ -1,6 +1,6 @@
 <li><label>Me<span></span></label></li>
 <li class="img-profile<?php echo active('dashboard-profile', ' active') ?>">
-	<a href="">
+	<a href="dashboard/profile">
 		<span class="th radius">
 			<img src="<?php echo $user['image'] ?>" />
 		</span><br>

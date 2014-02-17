@@ -51,7 +51,7 @@ dialog[open] {
   display: block;
   visibility: visible; }
 
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 45.063em) {
   /* line 24, ../../scss/core/scss/foundation/components/_reveal.scss */
   dialog, .reveal-modal {
     padding: 1.875rem;

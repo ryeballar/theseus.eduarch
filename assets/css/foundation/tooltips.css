@@ -7,8 +7,8 @@
   color: #333333; }
 /* line 15, ../../scss/core/scss/foundation/components/_tooltips.scss */
 .has-tip:hover, .has-tip:focus {
-  border-bottom: dotted 1px #192e62;
-  color: #446ccf; }
+  border-bottom: dotted 1px #2e2e45;
+  color: #666699; }
 /* line 21, ../../scss/core/scss/foundation/components/_tooltips.scss */
 .has-tip.tip-left, .has-tip.tip-right {
   float: none !important; }
@@ -50,8 +50,8 @@
   left: 2rem; }
 /* line 59, ../../scss/core/scss/foundation/components/_tooltips.scss */
 .tooltip.opened {
-  color: #446ccf !important;
-  border-bottom: dotted 1px #192e62 !important; }
+  color: #666699 !important;
+  border-bottom: dotted 1px #2e2e45 !important; }
 
 /* line 65, ../../scss/core/scss/foundation/components/_tooltips.scss */
 .tap-to-close {
@@ -60,7 +60,7 @@
   color: #777777;
   font-weight: normal; }
 
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 45.063em) {
   /* line 74, ../../scss/core/scss/foundation/components/_tooltips.scss */
   .tooltip > .nub {
     border-color: transparent transparent #333333 transparent;

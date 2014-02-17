@@ -1,7 +1,0 @@
-/* line 3, ../scss/app/mixins/_utils.scss */
-body > section.container {
-  min-height: 2000px !important; }
-
-/* line 10, ../scss/app/dashboard.scss */
-.dashboard > * {
-  padding-top: 1em; }

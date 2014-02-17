@@ -30,7 +30,7 @@
 /* line 15, ../../scss/core/scss/foundation/components/_offcanvas.scss */
 nav.tab-bar {
   -webkit-backface-visibility: hidden;
-  background: #446ccf;
+  background: #666699;
   color: white;
   height: 2.8125rem;
   line-height: 2.8125rem;
@@ -51,8 +51,8 @@ section.left-small {
   height: 2.8125rem;
   position: absolute;
   top: 0;
-  border-right: solid 1px #1c336d;
-  box-shadow: 1px 0 0 #5c7fd5;
+  border-right: solid 1px #33334d;
+  box-shadow: 1px 0 0 #7a7aa6;
   left: 0; }
 
 /* line 18, ../../scss/core/scss/foundation/components/_offcanvas.scss */
@@ -61,8 +61,8 @@ section.right-small {
   height: 2.8125rem;
   position: absolute;
   top: 0;
-  border-left: solid 1px #5c7fd5;
-  box-shadow: -1px 0 0 #1c336d;
+  border-left: solid 1px #7a7aa6;
+  box-shadow: -1px 0 0 #33334d;
   right: 0; }
 
 /* line 20, ../../scss/core/scss/foundation/components/_offcanvas.scss */
@@ -72,7 +72,7 @@ section.tab-bar-section {
   text-align: center;
   height: 2.8125rem;
   top: 0; }
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 45.063em) {
   /* line 20, ../../scss/core/scss/foundation/components/_offcanvas.scss */
   section.tab-bar-section {
     text-align: left; } }
@@ -122,7 +122,7 @@ a.menu-icon:hover span {
   bottom: 0;
   position: absolute;
   overflow-y: auto;
-  background: #446ccf;
+  background: #666699;
   z-index: 1001;
   box-sizing: content-box;
   -webkit-transform: translate3d(-100%, 0, 0);
@@ -143,7 +143,7 @@ a.menu-icon:hover span {
   bottom: 0;
   position: absolute;
   overflow-y: auto;
-  background: #446ccf;
+  background: #666699;
   z-index: 1001;
   box-sizing: content-box;
   -webkit-transform: translate3d(100%, 0, 0);
@@ -177,7 +177,7 @@ ul.off-canvas-list li a {
   font-size: 0.75em; }
 /* line 224, ../../scss/core/scss/foundation/components/_offcanvas-settings.scss */
 ul.off-canvas-list li a:hover {
-  background-color: #3c66cd; }
+  background-color: #626293; }
 
 /* line 76, ../../scss/core/scss/foundation/components/_offcanvas.scss */
 .move-right > .inner-wrap {
@@ -191,7 +191,7 @@ ul.off-canvas-list li a:hover {
   -webkit-backface-visibility: hidden;
   transition: background 300ms ease;
   cursor: pointer;
-  box-shadow: -4px 0 4px rgba(46, 84, 178, 0.5), 4px 0 4px rgba(46, 84, 178, 0.5);
+  box-shadow: -4px 0 4px rgba(82, 82, 122, 0.5), 4px 0 4px rgba(82, 82, 122, 0.5);
   display: block;
   position: absolute;
   background: rgba(255, 255, 255, 0.2);
@@ -201,7 +201,7 @@ ul.off-canvas-list li a:hover {
   right: 0;
   z-index: 1002;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 45.063em) {
   /* line 253, ../../scss/core/scss/foundation/components/_offcanvas-settings.scss */
   .move-right a.exit-off-canvas:hover {
     background: rgba(255, 255, 255, 0.05); } }
@@ -218,7 +218,7 @@ ul.off-canvas-list li a:hover {
   -webkit-backface-visibility: hidden;
   transition: background 300ms ease;
   cursor: pointer;
-  box-shadow: -4px 0 4px rgba(46, 84, 178, 0.5), 4px 0 4px rgba(46, 84, 178, 0.5);
+  box-shadow: -4px 0 4px rgba(82, 82, 122, 0.5), 4px 0 4px rgba(82, 82, 122, 0.5);
   display: block;
   position: absolute;
   background: rgba(255, 255, 255, 0.2);
@@ -228,7 +228,7 @@ ul.off-canvas-list li a:hover {
   right: 0;
   z-index: 1002;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 45.063em) {
   /* line 253, ../../scss/core/scss/foundation/components/_offcanvas-settings.scss */
   .move-left a.exit-off-canvas:hover {
     background: rgba(255, 255, 255, 0.05); } }

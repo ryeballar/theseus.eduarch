@@ -1,0 +1,107 @@
+@import "foundation/components/global-settings";
+@import "compass/css3";
+
+.content {
+	& > section {
+		&:first-child {@media #{$small-only} {margin-top: 0.5em}}
+
+		& > section {
+			border-left: 1px solid #efefef;
+			border-right: 1px solid #efefef;
+			border-bottom: 1px solid #efefef;
+			padding: 0;
+			@include border-radius(0.25em);
+			margin-bottom: 1em;
+
+			& > header {
+				padding: 1em;
+				background-color: #eaeaea;
+				color: #3f3f3f;
+				@include border-top-left-radius(0.25em);
+				@include border-top-right-radius(0.25em);
+				font-weight: bold;
+
+				a {font-weight: normal}
+			}
+
+			& > section {
+				padding: 0.5em;
+				& > * {
+					display: inline;
+					font-size: 0.75em;
+				}
+			}
+
+			a {
+				font-size: 0.75em;
+				margin-left: 0.5em;
+			}
+		}
+	}
+
+	.img-profile {
+
+		ul.inline-list {
+			padding: 0.5em 0 0 0;
+
+			button {
+				width: 12em;
+			}
+
+			button.save {
+				margin-top: 0.5em;
+				margin-bottom: 0;
+			}
+
+			a.th { 
+				margin-left: 1em;
+				img {
+					width: 6.1em;
+					height: 5.6em;
+				}
+			}
+
+		}
+	}
+
+	.social {
+		.site {
+			a {
+				font-size: 1em;
+
+				&:hover {
+					span.fi-social-facebook {
+						color: #2DBEBF;
+						@include text-shadow(0px 1px 0px #00A2b3, 0px 2px 0px #0097a6, 0px 3px 0px #009099, 0px 4px 0px #00858c, 0px 5px 0px #655, 0px 6px 0px #007a80, 0px 0px 0px #007073, 0px 8px 7px #006566);
+					}
+				}
+
+				span {
+					&.fi-social-facebook {
+						font-size: 3em;
+						color: #2DAEBF;
+						@include text-shadow(0px 1px 0px #0092b3, 0px 2px 0px #0087a6, 0px 3px 0px #008099, 0px 4px 0px #00758c, 0px 5px 0px #555, 0px 6px 0px #006a80, 0px 0px 0px #006073, 0px 8px 7px #005566);
+					}
+
+					&.continue {
+						position: relative;
+						top: -0.6em;
+						left: 3px;
+					}
+
+				}
+			}
+		}
+
+		.connection {
+			& > span {
+				position: relative;
+				top: 1em;
+			}
+
+			a {
+				font-size: 1em;
+			}
+		}
+	}
+}

@@ -212,8 +212,9 @@ function optional_model_view() {
 	}
 }
 
-function set_active($key) {
-	S("active-$key", true);
+function set_active() {
+	foreach(func_get_args() as $key)
+		S("active-$key", true);
 }
 
 function active($key, $value) {
@@ -235,6 +236,11 @@ function char_limiter($string, $limit) {
 	if($length < $limit)
 		return $string;
 	return substr($string, 0, $limit).'..';
+}
+
+function is_ajax() {
+	$CI = & get_instance();
+	return $CI->input->is_ajax_request();
 }
 
 }

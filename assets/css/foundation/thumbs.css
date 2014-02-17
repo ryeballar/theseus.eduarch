@@ -12,8 +12,8 @@
   transition: all 200ms ease-out; }
 /* line 46, ../../scss/core/scss/foundation/components/_thumbs-settings.scss */
 .th:hover, .th:focus {
-  -webkit-box-shadow: 0 0 6px 1px rgba(68, 108, 207, 0.5);
-  box-shadow: 0 0 6px 1px rgba(68, 108, 207, 0.5); }
+  -webkit-box-shadow: 0 0 6px 1px rgba(102, 102, 153, 0.5);
+  box-shadow: 0 0 6px 1px rgba(102, 102, 153, 0.5); }
 /* line 12, ../../scss/core/scss/foundation/components/_thumbs.scss */
 .th.radius {
   -webkit-border-radius: 3px;

@@ -4,13 +4,13 @@ meta.foundation-version {
 
 /* line 9, ../../scss/core/scss/foundation/components/_global.scss */
 meta.foundation-mq-small {
-  font-family: "/only screen and (max-width: 40em)/";
+  font-family: "/only screen and (max-width: 45em)/";
   width: 0em; }
 
 /* line 14, ../../scss/core/scss/foundation/components/_global.scss */
 meta.foundation-mq-medium {
-  font-family: "/only screen and (min-width:40.063em)/";
-  width: 40.063em; }
+  font-family: "/only screen and (min-width:45.063em)/";
+  width: 45.063em; }
 
 /* line 19, ../../scss/core/scss/foundation/components/_global.scss */
 meta.foundation-mq-large {
@@ -152,7 +152,7 @@ td.show-for-small, td.show-for-small-only, td.show-for-medium-down, td.show-for-
   display: table-cell !important; }
 
 /* Medium Displays: 641px and up */
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 45.063em) {
   /* line 146, ../../scss/core/scss/foundation/components/_visibility.scss */
   .hide-for-small, .hide-for-small-only, .show-for-medium, .show-for-medium-down, .show-for-medium-up, .show-for-medium-only, .hide-for-large, .hide-for-large-up, .hide-for-large-only, .hide-for-xlarge, .hide-for-xlarge-up, .hide-for-xlarge-only, .hide-for-xxlarge-up, .hide-for-xxlarge-only {
     display: inherit !important; }

@@ -3,6 +3,24 @@
 @import "compass/css3";
 @import "mixins/shapes";
 
+.tab-bar {
+	.small-tab-bar aside {
+		& > a, & > section > a {
+			color: white !important;
+			span {
+				margin-right: 1em
+			}
+		}
+
+		ul {
+			li a {
+				font-size: 11px;
+				font-family: "Open Sans";
+			}
+		}
+	}
+}
+
 ul.off-canvas-list {
 	.th:hover {
 		@include box-shadow(#fff 0 0 1em 1px);

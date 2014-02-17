@@ -1,3 +1,11 @@
+/*
+id, email, password
+last_name, first_name, gender
+image, title, created_on
+updated_on, country_id, user_type_id
+status_id
+*/
+
 (function($) {
 	
 	$.fn.character_limiter = function(size) {
@@ -11,7 +19,6 @@
 	var win = $(window);
 	var link = $('.back-to-top');
 	var html_body = $('html,body');
-	var side = $('.side-bar .side-nav');
 
 	link.click(function() {
 		html_body.animate({scrollTop: 0}, 50);

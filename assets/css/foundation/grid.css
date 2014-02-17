@@ -315,7 +315,7 @@
     left: auto;
     right: auto;
     float: left; } }
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 45.063em) {
   /* line 151, ../../scss/core/scss/foundation/components/_grid-settings.scss */
   .column.medium-centered, .columns.medium-centered {
     margin-left: auto;

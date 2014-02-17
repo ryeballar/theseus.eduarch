@@ -1,4 +1,6 @@
-form[data-validate] {
+@import "compass/css3";
+
+form[data-validate], [data-reveal][data-form] form {
 
 	* {
 		font-size: 11px !important;
@@ -18,5 +20,30 @@ form[data-validate] {
 		small.error {
 			margin: 0;
 		}
-	}	
+	}
+
+	.message {
+		font-size: 0.75em !important;
+		span.fi-check {
+			/* color: #2DFEBF;
+			font-size: 70px;
+			@include text-shadow( 0px 1px 0px #00F2b3, 0px 2px 0px #00F7a6, 0px 3px 0px #00F099, 0px 4px 0px #00F58c, 0px 5px 0px #5F5, 0px 6px 0px #00Fa80, 0px 0px 0px #00F073, 0px 8px 7px #00F566); */
+			font-size: 70px !important;
+			color: #2DFE2D;
+			text-shadow: 0px 1px 0px #00F223, 0px 2px 0px #008726, 0px 3px 0px #008029, 0px 4px 0px #00752c, 0px 5px 0px #555, 0px 6px 0px #006a20, 0px 0px 0px #006023, 0px 8px 7px #005526;
+		}
+	}
+}
+
+.input-image {
+	display: inline;
+	button {
+		margin-bottom: 0;
+	}
+	section {
+		display: inline;
+		font-size: 0.8em;
+		margin-left: 0.5em;
+	}
+	input[type="file"] {display: none}
 }

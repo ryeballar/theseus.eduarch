@@ -12,7 +12,7 @@ class login extends Base_Controller {
 		$fb_user_id = $this->fb->getUser();
 		if($this->form_validation->run('login')) {
 			S($this->user);
-			$this->form_validation->success_with_ajax('dashboard');
+			$this->form_validation->success_with_ajax(array('redirect' => 'dashboard'));
 			return;
 		} elseif($this->form_validation->fail_with_ajax()) {
 			return;

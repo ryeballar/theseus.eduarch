@@ -10,7 +10,11 @@ class mv_page_header_small extends abstract_mv_invokable {
 
 	function index() {
 		$this->load->model('mv_page_header');
-		$data['right_menu'] = implode('', $this->mv_page_header->index());
+		$menu = $this->mv_page_header->index();
+		if(S('id'))
+			$data['right_menu'] = $menu['left_menu'];
+		else
+			$data['right_menu'] = implode('', $menu);
 		return $data;
 	}
 }

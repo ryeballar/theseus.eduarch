@@ -13,13 +13,13 @@
 /* line 59, ../../scss/core/scss/foundation/components/_side-nav-settings.scss */
 .side-nav li a:not(.button) {
   display: block;
-  color: #446ccf; }
+  color: #666699; }
 /* line 63, ../../scss/core/scss/foundation/components/_side-nav-settings.scss */
 .side-nav li a:not(.button):hover, .side-nav li a:not(.button):focus {
-  color: #7c98dd; }
+  color: #9494b8; }
 /* line 66, ../../scss/core/scss/foundation/components/_side-nav-settings.scss */
 .side-nav li.active > a:first-child:not(.button) {
-  color: #7c98dd;
+  color: #9494b8;
   font-weight: normal;
   font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
 /* line 72, ../../scss/core/scss/foundation/components/_side-nav-settings.scss */

@@ -5,7 +5,7 @@ body > section.container {
 /* line 8, ../scss/app/login.scss */
 .login > section {
   padding: 2em; }
-@media only screen and (max-width: 40em) {
+@media only screen and (max-width: 45em) {
   /* line 8, ../scss/app/login.scss */
   .login > section {
     padding-top: 1em; } }
@@ -15,7 +15,7 @@ body > section.container {
 /* line 18, ../scss/app/login.scss */
 .login > section p, .login > section a, .login > section button {
   font-size: 12px; }
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 45.063em) {
   /* line 23, ../scss/app/login.scss */
   .login form {
     padding-top: 2.5em; } }

@@ -1,9 +1,10 @@
 <section class="maxed-width row dashboard">
-	<section class="medium-4 large-3 column show-for-medium-up side-bar text-center">
+	<section class="large-3 medium-4 column show-for-medium-up side-bar text-center left">
 		<ul class="side-nav">
 			<?php model_view('dashboard_side_menu') ?>
 		</ul>
 	</section>
-	<section class="medium-8 large-7 column content">
+	<section class="large-9 medium-8 column content">
+		<?php view($content_file) ?>
 	</section>
 </section>

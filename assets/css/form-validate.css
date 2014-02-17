@@ -1,15 +1,41 @@
-/* line 3, ../scss/app/form-validate.scss */
-form[data-validate] * {
+/* line 5, ../scss/app/form-validate.scss */
+form[data-validate] *, [data-reveal][data-form] form * {
   font-size: 11px !important; }
-/* line 7, ../scss/app/form-validate.scss */
-form[data-validate] .field {
+/* line 9, ../scss/app/form-validate.scss */
+form[data-validate] .field, [data-reveal][data-form] form .field {
   padding-bottom: 1.32em; }
-/* line 10, ../scss/app/form-validate.scss */
-form[data-validate] .field [name] {
+/* line 12, ../scss/app/form-validate.scss */
+form[data-validate] .field [name], [data-reveal][data-form] form .field [name] {
   margin: 0; }
-/* line 14, ../scss/app/form-validate.scss */
-form[data-validate] .field [type] {
+/* line 16, ../scss/app/form-validate.scss */
+form[data-validate] .field [type], [data-reveal][data-form] form .field [type] {
   height: 30px; }
-/* line 18, ../scss/app/form-validate.scss */
-form[data-validate] .field small.error {
+/* line 20, ../scss/app/form-validate.scss */
+form[data-validate] .field small.error, [data-reveal][data-form] form .field small.error {
   margin: 0; }
+/* line 25, ../scss/app/form-validate.scss */
+form[data-validate] .message, [data-reveal][data-form] form .message {
+  font-size: 0.75em !important; }
+/* line 27, ../scss/app/form-validate.scss */
+form[data-validate] .message span.fi-check, [data-reveal][data-form] form .message span.fi-check {
+  /* color: #2DFEBF;
+  font-size: 70px;
+  @include text-shadow( 0px 1px 0px #00F2b3, 0px 2px 0px #00F7a6, 0px 3px 0px #00F099, 0px 4px 0px #00F58c, 0px 5px 0px #5F5, 0px 6px 0px #00Fa80, 0px 0px 0px #00F073, 0px 8px 7px #00F566); */
+  font-size: 70px !important;
+  color: #2DFE2D;
+  text-shadow: 0px 1px 0px #00F223, 0px 2px 0px #008726, 0px 3px 0px #008029, 0px 4px 0px #00752c, 0px 5px 0px #555, 0px 6px 0px #006a20, 0px 0px 0px #006023, 0px 8px 7px #005526; }
+
+/* line 38, ../scss/app/form-validate.scss */
+.input-image {
+  display: inline; }
+/* line 40, ../scss/app/form-validate.scss */
+.input-image button {
+  margin-bottom: 0; }
+/* line 43, ../scss/app/form-validate.scss */
+.input-image section {
+  display: inline;
+  font-size: 0.8em;
+  margin-left: 0.5em; }
+/* line 48, ../scss/app/form-validate.scss */
+.input-image input[type="file"] {
+  display: none; }

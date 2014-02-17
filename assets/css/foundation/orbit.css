@@ -266,14 +266,14 @@
 .touch .orbit-bullets {
   display: none; }
 
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 45.063em) {
   /* line 299, ../../scss/core/scss/foundation/components/_orbit.scss */
   .touch .orbit-container .orbit-prev, .touch .orbit-container .orbit-next {
     display: inherit; }
   /* line 302, ../../scss/core/scss/foundation/components/_orbit.scss */
   .touch .orbit-bullets {
     display: block; } }
-@media only screen and (max-width: 40em) {
+@media only screen and (max-width: 45em) {
   /* line 309, ../../scss/core/scss/foundation/components/_orbit.scss */
   .orbit-stack-on-small .orbit-slides-container {
     height: auto !important; }

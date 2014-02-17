@@ -8,11 +8,24 @@
 
 	& > section.container {
 		min-height: 600px;
+		.content {
+			min-height: 600px;
+			@media #{$medium-up} {
+				position: absolute;
+				top: 55px;
+				left: 14em;
+			}
+
+			@media only screen and (min-width: 1140px) {
+				width: 80%;
+			}
+		}
 	}
 
 	& > footer {
 		margin-top: 1em;
-		text-align: center;
+		margin-right: 2em;
+		text-align: right;
 		font-size: 12px;
 		padding: 3em 0;
 		border-top: 1px solid #efefef;

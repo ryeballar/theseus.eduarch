@@ -8,8 +8,8 @@
   position: relative;
   padding: 0.875rem 1.5rem 0.875rem 0.875rem;
   font-size: 0.8125rem;
-  background-color: #446ccf;
-  border-color: #3059bc;
+  background-color: #666699;
+  border-color: #585884;
   color: white; }
 /* line 9, ../../scss/core/scss/foundation/components/_alert-boxes.scss */
 .alert-box .close {

@@ -1,25 +1,30 @@
-/* .label, .button, button {
-	background-color: #008CBA;
-}
+/* line 51, ../scss/app/app.scss */
+.label {
+  background-color: #008cba; }
 
-a {
-	color: #008CBA;
-} */
 /* line 55, ../scss/app/app.scss */
+.button, button {
+  background-color: #008cba; }
+
+/* line 59, ../scss/app/app.scss */
+a {
+  color: #008cba; }
+
+/* line 64, ../scss/app/app.scss */
 .button:hover, button:hover {
   background-color: #006687; }
 
-/* line 61, ../scss/app/app.scss */
+/* line 70, ../scss/app/app.scss */
 .list-of-classes figure {
   width: 250px; }
 @media only screen and (max-width: 335px) {
-  /* line 61, ../scss/app/app.scss */
+  /* line 70, ../scss/app/app.scss */
   .list-of-classes figure {
     width: 220px; }
-  /* line 66, ../scss/app/app.scss */
+  /* line 75, ../scss/app/app.scss */
   .list-of-classes figure > img {
     width: 220px; } }
-/* line 71, ../scss/app/app.scss */
+/* line 80, ../scss/app/app.scss */
 .list-of-classes figure > img {
   width: 250px;
   height: 150px;
@@ -29,7 +34,7 @@ a {
   -moz-border-radius-topright: 0.2em;
   -webkit-border-top-right-radius: 0.2em;
   border-top-right-radius: 0.2em; }
-/* line 78, ../scss/app/app.scss */
+/* line 87, ../scss/app/app.scss */
 .list-of-classes figure > section {
   position: relative;
   border-left: 1px solid #eee;
@@ -41,11 +46,11 @@ a {
   -moz-border-radius-bottomright: 0.2em;
   -webkit-border-bottom-right-radius: 0.2em;
   border-bottom-right-radius: 0.2em; }
-/* line 86, ../scss/app/app.scss */
+/* line 95, ../scss/app/app.scss */
 .list-of-classes figure > section img {
   width: 40px;
   height: 35px; }
-/* line 92, ../scss/app/app.scss */
+/* line 101, ../scss/app/app.scss */
 .list-of-classes figure > section > header {
   font-size: 13px;
   color: white;
@@ -55,7 +60,7 @@ a {
   margin-bottom: 1em;
   padding: 7px;
   position: relative; }
-/* line 103, ../scss/app/app.scss */
+/* line 112, ../scss/app/app.scss */
 .list-of-classes figure > section > header > span:before {
   content: "";
   position: absolute;
@@ -65,7 +70,7 @@ a {
   border-left: 10px solid transparent;
   top: -10px;
   left: -11px; }
-/* line 114, ../scss/app/app.scss */
+/* line 123, ../scss/app/app.scss */
 .list-of-classes figure > section > header > span:after {
   content: "";
   position: absolute;
@@ -75,7 +80,7 @@ a {
   border-right: 10px solid transparent;
   top: -10px;
   right: -11px; }
-/* line 126, ../scss/app/app.scss */
+/* line 135, ../scss/app/app.scss */
 .list-of-classes figure > section > header:before {
   content: "";
   position: absolute;
@@ -84,7 +89,7 @@ a {
   left: -11px;
   height: 100%;
   background-color: #49acf2; }
-/* line 135, ../scss/app/app.scss */
+/* line 144, ../scss/app/app.scss */
 .list-of-classes figure > section > header:after {
   content: "";
   position: absolute;
@@ -93,85 +98,86 @@ a {
   right: -11px;
   height: 100%;
   background-color: #49acf2; }
-/* line 145, ../scss/app/app.scss */
+/* line 154, ../scss/app/app.scss */
 .list-of-classes figure > section > article {
   max-width: 100% !important; }
-/* line 147, ../scss/app/app.scss */
+/* line 156, ../scss/app/app.scss */
 .list-of-classes figure > section > article > p {
   position: relative;
   top: -0.22em;
   font-size: 12px;
   font-weight: bold;
   padding: 0; }
-/* line 154, ../scss/app/app.scss */
+/* line 163, ../scss/app/app.scss */
 .list-of-classes figure > section > article > p > .name {
   color: #000; }
-/* line 158, ../scss/app/app.scss */
+/* line 167, ../scss/app/app.scss */
 .list-of-classes figure > section > article > p > .title {
   color: gray;
   font-size: 11px;
   font-weight: normal; }
 
-/* line 170, ../scss/app/app.scss */
+/* line 179, ../scss/app/app.scss */
 .side-bar {
-  width: 15em;
   padding: 0 !important; }
-/* line 177, ../scss/app/app.scss */
+/* line 182, ../scss/app/app.scss */
+.side-bar:not(aside) {
+  width: 13em; }
+/* line 186, ../scss/app/app.scss */
 .side-bar .off-canvas-list li.img-profile {
   text-align: center; }
-/* line 179, ../scss/app/app.scss */
+/* line 188, ../scss/app/app.scss */
 .side-bar .off-canvas-list li.img-profile img {
   height: 10em; }
-/* line 183, ../scss/app/app.scss */
+/* line 192, ../scss/app/app.scss */
 .side-bar .off-canvas-list li.img-profile .name {
   margin-top: 1em; }
-/* line 189, ../scss/app/app.scss */
+/* line 198, ../scss/app/app.scss */
 .side-bar .side-nav {
   -webkit-box-shadow: -0.3em 0.3em 1em 1px #aaaaaa;
   -moz-box-shadow: -0.3em 0.3em 1em 1px #aaaaaa;
   box-shadow: -0.3em 0.3em 1em 1px #aaaaaa;
   padding: 0;
-  margin-top: 0.5em;
+  margin: 0.5em auto;
   position: fixed;
-  width: 14em; }
-/* line 196, ../scss/app/app.scss */
+  width: 13em; }
+/* line 206, ../scss/app/app.scss */
 .side-bar .side-nav li {
   margin: 0; }
-/* line 199, ../scss/app/app.scss */
+/* line 209, ../scss/app/app.scss */
 .side-bar .side-nav li.img-profile {
   text-align: center; }
-/* line 201, ../scss/app/app.scss */
+/* line 211, ../scss/app/app.scss */
 .side-bar .side-nav li.img-profile img {
   width: 5.5em;
   height: 5em; }
-/* line 206, ../scss/app/app.scss */
+/* line 216, ../scss/app/app.scss */
 .side-bar .side-nav li.img-profile div {
   padding: 0.2em; }
-/* line 208, ../scss/app/app.scss */
+/* line 218, ../scss/app/app.scss */
 .side-bar .side-nav li.img-profile div.name {
-  font-weight: bold;
   color: #2f2f2f;
   margin-top: 0.5em;
   font-size: 14px; }
-/* line 217, ../scss/app/app.scss */
+/* line 226, ../scss/app/app.scss */
 .side-bar .side-nav li > * {
   padding: 0.5em; }
-/* line 222, ../scss/app/app.scss */
-.side-bar .side-nav li.active a, .side-bar .side-nav li.active div {
-  font-weight: bold;
-  color: #EE7C4A !important; }
 /* line 231, ../scss/app/app.scss */
+.side-bar .side-nav li.active a, .side-bar .side-nav li.active div {
+  font-weight: bold !important;
+  color: #EE7C4A !important; }
+/* line 240, ../scss/app/app.scss */
 .side-bar .side-nav li > label {
   color: white;
   background-color: #6d9bc3;
   font-weight: bold;
   position: relative; }
-/* line 238, ../scss/app/app.scss */
+/* line 247, ../scss/app/app.scss */
 .side-bar .side-nav li.active, .side-bar .side-nav li:hover a {
   background-color: #efefef; }
 
-/* line 246, ../scss/app/app.scss */
+/* line 255, ../scss/app/app.scss */
 .off-canvas-list li.active a {
-  background-color: #3c66cd !important;
+  background-color: #626293 !important;
   font-weight: bold;
   color: #EE7C4A; }

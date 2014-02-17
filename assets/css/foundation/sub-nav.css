@@ -33,10 +33,10 @@
   -webkit-border-radius: 3px;
   border-radius: 3px;
   font-weight: normal;
-  background: #446ccf;
+  background: #666699;
   padding: 0.1875rem 1rem;
   cursor: default;
   color: white; }
 /* line 95, ../../scss/core/scss/foundation/components/_sub-nav-settings.scss */
 .sub-nav dt.active a:hover, .sub-nav dd.active a:hover, .sub-nav li.active a:hover {
-  background: #3059bc; }
+  background: #585884; }

@@ -2,13 +2,3 @@
 @import "mixins/shapes";
 @import "mixins/utils";
 @import "compass/css3";
-
-@include content-min-height(2000px !important);
-
-.dashboard {
-
-	& > * {
-		padding-top: 1em;
-	}
-
-}
