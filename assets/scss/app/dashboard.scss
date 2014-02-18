@@ -2,3 +2,59 @@
 @import "mixins/shapes";
 @import "mixins/utils";
 @import "compass/css3";
+
+.content {
+	@media #{$small-only} {
+		padding-top: 1em;
+	}
+
+	& > article {
+		section {
+			padding: 0 !important;
+		}
+
+		$bg-color: #EE7C4A;
+		$radius: 10em;
+		$dim: 0.5em;
+
+		header {
+			font-size: 1em;
+			font-weight: bold;
+			font-family: AveriaGruesaLibre-Regular;
+			padding: 0.5em 3em;
+			letter-spacing: 0.2em;
+			margin: 0 auto 0.5em auto;
+			display: table;
+			position: relative;
+			color: #efefef;
+			background-color: $bg-color;
+			@include border-radius(3em 3em 6em 6em);
+			@include box-shadow(#afafaf 0 0 0.5em 1px);
+
+			&:before, &:after {
+				@include abs-content();
+				top: 0;
+			}
+
+			&:before {
+				left: 0.5em;
+				top: 0.5em;
+				width: $dim;
+				height: $dim;
+				background-color: white;
+				@include border-radius($radius);
+			}
+
+			&:after {
+				right: 0.5em;
+				top: 0.5em;
+				width: $dim;
+				height: $dim;
+				background-color: white;
+				@include border-radius($radius);
+			}
+		}
+
+	}
+
+}

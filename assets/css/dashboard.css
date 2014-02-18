@@ -1,0 +1,56 @@
+@media only screen and (max-width: 45em) {
+  /* line 6, ../scss/app/dashboard.scss */
+  .content {
+    padding-top: 1em; } }
+/* line 12, ../scss/app/dashboard.scss */
+.content > article section {
+  padding: 0 !important; }
+/* line 20, ../scss/app/dashboard.scss */
+.content > article header {
+  font-size: 1em;
+  font-weight: bold;
+  font-family: AveriaGruesaLibre-Regular;
+  padding: 0.5em 3em;
+  letter-spacing: 0.2em;
+  margin: 0 auto 0.5em auto;
+  display: table;
+  position: relative;
+  color: #efefef;
+  background-color: #ee7c4a;
+  -webkit-border-radius: 3em 3em 6em 6em;
+  -moz-border-radius: 3em 3em 6em 6em;
+  -ms-border-radius: 3em 3em 6em 6em;
+  -o-border-radius: 3em 3em 6em 6em;
+  border-radius: 3em 3em 6em 6em;
+  -webkit-box-shadow: #afafaf 0 0 0.5em 1px;
+  -moz-box-shadow: #afafaf 0 0 0.5em 1px;
+  box-shadow: #afafaf 0 0 0.5em 1px; }
+/* line 34, ../scss/app/dashboard.scss */
+.content > article header:before, .content > article header:after {
+  content: "";
+  position: absolute;
+  top: 0; }
+/* line 39, ../scss/app/dashboard.scss */
+.content > article header:before {
+  left: 0.5em;
+  top: 0.5em;
+  width: 0.5em;
+  height: 0.5em;
+  background-color: white;
+  -webkit-border-radius: 10em;
+  -moz-border-radius: 10em;
+  -ms-border-radius: 10em;
+  -o-border-radius: 10em;
+  border-radius: 10em; }
+/* line 48, ../scss/app/dashboard.scss */
+.content > article header:after {
+  right: 0.5em;
+  top: 0.5em;
+  width: 0.5em;
+  height: 0.5em;
+  background-color: white;
+  -webkit-border-radius: 10em;
+  -moz-border-radius: 10em;
+  -ms-border-radius: 10em;
+  -o-border-radius: 10em;
+  border-radius: 10em; }

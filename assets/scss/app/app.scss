@@ -242,6 +242,8 @@ a {
 				background-color: $header-rb-bg-color;
 				font-weight: bold;
 				position: relative;
+				font-family: AveriaGruesaLibre-Regular;
+				font-size: 1em;
 			}
 			
 			&.active, &:hover a {background-color: #efefef}

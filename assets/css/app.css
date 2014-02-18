@@ -171,12 +171,14 @@ a {
   color: white;
   background-color: #6d9bc3;
   font-weight: bold;
-  position: relative; }
-/* line 247, ../scss/app/app.scss */
+  position: relative;
+  font-family: AveriaGruesaLibre-Regular;
+  font-size: 1em; }
+/* line 249, ../scss/app/app.scss */
 .side-bar .side-nav li.active, .side-bar .side-nav li:hover a {
   background-color: #efefef; }
 
-/* line 255, ../scss/app/app.scss */
+/* line 257, ../scss/app/app.scss */
 .off-canvas-list li.active a {
   background-color: #626293 !important;
   font-weight: bold;

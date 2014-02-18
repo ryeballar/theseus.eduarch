@@ -1,5 +1,9 @@
-<section class="row"><section class="large-8 large-uncentered small-11 small-centered column img-profile">
-	<header>Profile Image</header>
+<article class="row show-for-small-only"><section class="large-8 small-11 small-centered column">
+	<header>PROFILE</header>
+</section></article>
+
+<section class="row"><section class="large-8 small-11 small-centered column img-profile">
+	<header>Image</header>
 	<ul class="inline-list">
 		<li><a class="th"><img src="<?php echo $user['image'] ?>" id="image-profile" /></a></li>
 		<li>
@@ -13,7 +17,7 @@
 	</ul>
 </section></section>
 
-<section class="row"><section class="large-8 large-uncentered small-11 small-centered column">
+<section class="row"><section class="large-8 small-11 small-centered column">
 	<header>
 		Credentials
 		<a class="right" data-reveal-id="edit-credentials">Edit Password</a>
@@ -30,7 +34,7 @@
 	</section>
 </section></section>
 
-<section class="row"><section class="large-8 large-uncentered small-11 small-centered column">
+<section class="row"><section class="large-8 small-11 small-centered column">
 	<header>
 		User Information
 		<a class="right" data-reveal-id="edit-info">Edit Name</a>
@@ -47,7 +51,7 @@
 	</section>
 </section></section>
 
-<section class="row"><section class="large-8 large-uncentered small-11 small-centered column social">
+<section class="row"><section class="large-8 small-11 small-centered column social">
 	<header>Social</header>
 	<section class="row">
 		<section class="small-5 medium-4 large-3 column site"><a><span class="fi-social-facebook"></span><span class="continue">acebook</span></a></section>
