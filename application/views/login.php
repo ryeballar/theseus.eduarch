@@ -35,7 +35,7 @@
 					</button>
 				</section>
 				<section class="small-6 column show-for-small-only">
-					<a class="expand button" href="<?php echo $fb_login_url ?>">Facebok Login</a>
+					<a class="expand button">Facebok Login</a>
 				</section>
 			</section>
 		</form>
@@ -47,6 +47,6 @@
 		<section class="text-center">
 			<span class="fi-social-facebook"></span>
 		</section>
-		<a class="expand button" href="<?php echo $fb_login_url ?>">Login with Facebook</a>
+		<a class="expand button">Login with Facebook</a>
 	</section>
 </section>
